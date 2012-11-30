@@ -1,0 +1,4 @@
+name = Alquimia Testing
+core = 6.x
+dependencies[] = simpletest
+package = Alquimia

@@ -1,0 +1,186 @@
+<?php
+// $Id$
+
+/***
+ * @file
+ * Alquimia tests for real deployment.
+ */
+
+// Include SimpleTest Clone
+module_load_include('test', 'simpletest_clone');
+
+/**
+ * AlquimiaTestProd
+ *
+ * @uses SimpleTestCloneTestCase
+ */
+class AlquimiaTestProd extends SimpleTestCloneTestCase {
+  /**
+   * getInfo
+   *
+   * @static
+   * @access public
+   * @return void
+   */
+  public static function getInfo() {
+    return array(
+      'name' => t('General tests for real deployment'),
+      'description' => 'Real deployment tests',
+      'group' => t('Alquimia Real deployment'),
+    );
+  }
+
+  function testMailWebform() {
+    if (module_exists('webform')) {
+      $exp1 = '/quimia\.net/';
+      $exp2 = '/prueba/';
+      $result = db_query("SELECT nid FROM {node} WHERE type='webform'");
+
+      while ($item = db_fetch_object($result)) {
+        $node = node_load($item->nid);
+
+        if (preg_match($exp1, $node->webform['email']) || preg_match($exp2, $node->webform['email'])) {
+          $error = TRUE;
+        }
+        else {
+          $error = FALSE;
+        }
+
+        $this->assertFalse($error, t('Node "%title" doesn\'t contain "quimia.net" nor "pruebas" string in any field', array('%title' => $node->title)));
+      }
+    }
+  }
+
+  // Base_theme
+  function testThemeDevRegion() {
+    $dev_region = theme('blocks', 'dev');
+    $this->assertFalse($dev_region, t('Development region must be empty'));
+  }
+
+  function testProdModulesDevel() {
+    $modules_devel = array('coder', 'devel', 'devel_generate', 'devel_node_access', 'location_generate', 'macro', 'performance', 'devel_themer');
+
+    foreach ($modules_devel as $key => $module) {
+      $active = module_exists($module);
+      $this->assertFalse($active, t('Module %module is disabled', array('%module' => $module)));
+    }
+  }
+
+  /**
+   * Checking for cache page is active
+   *
+   * @return void
+   */
+  function testProdCachePage() {
+    $compression = variable_get('page_compression', TRUE);
+    $this->assertTrue($compression, t('Page cache is enabled'));
+  }
+
+ /**
+  * Checking for cache block is active
+  *
+  * @return void
+  */
+  function testProdCacheBlock() {
+    $cache = variable_get('block_cache', CACHE_DISABLED);
+    $this->assertFalse($cache, t('Block cache is disabled'));
+  }
+
+ /**
+ * Checking for javascript compression is disabled
+ *
+ * @return void
+ */
+  function testProdCompressionJS() {
+    $compression = variable_get('preprocess_js', 0);
+    $this->assertFalse($compression, t('Javascript compression is disabled'));
+  }
+
+ /**
+  * Checking for general cache is active
+  *
+  * @return void
+  */
+   function testProdCacheActive() {
+    $cache = variable_get('cache', 0);
+    $this->assertTrue($cache, t('General cache is enabled'));
+  }
+
+ /**
+  * Checking for CSS compression is active
+  *
+  * @return void
+  */
+  function testProdCssActive() {
+    $css = variable_get('preprocess_css', 0);
+    $this->assertTrue($css, t('CSS compression is enabled'));
+  }
+
+  /**
+   * Checking for Google Analytics account id is configured
+   *
+   * @return void
+   */
+   function testProdGoogleAnalyticsID() {
+     $enabled = module_exists('googleanalytics');
+
+     if ($enabled) {
+       $account_id = variable_get('googleanalytics_account', 'UA-');
+       $ok = preg_match('/^UA-\d{4,}-\d+$/', $account_id);
+       $this->assertTrue($ok, t('Account for googleanalytics is set and its format is correct.'));
+     }
+   }
+
+ /**
+  *
+  * Checking for sitemail is alquimia's
+  *
+  * @return void
+  */
+  function testProdMailSite() {
+    $ok = preg_match('/\.quimia\./', variable_get('site_mail', ''));
+    $this->assertFalse($ok, t('Sitemail isn´t alquimia related'));
+  }
+
+ /**
+  *
+  * Checking for variables with quimia.net regexp
+  *
+  * @return void
+  */
+  function testProdVariables() {
+    $ok = db_result(db_query("SELECT COUNT(*) FROM {variable} WHERE value LIKE '%quimia.net%'"));
+    $this->assertFalse($ok, t('There isn\'t any variable which contains "quimia.net" string'));
+  }
+
+  function testProdUsersTest() {
+    $user_test = array('foo', 'bar', 'test', 'prueba');
+
+    foreach ($user_test as $key => $value) {
+      if ($value == 'prueba' || $value == 'test') {
+        $result = db_result(db_query("SELECT uid FROM {users} WHERE name LIKE '%%$value%'"));
+        $this->assertFalse($result, t('%name hasn\'t been found in user list', array('%name' => $value)));
+      }
+      else {
+        $result = db_result(db_query("SELECT uid FROM {users} WHERE name='%s'", $value));
+        $this->assertFalse($result, t('%name hasn\'t been found in user list', array('%name' => $value)));
+      }
+    }
+  }
+
+ /**
+  * Checking for forbidden access for files like install, README.txt, CHANGELOG, ...
+  *
+  * @return void
+  */
+  function testProdAccessFiles() {
+    global $base_url;
+
+    $files = array('install.php', 'update.php', 'CHANGELOG.txt', 'COPYRIGHT.txt', 'INSTALL.txt', 'LICENSE.txt', 'MAINTAINERS.txt', 'UPGRADE.txt');
+
+    foreach ($files as $key => $value) {
+      $http = drupal_http_request($base_url . $value);
+      $this->assertNotEqual($http->code, 403, t('%file returns 403 http code', array('%file' => $value)));
+    }
+  }
+}
