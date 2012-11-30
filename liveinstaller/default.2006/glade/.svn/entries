@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1925"
+   name=""
+   committed-date="2006-04-20T12:34:33.205355Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/glade"
+   last-author="rmartin"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   name="locale"
+   kind="dir"/>
+<entry
+   name="pixmaps"
+   kind="dir"/>
+<entry
+   committed-rev="1579"
+   name="messages.po"
+   text-time="2006-04-20T15:04:30.000000Z"
+   committed-date="2006-01-22T18:32:56.973531Z"
+   checksum="50021db41cb349bbe003edf0f1193142"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:29.000000Z"/>
+<entry
+   committed-rev="1925"
+   name="liveinstaller.glade"
+   text-time="2006-04-20T15:04:30.000000Z"
+   committed-date="2006-04-20T12:34:33.205355Z"
+   checksum="107dc1c801c62cc2fc7dd1a6ebcbd8e8"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:30.000000Z"/>
+<entry
+   committed-rev="63"
+   name="liveinstaller.gladep"
+   text-time="2006-04-20T15:04:30.000000Z"
+   committed-date="2005-07-20T17:27:30.315189Z"
+   checksum="bdf72f5591b64f36ab09b90a4a593f8a"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:30.000000Z"/>
+</wc-entries>

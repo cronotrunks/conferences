@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="233"
+   name=""
+   committed-date="2005-08-17T02:05:04.161769Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/glade"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   name="locale"
+   kind="dir"/>
+<entry
+   name="pixmaps"
+   kind="dir"/>
+<entry
+   committed-rev="137"
+   name="messages.po"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-05T14:25:53.276829Z"
+   checksum="a4479c1b6be2446c478eedad9c043779"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+<entry
+   committed-rev="63"
+   name="liveinstaller.gladep"
+   text-time="2005-08-16T10:09:58.000000Z"
+   committed-date="2005-07-20T17:27:30.315189Z"
+   checksum="bdf72f5591b64f36ab09b90a4a593f8a"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+<entry
+   committed-rev="226"
+   name="liveinstaller.glade"
+   text-time="2005-08-16T10:09:58.000000Z"
+   committed-date="2005-08-16T13:10:23.512106Z"
+   checksum="0441a2052fe6cfa4e7f3728a238d6294"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-11T09:24:05.000000Z"/>
+</wc-entries>

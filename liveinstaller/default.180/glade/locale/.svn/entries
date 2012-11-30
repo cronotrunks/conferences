@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="233"
+   name=""
+   committed-date="2005-08-17T02:05:04.161769Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/glade/locale"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   name="guadalinex"
+   kind="dir"/>
+<entry
+   committed-rev="121"
+   name="default"
+   text-time="2005-08-09T09:22:29.000000Z"
+   committed-date="2005-08-04T13:25:33.004038Z"
+   checksum="1ccf2dfe7edefcc4cacf1146828c079f"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:29.000000Z"/>
+</wc-entries>

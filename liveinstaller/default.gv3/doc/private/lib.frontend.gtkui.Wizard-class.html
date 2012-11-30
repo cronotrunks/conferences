@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>lib.frontend.gtkui.Wizard</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="lib-module.html">Package&nbsp;lib</a> ::
+        <a href="../private/lib.frontend-module.html">Package&nbsp;frontend</a> ::
+        <a href="../private/lib.frontend.gtkui-module.html">Module&nbsp;gtkui</a> ::
+        Class&nbsp;Wizard
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[<b>show&nbsp;private</b>&nbsp;|&nbsp;hide&nbsp;private]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="../private/lib.frontend.gtkui.Wizard-class.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF CLASS DESCRIPTION =========== -->
+<h2 class="class">Class Wizard</h2>
+
+<hr/>
+
+
+<!-- =========== START OF METHOD SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Method Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__init__"></a><span class="summary-sig"><span class="summary-sig-name">__init__</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>distro</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#__reboot" class="summary-sig-name"><code>__reboot</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class="summary-sig-vararg">*args</span>)</span></code>
+<br />
+reboot the system after installing process.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#get_default_partition_selection" class="summary-sig-name"><code>get_default_partition_selection</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>size</span>)</span></code>
+<br />
+return a dictionary with a skeleton { mountpoint : device } as a 
+default partition selection.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#get_sizes" class="summary-sig-name"><code>get_sizes</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+return a dictionary with skeleton { partition : size } from 
+/proc/partitions .</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#gparted_loop" class="summary-sig-name"><code>gparted_loop</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+call gparted and embed it into glade interface.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#images_loop" class="summary-sig-name"><code>images_loop</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+looping images and text on installing screen about the install 
+process.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#info_loop" class="summary-sig-name"><code>info_loop</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+check if all entries from Identification screen are filled.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_abort_ok_button_clicked" class="summary-sig-name"><code>on_abort_ok_button_clicked</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+Close this dialog.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_back_clicked" class="summary-sig-name"><code>on_back_clicked</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+Callback to set previous screen.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="on_cancel_clicked"></a><span class="summary-sig"><span class="summary-sig-name">on_cancel_clicked</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="on_cancelbutton_clicked"></a><span class="summary-sig"><span class="summary-sig-name">on_cancelbutton_clicked</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_confirmation_checkbutton_toggled" class="summary-sig-name"><code>on_confirmation_checkbutton_toggled</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+Change &quot;active&quot; property of &quot;next&quot; button when 
+this check box is changed.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_drives_changed" class="summary-sig-name"><code>on_drives_changed</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>foo</span>)</span></code>
+<br />
+When a different drive is selected, it is necessary to update the 
+chekboxes to reflect the set of permited operations on the new drive.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="on_exitbutton_clicked"></a><span class="summary-sig"><span class="summary-sig-name">on_exitbutton_clicked</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_freespace_toggled" class="summary-sig-name"><code>on_freespace_toggled</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+Update help message when this radio button is selected.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_help_clicked" class="summary-sig-name"><code>on_help_clicked</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+show help message when help button is clicked.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_key_press" class="summary-sig-name"><code>on_key_press</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>,
+          <span class=summary-sig-arg>event</span>)</span></code>
+<br />
+capture return key on live installer to go to next screen only if Next 
+button has the focus.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_list_changed" class="summary-sig-name"><code>on_list_changed</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+check if partition/mountpoint par is filled and show the next par on 
+mountpoint screen.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_manually_toggled" class="summary-sig-name"><code>on_manually_toggled</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+Update help message when this radio button is selected.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_next_clicked" class="summary-sig-name"><code>on_next_clicked</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+Callback to control the installation process between steps.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_recycle_toggled" class="summary-sig-name"><code>on_recycle_toggled</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+Update help message when this radio button is selected.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_steps_switch_page" class="summary-sig-name"><code>on_steps_switch_page</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>foo</span>,
+          <span class=summary-sig-arg>bar</span>,
+          <span class=summary-sig-arg>current</span>)</span></code>
+<br />
+Only to populate the drives combo box the first time that page #2 is 
+shown.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="on_warning_dialog_close"></a><span class="summary-sig"><span class="summary-sig-name">on_warning_dialog_close</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#progress_loop" class="summary-sig-name"><code>progress_loop</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+prepare, format, copy and config the system in the core install 
+process.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#quit" class="summary-sig-name"><code>quit</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+quit installer cleanly.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#read_stdout" class="summary-sig-name"><code>read_stdout</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>source</span>,
+          <span class=summary-sig-arg>condition</span>)</span></code>
+<br />
+read msgs from queues to set progress on progress bar label.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#run" class="summary-sig-name"><code>run</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+run the interface.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_locales" class="summary-sig-name"><code>set_locales</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+internationalization config.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_progress" class="summary-sig-name"><code>set_progress</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>msg</span>)</span></code>
+<br />
+set values on progress bar widget.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_size_msg" class="summary-sig-name"><code>set_size_msg</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+return a string message with size value about the partition target by 
+widget argument.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_vars_file" class="summary-sig-name"><code>set_vars_file</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+writing vars crypted file to get theses vars accessible from Format, 
+Copy and Config classes.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#show_browser" class="summary-sig-name"><code>show_browser</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+Embed Mozilla widget into a vbox.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#show_error" class="summary-sig-name"><code>show_error</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>msg</span>)</span></code>
+<br />
+show warning message on Identification screen where validation doesn't 
+work properly.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.frontend.gtkui.Wizard-class.html#show_partitions" class="summary-sig-name"><code>show_partitions</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>widget</span>)</span></code>
+<br />
+write all values in this widget (GtkComboBox) from local partitions 
+values.</td></tr>
+</table><br />
+
+
+<!-- =========== START OF METHOD DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Method Details</th></tr>
+</table>
+
+<a name="__reboot"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">__reboot</span>(<span class=sig-arg>self</span>,
+          <span class="sig-vararg">*args</span>)</span>
+  </h3>
+  reboot the system after installing process.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="get_default_partition_selection"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">get_default_partition_selection</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>size</span>)</span>
+  </h3>
+  return a dictionary with a skeleton { mountpoint : device } as a 
+  default partition selection. The first partition with max size and ext3 
+  fs will be root, the second partition with max size and ext3 fs will be 
+  selected as /home, and the first partition it finds as swap will be 
+  marked as the swap selection.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="get_sizes"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">get_sizes</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  return a dictionary with skeleton { partition : size } from 
+  /proc/partitions .
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="gparted_loop"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">gparted_loop</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  call gparted and embed it into glade interface.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="images_loop"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">images_loop</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  looping images and text on installing screen about the install 
+  process.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="info_loop"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">info_loop</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  check if all entries from Identification screen are filled. Callback 
+  defined in glade file.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_abort_ok_button_clicked"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_abort_ok_button_clicked</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  Close this dialog.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_back_clicked"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_back_clicked</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  Callback to set previous screen.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_confirmation_checkbutton_toggled"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_confirmation_checkbutton_toggled</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  Change &quot;active&quot; property of &quot;next&quot; button when 
+  this check box is changed.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_drives_changed"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_drives_changed</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>foo</span>)</span>
+  </h3>
+  When a different drive is selected, it is necessary to update the 
+  chekboxes to reflect the set of permited operations on the new 
+  drive.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_freespace_toggled"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_freespace_toggled</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  Update help message when this radio button is selected.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_help_clicked"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_help_clicked</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  show help message when help button is clicked.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_key_press"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_key_press</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>,
+          <span class=sig-arg>event</span>)</span>
+  </h3>
+  capture return key on live installer to go to next screen only if 
+  Next button has the focus.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_list_changed"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_list_changed</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  check if partition/mountpoint par is filled and show the next par on 
+  mountpoint screen. Also size label associated to partition combobox is 
+  changed dinamically to shows the size partition.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_manually_toggled"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_manually_toggled</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  Update help message when this radio button is selected.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_next_clicked"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_next_clicked</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  Callback to control the installation process between steps.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_recycle_toggled"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_recycle_toggled</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  Update help message when this radio button is selected.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="on_steps_switch_page"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">on_steps_switch_page</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>foo</span>,
+          <span class=sig-arg>bar</span>,
+          <span class=sig-arg>current</span>)</span>
+  </h3>
+  Only to populate the drives combo box the first time that page #2 is 
+  shown.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="progress_loop"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">progress_loop</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  prepare, format, copy and config the system in the core install 
+  process.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="quit"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">quit</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  quit installer cleanly.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="read_stdout"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">read_stdout</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>source</span>,
+          <span class=sig-arg>condition</span>)</span>
+  </h3>
+  read msgs from queues to set progress on progress bar label. '101' 
+  message finishes this process returning False.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="run"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">run</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  run the interface.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="set_locales"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">set_locales</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  internationalization config. Use only once.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="set_progress"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">set_progress</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>msg</span>)</span>
+  </h3>
+  set values on progress bar widget.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="set_size_msg"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">set_size_msg</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  return a string message with size value about the partition target 
+  by widget argument.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="set_vars_file"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">set_vars_file</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  writing vars crypted file to get theses vars accessible from Format, 
+  Copy and Config classes.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="show_browser"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">show_browser</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  Embed Mozilla widget into a vbox.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="show_error"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">show_error</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>msg</span>)</span>
+  </h3>
+  show warning message on Identification screen where validation 
+  doesn't work properly.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="show_partitions"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">show_partitions</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>widget</span>)</span>
+  </h3>
+  write all values in this widget (GtkComboBox) from local partitions 
+  values.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Wed Nov  9 13:46:23 2005</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,26 @@
+Package: ubuntu-express
+Version: 0.7ubuntu1
+Section: admin
+Priority: optional
+Architecture: all
+Depends: python (<< 2.5), python (>= 2.4), debconf, yaboot | grub, ubuntu-express-frontend, system-tools-backends, ubuntu-express-doc
+Installed-Size: 436
+Maintainer: Javier Carranza <javier.carranza@interactors.coop>
+Description: Ubuntu Live installer
+ Live installers have featured itself until now by being very
+ simple, friendly and graphical.
+ .
+ This Live Installer will be a simple one and well integrated with Debian and
+ Ubuntu based systems.
+ .
+ Use Cases:
+   * An user takes Ubuntu, he likes it and wants to install, as is, in his
+ computer.
+   * An user takes Ubuntu, he likes it, tests it, configures it and wants to have
+ it installed, keeping the stored configuration, in his computer.
+   * An user has tried Ubuntu, he knows that likes it and wants to install it,
+ but neither wants nor needs to launch the complete distro (Desktop and so
+ on). He just wants a fast and simple way to install.
+   * An user has installed Ubuntu from Live version and wants to be able to have
+ a configuration file with the chosen options, so in case he needs to reinstall
+ or to install in a similar computer, just must get it.

@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: liveinstaller\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-22 18:04+0200\n"
+"PO-Revision-Date: 2005-07-22 18:04+0200\n"
+"Last-Translator: Javier Carranza <javier.carranza@interactors.coop>\n"
+"Language-Team: Spanish <ES@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: liveinstaller.glade:10
+msgid "Live installer"
+msgstr "Instalador Guadalinex 2005"
+
+#: liveinstaller.glade:34
+msgid "Welcome"
+msgstr "Bienvenido a Guadalinex"
+
+#: liveinstaller.glade:57
+msgid "System Configuration"
+msgstr "Configuración del sistema"
+
+#: liveinstaller.glade:103
+msgid ""
+"The system needs user and password for its installation.\n"
+"The first user created  in the system will obtain administration privileges, "
+"so after this installation it will be the only one who will be enabled to "
+"make tasks of installation or configurations of this system.\n"
+"Type your password twice to verify its correct writing.\n"
+"The system needs a hostname with which to be able to manage tasks of network "
+"and maintenance of system.\n"
+"Assign a name to your computer so it can be easily identifiable in yours "
+"domestic network."
+msgstr ""
+"El sistema Guadalinex precisa de un usuario y contraseña para su "
+"instalación.\n"
+"El primer usuario del sistema obtendrá privilegios de administración, de "
+"forma que tras la instalación será el único capacitado para realizar tareas "
+"de instalación de aplicaciones o configuraciones de sistema.\n"
+"Introduzca su contraseña en dos ocasiones para verificar su correcta "
+"escritura.\n"
+"El sistema necesita un nombre identificativo con el que poder gestionar tareas"
+"de red y mantenimiento de sistema. \n"
+"Asigne un nombre a su equipo de forma que pueda ser fácilmente identificable en"
+"su red doméstica."
+
+#: liveinstaller.glade:237
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: liveinstaller.glade:266
+msgid "Verify password:"
+msgstr "Comprobación de contraseña:"
+
+#: liveinstaller.glade:295
+msgid "Hostname:"
+msgstr "Nombre del equipo:"
+
+#: liveinstaller.glade:324
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: liveinstaller.glade:353
+msgid "Full Name:"
+msgstr "Nombre completo:"
+
+#: liveinstaller.glade:487
+msgid "Partitioning"
+msgstr "Particionador"
+
+#: liveinstaller.glade:511
+msgid "Installing..."
+msgstr "Instalación..."
+
+#: liveinstaller.glade:548
+msgid "Your definitive desktop"
+msgstr "Guadalinex 2005: Tu escritorio"
+
+#: liveinstaller.glade:615
+msgid ""
+"Enjoy the most powerful desktop from the free software Spanish community.\n"
+"\n"
+"You will have at your scope the bigger set of office, management, design, "
+"education applications and games than you have ever gotten to imagine."
+msgstr ""
+"Disfrute del escritorio más potente de la comunidad española de software "
+"libre.\n"
+"\n"
+"Tendrá a su disposición el abanico más amplio de aplicaciones de oficina, "
+"gestión, diseño, educación y juegos que pueda imaginar."
+
+#: liveinstaller.glade:639
+msgid "Progress installation"
+msgstr "Progreso de la instalación de Guadalinex 2005"
+
+#: liveinstaller.glade:658
+msgid "Just enjoy it !!"
+msgstr "¡Disfrútala!"
+
+#: liveinstaller.glade:659
+msgid ""
+"The installation has ended. \n"
+"\n"
+"We animated to you to test all the power of this desktop, throws a "
+"first sight to the complete selection of applications including in our "
+"operating system.\n"
+"\n"
+"Enjoy with all the power and functionality that free software makes you "
+"available."
+msgstr ""
+"La instalación de Guadalinex 2005 ha finalizado.\n"
+"\n"
+"Le animamos a probar toda la potencia del escritorio Guadalinex, eche un "
+"vistazo a la completa selección de aplicaciones incluidas en nuestro sistema"
+"operativo.\n"
+"\n"
+"Disfrute con toda la potencia y funcionalidad que el software libre pone a"
+"su disposición."

@@ -1,0 +1,102 @@
+# Brazilian portuguese translation of liveinstaller.
+# Copyright (C) 2005 THE liveinstaller'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the liveinstaller package.
+# Javier Carranza <javier.carranza@interactors.coop>, 2005.
+# Javier Carranza <javier.carranza@interactors.coop>, 2005.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: liveinstaller\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-22 18:04+0200\n"
+"PO-Revision-Date: 2005-08-09 22:52-0300\n"
+"Last-Translator: Alexandre Strube <surak@surak.eti.br>\n"
+"Language-Team: Portuguese/Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+msgid ""
+"Enjoy the most powerful desktop from the free software Spanish community.\n"
+"\n"
+"You will have at your scope the bigger set of office, management, design, "
+"education applications and games than you have ever gotten to imagine."
+msgstr ""
+"Usufrua·do·ambiente·de·trabalho·mais·poderoso·da·comunidade·de·software·livre.\n"
+"\n"
+"Você·terá·à·sua·disposição·o·mais·amplo·conjunto·de·aplicativos·de·escritório,·gestão,·desenho,·bem·como·programas·educacionais·e·jogos·que·você·possa·imaginar."
+
+msgid "Full Name:"
+msgstr "Nome completo:"
+
+msgid "Hostname:"
+msgstr "Nome do computador:"
+
+msgid "Installing..."
+msgstr "Instalando..."
+
+msgid "Just enjoy it !!"
+msgstr "Aproveite!"
+
+msgid "Live installer"
+msgstr "Instalador"
+
+msgid "Partitioning"
+msgstr "Particionador"
+
+msgid "Password:"
+msgstr "Senha:"
+
+msgid "Progress installation"
+msgstr "Progresso da instalação"
+
+msgid "System Configuration"
+msgstr "Configuração do Sistema"
+
+msgid ""
+"The installation has ended. \n"
+"\n"
+"We animated to you to test all the power of this desktop, throws a first "
+"sight to the complete selection of applications including in our operating "
+"system.\n"
+"\n"
+"Enjoy with all the power and functionality that free software makes you "
+"available."
+msgstr ""
+""
+"A·instalação·está·concluída.\n"
+"\n"
+"Nós·lhe·incentivamos·a·experimentar·toda·a·potência·deste·ambiente·de·trabalho,·e·esta·foi·apenas·uma·pequena·mostra·da·seleção·completa·de·aplicativos·incluídas·neste·sistema·operacional.\n"
+"\n"
+"Aproveite·toda·potência·e·funcionalidade·que·o·software·livre·põe·a·sua·disposição."
+
+msgid ""
+"The system needs user and password for its installation.\n"
+"The first user created  in the system will obtain administration privileges, "
+"so after this installation it will be the only one who will be enabled to "
+"make tasks of installation or configurations of this system.\n"
+"Type your password twice to verify its correct writing.\n"
+"The system needs a hostname with which to be able to manage tasks of network "
+"and maintenance of system.\n"
+"Assign a name to your computer so it can be easily identifiable in yours "
+"domestic network."
+msgstr ""
+"O·sistema·precisa·de·um·usuário·e·senha·para·a·instalação.\n"
+"O·primeiro·usuário·criado·no·sistema·terá·privilégios·de·administrados,·portanto,·após·a·instalação·do·sistema,·ele·será·o·único·autorizado·a·realizar·tarefas·como·instalação·de·programas·e·configurações·do·sistema.\n"
+"Digite·a·senha·duas·vezes.\n"
+"É·necessário·um·nome·para·este·computador,·para·ser·possível·gerenciar·tarefas·de·manutenção·e·rede·do·sistema.\n"
+"Dê·ao·computador·um·nome·para·que·o·mesmo·seja·facilmente·identificado·em·sua·rede·doméstica."
+
+msgid "Username:"
+msgstr "Nome do usuário:"
+
+msgid "Verify password:"
+msgstr "Verifique a senha:"
+
+msgid "Welcome"
+msgstr "Bem-vindo"
+
+msgid "Your definitive desktop"
+msgstr "Seu escritório"
+

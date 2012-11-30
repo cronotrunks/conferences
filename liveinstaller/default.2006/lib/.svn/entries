@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1927"
+   name=""
+   committed-date="2006-04-20T12:41:15.595937Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/lib"
+   last-author="juanje"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   name="frontend"
+   kind="dir"/>
+<entry
+   committed-rev="1206"
+   name="validation.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-16T18:37:19.046985Z"
+   checksum="d413a975a36a207fb8855983bf0db568"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1830"
+   name="misc.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-03-31T00:40:23.726093Z"
+   checksum="2e9c02fc8b3b1a4148a78640c318f900"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="752"
+   name="__init__.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-09T00:44:19.202689Z"
+   checksum="62f3d26e00638171a793d7d0952c1a70"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   name="backend"
+   kind="dir"/>
+<entry
+   committed-rev="1001"
+   name="settings.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-28T10:56:55.517555Z"
+   checksum="b5905f7707cd3adca6a031d50eccd8a1"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+</wc-entries>

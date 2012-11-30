@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="173"
+   name=""
+   committed-date="2005-08-09T13:25:05.449149Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/htmldocs/guadalinex"
+   last-author="antonio"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   committed-rev="173"
+   name="index.html.7"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="78c008643443e79396aabeb6384e2ce0"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.8"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="eabaf1cfd3892ec60734d70b83bbb14f"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.9"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="8afc265f89f40aa50afbdcd400efb735"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="robots.txt"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="c4b7ccd40b4debca1fea4cdf8ba55b29"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="userinfo.php?uid=18"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="68e5a7ed9271f159b38138cce2d7ed32"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.10"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="5c52e0be97ffc88cb028b67dd6a4605f"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="Portada"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="2ec2b1585160b10fad15dc935acb4886"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="user.php"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="8341699c69f0c15c628cc82c969a484c"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:13.000000Z"/>
+<entry
+   committed-rev="173"
+   name="archive.php"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="ad96aa222595f22126f5fcc87334db9c"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:14.000000Z"/>
+<entry
+   committed-rev="173"
+   name="article.php?storyid=140"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="d71800256a59e56281cab4fc6f04a20b"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:14.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.1"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="7a810ac6139bfb93786a4f0afa10eb79"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:14.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html"
+   text-time="2005-08-09T14:34:15.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="9ee13d632e24182b6ad1dfef19d9bfb5"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:14.000000Z"/>
+<entry
+   committed-rev="173"
+   name="register.php"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="01200ff606527a136a6441fc0146e814"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:14.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.2"
+   text-time="2005-08-09T14:34:14.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="c45ed731d85f57dc7e525f668faef88c"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:14.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.3"
+   text-time="2005-08-09T14:34:15.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="838ba589ca315cdccac6ece831f24eb8"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:15.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.4"
+   text-time="2005-08-09T14:34:15.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="3283f90dd16668f2891cefefcda0bbd2"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:15.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.5"
+   text-time="2005-08-09T14:34:15.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="7d1dcbc84b12747633608e79c323d2ba"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:15.000000Z"/>
+<entry
+   committed-rev="173"
+   name="index.html.6"
+   text-time="2005-08-09T14:34:15.000000Z"
+   committed-date="2005-08-09T13:25:05.449149Z"
+   checksum="0be33a244b799540adfea72a0b811f0e"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-09T14:34:15.000000Z"/>
+</wc-entries>

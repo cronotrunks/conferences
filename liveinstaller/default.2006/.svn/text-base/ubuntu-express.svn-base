@@ -1,0 +1,41 @@
+#!/bin/sh
+
+warning() {
+	zenity --info --text "No fue posible desmontar alguna de las unidades de disco.
+
+Ha de desmontarlas usted mismo antes de proseguir con la instalación."
+}
+
+warning_swap() {
+	zenity --info --text "No fue posible desmontar alguna de las unidades de swap.
+
+Ha de desmontarlas usted mismo antes de proseguir con la instalación."
+}
+
+info() {
+	zenity --info --text "Se va a proceder a desmontar las unidades de disco locales para llevar a cabo un proceso de instalación limpio."
+}
+
+umount_units() {
+	for dev_array in $( cat /proc/mounts | grep -v iso9660 | cut -d" " -f1 | sort | uniq )
+	do
+		dev="$( echo $dev_array | grep ^/dev/[hs]d[a-z][0-9]*$ )"
+		if [ ! -z "$dev" ]; then sudo umount -f $dev 2> /dev/null || break; fi
+	done
+
+	[ $? == 1 ] && warning && return 1 || return 0
+}
+
+umount_swaps() {
+	for dev_array in $( cat /proc/swaps | cut -d" " -f1 )
+	do
+		dev="$( echo $dev_array | grep ^/dev/[hs]d[a-z][0-9]*$ )"
+		if [ ! -z "$dev" ]; then sudo swapoff $dev || break; fi
+	done
+
+	[ $? == 1 ] && warning_swap && return 1 || return 0
+}
+
+info
+
+umount_units && umount_swaps && /usr/bin/gksudo /usr/bin/installer &

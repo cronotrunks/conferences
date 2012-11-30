@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="187"
+   name=""
+   committed-date="2005-08-10T10:28:36.346504Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/glade/pixmaps"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   name="guadalinex"
+   kind="dir"/>
+<entry
+   name="ubuntu"
+   kind="dir"/>
+<entry
+   committed-rev="125"
+   name="default"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-04T16:48:57.855438Z"
+   checksum="1ccf2dfe7edefcc4cacf1146828c079f"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+</wc-entries>

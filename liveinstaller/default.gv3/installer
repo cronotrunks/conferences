@@ -1,0 +1,60 @@
+#!/usr/bin/python
+
+'''
+Installer
+
+This is a installer program for a Ubuntu or Metadistros Live system.
+This is the main program, but there is also a couple of libraries to
+help it to work. For example the frontends library.
+The way it works is simple. It detect the Frontend to use, then
+load the module for that frontend. After that, it makes some calls
+through the frontend in order to get the info necessary to install.
+
+Once it has the info, partitioning, format, copy de distro to the disk
+and configure everything.
+'''
+
+import sys
+import os
+import ue
+from ue import misc
+
+TARGET = '/target'
+
+def install(type='gtkui'):
+    '''install(type='gtkui') -> none
+    
+    Get the type of frontend to use and load the module for that.
+    '''
+    mod = __import__('ue.frontend', globals(), locals() , [type])
+    ui = getattr(mod, type)
+
+    distro = open('/etc/lsb-release').readline().strip().split('=')[1].lower()
+    wizard = ui.Wizard(distro)
+    if ( type == 'gtkui' ):
+        os.system('gconftool-2 --set /apps/panel/toplevels/top_panel/auto_hide_size --type int 0')
+        os.system('gconftool-2 --set /apps/panel/toplevels/top_panel/auto_hide --type boolean true')
+    ret = wizard.run()
+    if ( type == 'gtkui' ):
+        os.system('gconftool-2 --set /apps/panel/toplevels/top_panel/auto_hide_size --type int 6')
+        os.system('gconftool-2 --set /apps/panel/toplevels/top_panel/auto_hide --type boolean false')
+
+def unmount_target(mountpoints):
+    for path, device in mountpoints.items():
+        if path in ('/', 'swap'):
+            continue
+        path = os.path.join(TARGET, path[1:])
+        misc.ex('umount', path)
+    misc.ex('umount', TARGET)
+
+if __name__ == '__main__':
+    if len(sys.argv) == 2:
+        install(sys.argv[1])
+    install()
+    if not os.path.isfile('/tmp/vars'):
+        misc.pre_log('error', 'Vars file no found')
+        sys.exit(1)
+    mountpoints = misc.get_var()['mountpoints']
+    unmount_target(mountpoints)
+
+# vim:ai:et:sts=4:tw=80:sw=4:

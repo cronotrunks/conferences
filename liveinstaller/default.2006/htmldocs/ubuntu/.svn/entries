@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="505"
+   name=""
+   committed-date="2005-09-19T16:44:44.262859Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/htmldocs/ubuntu"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   committed-rev="141"
+   name="logo.jpg"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="fd04369210e0ee0246d1d6f8e05d68fb"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:31.000000Z"/>
+<entry
+   committed-rev="141"
+   name="header-image4.png"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="a436b01d7274024b477a07afe4e668b5"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:31.000000Z"/>
+<entry
+   committed-rev="141"
+   name="plonePrint.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="ac33fa8d3abd66d10c2d685750428105"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:31.000000Z"/>
+<entry
+   committed-rev="141"
+   name="ploneTextLarge.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="7dbff3c6e8637ff3654ac0f31b2b3804"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:31.000000Z"/>
+<entry
+   committed-rev="141"
+   name="header-bg4.png"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="e1e5186fa4712f457ec674d090fb7514"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:31.000000Z"/>
+<entry
+   committed-rev="141"
+   name="ploneNS4.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="5b9be0246cde9b0938231b9508279b36"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="discs.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="933e842a66a6d5087aa8f4e24487ef56"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="favicon.ico"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="643dca19e5754ba9af6b3a77cfbf5511"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="ploneCustom.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="70f5394db4559863d77576901ceff8e1"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="plonePresentation.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="d6fb149410f6e5aa965fab44c1bbb1a9"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="ploneTextSmall.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="dc9f5fa6a02b1116e360bf336a4cf1c8"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="297"
+   name="screenshots.html"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-25T03:29:16.700888Z"
+   checksum="6d6b8e2018cc28b9f85c24891087b443"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="319"
+   name="snapshot1.png"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-25T17:41:41.076055Z"
+   checksum="bba4bf5691817075894f67e52c283c32"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="plone.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="ebd66037f10ec4aa3b0612917640eabb"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="319"
+   name="snapshot2.png"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-25T17:41:41.076055Z"
+   checksum="d523073398b716e7a0761d0111011ee9"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="ploneColumns.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="cc74c00a9c92803fca8dc62cc1876680"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="no-bullet.gif"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="020874e9edcbcd0b514d1b30f14b18bb"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="319"
+   name="snapshot3.png"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-25T17:41:41.076055Z"
+   checksum="64262cb829a222317874c1edabcee42b"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="319"
+   name="snapshot4.png"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-25T17:41:41.076055Z"
+   checksum="8e6935612cf24d7c7d6194fe48d14c93"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="319"
+   name="snapshot5.png"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-25T17:41:41.076055Z"
+   checksum="b729b3220cc3d1356f338748dadc05b6"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="ubuntu.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="32717425135bbca4687109c6f5d46b48"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="297"
+   name="index.html"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-25T03:29:16.700888Z"
+   checksum="33b2d154f516b0e009c7e3711eabcab8"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+<entry
+   committed-rev="141"
+   name="masthead.css"
+   text-time="2006-04-20T15:04:32.000000Z"
+   committed-date="2005-08-05T16:30:27.637693Z"
+   checksum="4e9c13622ebafe02d4e468d6dfbcc8a2"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:32.000000Z"/>
+</wc-entries>

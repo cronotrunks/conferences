@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-25 17:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: liveinstaller.glade:9
+msgid "Express installer"
+msgstr ""
+
+#: liveinstaller.glade:47
+msgid ""
+"<span size=\"xx-large\" foreground=\"white\" background=\"#9F6C49\" >  <span "
+"size=\"x-large\" foreground=\"black\" ><b>0. Intro</b></span> » <span size="
+"\"x-large\">1. Indentification</span> » <span size=\"x-large\">2. Disk "
+"space</span> » <span size=\"x-large\">3. Installation</span> » <span size="
+"\"x-large\">4. Ready!</span> </span>"
+msgstr ""
+
+#: liveinstaller.glade:96
+msgid "0"
+msgstr ""
+
+#: liveinstaller.glade:125
+msgid ""
+"<span size=\"xx-large\" foreground=\"white\" background=\"#9F6C49\" >  <span "
+"size=\"x-large\"><b>0. Intro</b></span> » <span size=\"x-large\" foreground="
+"\"black\">1. Indentification</span> » <span size=\"x-large\">2. Disk space</"
+"span> » <span size=\"x-large\">3. Installation</span> » <span size=\"x-large"
+"\">4. Ready!</span> </span>"
+msgstr ""
+
+#: liveinstaller.glade:184
+msgid "<span size=\"xx-large\">Identify yourself and your computer</span>"
+msgstr ""
+
+#: liveinstaller.glade:292
+msgid "Real Name:"
+msgstr ""
+
+#: liveinstaller.glade:320
+msgid "Username:"
+msgstr ""
+
+#: liveinstaller.glade:392
+msgid "Password:"
+msgstr ""
+
+#: liveinstaller.glade:420
+msgid "Verify password:"
+msgstr ""
+
+#: liveinstaller.glade:541
+msgid "<b>Personal data</b>"
+msgstr ""
+
+#: liveinstaller.glade:618
+msgid "Hostname:"
+msgstr ""
+
+#: liveinstaller.glade:699
+msgid "<b>Computer data</b>"
+msgstr ""
+
+#: liveinstaller.glade:756
+msgid "1"
+msgstr ""
+
+#: liveinstaller.glade:785 liveinstaller.glade:994
+msgid ""
+"<span size=\"xx-large\" foreground=\"white\" background=\"#9F6C49\" >  <span "
+"size=\"x-large\"><b>0. Intro</b></span> » <span size=\"x-large\">1. "
+"Indentification</span> » <span foreground=\"black\" size=\"x-large\">2. Disk "
+"space</span> » <span size=\"x-large\">3. Installation</span> » <span size="
+"\"x-large\">4. Ready!</span> </span>"
+msgstr ""
+
+#: liveinstaller.glade:844 liveinstaller.glade:1053
+msgid ""
+"<span size=\"xx-large\">Please prepare some space for you new system</span>"
+msgstr ""
+
+#: liveinstaller.glade:911
+msgid ""
+"Usar Particionador Avanzado\n"
+"(gparted)"
+msgstr ""
+
+#: liveinstaller.glade:965
+msgid "2-1"
+msgstr ""
+
+#: liveinstaller.glade:1116
+msgid "((Here goes the partitioning help for dummies))"
+msgstr ""
+
+#: liveinstaller.glade:1161
+msgid "2-2"
+msgstr ""
+
+#: liveinstaller.glade:1190
+msgid ""
+"<span size=\"xx-large\" foreground=\"white\" background=\"#9F6C49\" >  <span "
+"size=\"x-large\"><b>0. Intro</b></span> » <span size=\"x-large\">1. "
+"Indentification</span> » <span size=\"x-large\">2. Disk space</span> » <span "
+"foreground=\"black\" size=\"x-large\">3. Installation</span> » <span size="
+"\"x-large\">4. Ready!</span> </span>"
+msgstr ""
+
+#: liveinstaller.glade:1243
+msgid ""
+"<span size=\"xx-large\">Introducing your forthcoming free desktop</span>"
+msgstr ""
+
+#: liveinstaller.glade:1310
+msgid ""
+"Please wait while your new\n"
+"free operative system and more \n"
+"than nnn free programs are being  \n"
+"installed."
+msgstr ""
+
+#: liveinstaller.glade:1335
+msgid "Installation progress"
+msgstr ""
+
+#: liveinstaller.glade:1362
+msgid "3"
+msgstr ""
+
+#: liveinstaller.glade:1391
+msgid ""
+"<span size=\"xx-large\" foreground=\"white\" background=\"#9F6C49\" >  <span "
+"size=\"x-large\"><b>0. Intro</b></span> » <span size=\"x-large\">1. "
+"Indentification</span> » <span size=\"x-large\">2. Disk space</span> » <span "
+"size=\"x-large\">3. Installation</span> » <span foreground=\"black\" size="
+"\"x-large\">4. Ready!</span> </span>"
+msgstr ""
+
+#: liveinstaller.glade:1444
+msgid "<span size=\"xx-large\">Congratulations!</span>"
+msgstr ""
+
+#: liveinstaller.glade:1476
+msgid ""
+"<span size=\"large\">The installation has been successfully completed.\n"
+"\n"
+"In order to work with your new free operative system you need to eject the "
+"CDLive and reboot your computer.</span>"
+msgstr ""
+
+#: liveinstaller.glade:1516
+msgid "Ready"
+msgstr ""
+
+#: liveinstaller.glade:1681
+msgid "dialog1"
+msgstr ""
+
+#: liveinstaller.glade:1773
+msgid "empty"
+msgstr ""
+
+#: liveinstaller.glade:1795
+msgid "<b>Warning</b>"
+msgstr ""

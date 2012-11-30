@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1420"
+   name=""
+   committed-date="2005-12-09T14:46:45.246965Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/screenshots"
+   last-author="antonio"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   committed-rev="1420"
+   name="10.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="e01498673b967bad498db48e24d7efbd"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:19.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="01.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="eeccc0660cd55a46d7e52640af04980a"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:20.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="02.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="5ad8defb0a634677cd8b662a200d2999"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:20.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="03.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="e95e87884e0b7009623cdc1b1d5bdd4a"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:21.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="04.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="c280e78e70b155ea9f6289aba6b6ac7e"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:21.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="05.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="a81eb8a3588cc7b8c3367013a00f5282"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:22.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="06.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="5685f692dd7686a1a8a4d65084ed9c10"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:22.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="07.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="e88a60f214db26c33171fb35ec7482d7"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:22.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="08.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="ae7a231c7e0d6fa6f5f3c2cbeadcc536"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:23.000000Z"/>
+<entry
+   committed-rev="1420"
+   name="09.png"
+   text-time="2006-04-20T15:04:24.000000Z"
+   committed-date="2005-12-09T14:46:45.246965Z"
+   checksum="8094c89c5ff33684a6b53cac5f2732fb"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:24.000000Z"/>
+</wc-entries>

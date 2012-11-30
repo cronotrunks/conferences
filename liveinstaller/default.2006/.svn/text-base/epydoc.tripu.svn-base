@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+# When navigating into modules, Epydoc executes any "import" sentence that
+# it founds. This behaviour fails when importing GTK, because a
+# "pygtk.require" sentence is needed before, and Epydoc is not intelligent
+# enough to recognize it. That is why this patch exists :-)
+
+import pygtk
+pygtk.require ('2.0')
+from epydoc.cli import cli
+cli ()
+

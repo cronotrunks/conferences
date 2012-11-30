@@ -1,0 +1,126 @@
+#!/usr/bin/python
+
+# G u a d a l i n e x  E a s t e r  E g g
+# by Alfonso E.M.
+# Free (GPL) but a bit obfuscated code :-)
+
+def stuff():
+	return '''
+I05vbmUsNDAsMTAwLDIwMCwxMDAKI05vbmUsMzIsMTAwLDE1MCwxMDAKI05vbmUsMjgsOTAsMTIw
+LDkwCiNOb25lLDI4LDEyMCwxMDAsMTAwCiNOb25lLDYwLDIwMCwyMDAsMjAwCgpAMApHdWFkYWxp
+bmV4IFYzCgoKCkAxCkNhc3QKCkAxCkVtZXJneWEgVW5pdApAMgoKQW50b25pbyBPbG1vCkd1bWVy
+c2luZG8gQ29yb25lbApDYXJsb3MgUGFycmEKCkAxCkludGVyYWN0b3JzIFVuaXQKQDIKCkphdmll
+ciBMaW5hcmVzCkphdmllciBDYXJyYW56YQpKdWFuIEplc/pzIE9qZWRhClF1aW0gR2lsCgpAMQpZ
+YWNvIFVuaXQKQDIKCkphdmllciBWafF1YWxlcyAiVmlndSIKVGVvZmlsbyBSdWl6CkRhbmllbCBD
+YXJyafNuCkdhYnJpZWwgUm9kcu1ndWV6ICJDaGV3aWUiCgpAMQpDYW5vbmljYWwgVW5pdApAMgoK
+Q29sbGluIFdhdHNvbgpNYXR0IFppbW1lcm1hbgoKQDEKVGVsZWbzbmljYSBVbml0CkAyCgpBbHZh
+cm8gU2FpbnotUGFyZG8KVmljZW50ZSBKLiBSdWl6CgpAMQpTQURFU0kgVW5pdApAMgoKTWFyaW8g
+R2Fs4W4KTHVpcyBNYXlvcmFsCk1hcmlvIFBpbm8KCkAxCkRpcmVjdGVkIGJ5CkAyCgpBbGZvbnNv
+IGRlIENhbGEKCgpAMQpDb0RpcmVjdG9yCkAyCgpSYWZhZWwgTWFydO1uIGRlIEFnYXIKCgpAMQpC
+ZXN0IEJveQpAMgoKRnJhbmNpc2NvIFl1c3RlCgoKQDEKQmVzdCBHaXJsCkAzCgpMZXRpY2lhIEdl
+c3Rvc28KCgpAMQpDb25zdWx0YW50CkAyCgpSb2JlcnRvIE1hamFkYXMKCgpAMQpTdHVudHMKQDIK
+CmFsZmFiZXQKc2VtYW51ZQp0cnVua3MKYWR2b2NhdHV4Ck1hcmR1awpJbmRpb0NhYnJlYW8KZ3Vh
+ZGFmYW4KYmFzb2FsdG8KZXJmbGFrbwptYXJpbGxpb24KbWFycmFqbwpjaGVpdG96egpKb2VMdWkK
+YW1iaWVudGFsClRyaWFOCgoKQDEKQ29zdHVtZSBEZXNpZ25lcgpAMgoKTG9zdEJpdC5uZXQKCgpA
+MQpBcnQgRGVwYXJ0bWVudApAMgoKSm9zZSBBLiBHaWwgR2FsaWFubwoKCkAxClNldCBEZWNvcmF0
+aW9uIGJ5CkAzCgpDaW50YSBDYXN0aWxsYQoKCkAxCkNhcnBlbnRlcnMKQDIKCkRlYmlhbiBEZXZl
+bG9wZXJzCgoKQDEKU3BlY2lhbCBFZmZlY3RzCkAyCgpUaGUgVWJ1bnR1IENvbW11bml0eQoKCkAx
+ClNvbmdzCgpAMgoiR3VhZGFsaW5leCBLaWxsZWQgVGhlIEhhc2Vmcm9jaCBTdGFyIgpQZXJmb3Jt
+ZWQgYnkgWGFwaSBhbmQgdGhlIFdhdGVybWFpbnMKCiJEb24ndCBQaHVuY2sgV2l0aCBNeSBIYXQi
+ClBlcmZvcm1lZCBieSBQaGVkb3JhIEphenogQmFuZAoKIkdyZWVuLUdyZWVuLiBZZWxsb3cgPyBQ
+aW5rICEiClBlcmZvcm1lZCBieSBUaGUgUGhyZWFrZXIgQm95cwoKIkVudGVyIFRoZSBGbGFtaW5n
+byAoQmV0dGVyIHRvIHJ1biBhd2F5KSIKUGVyZm9ybWVkIGJ5IFR4dVR4ZQoKCgpAMQpFeGVjdXRp
+dmUgUHJvZHVjZXJzCkAyCgpNYW51ZWwgTWFydO1uIE1hdGEKSnVhbiBDb25kZQpKb3NlIFNhbG1l
+cvNuCgoKQDEKQXNzb2NpYXRlIFByb2R1Y2VyCkAyCgpWaWN0b3IgRmVybuFuZGV6CgoKQDEKUHJv
+ZHVjZWQgYnkKQDIKCkxhIEp1bnRhIGRlIEFuZGFsdWPtYQoKCgpAMgpSZWNvcmRlZCBpbiAiRWwg
+U2VuZGVybyIgU3R1ZGlvcwoKCgoiQW5kYXR1eiIgY3JlYXR1cmUgZGVzaWduZWQgYnkKSm9zZSBB
+LiBHaWwgR2FsaWFubwoKCl9fXwoKCkNvcHlsZWZ0IDIwMDUgSnVudGEgZGUgQW5kYWx1Y+1hIFBy
+b2R1Y3Rpb25zCkZpbG1lZCBpbiBNZXRhZGlzdHJvdmlzaW9uCgpfX18KCgoKCgpObyBhbmltYWxz
+IGhhdmUgYmVlbiBoYXJtZWQgZHVyaW5nIAp0aGUgbWFraW5nIG9mIHRoaXMgd29uZGVyZnVsIGRp
+c3RyaWJ1dGlvbgoKCgoKCkAxClRoYW5rcyB0bwpAMgoKSWFuIE11cmRvY2sgZm9yIGludmVudGlu
+ZyBEZWJpYW4KCk1hcmsgU2h1dHRsZXdvcnRoIGZvciBjb21pbmcgZG93biB0byBFYXJ0aCAKYW5k
+IHNwb25zb3JpbmcgVWJ1bnR1LgoKTGluRXgsIExsaXVyZXgsIENhdGl4IGFuZCBNb2xpbnV4IChh
+bmQgbWFueSBvdGhlcnMpCmZvciBzdXBwb3J0aW5nIGZyZWUgc29mdHdhcmUKCk91ciBnaXJsZnJp
+ZW5kcyBhbmQgd2l2ZXMgZm9yIHN0YW5kaW5nIGJ5IHVzCgoKCgoKU3BlY2lhbCBUaGFua3MgdG8g
+RXZlcnkgR3VhZGFsaW5leCB1c2VyIApmb3IgYmV0YS10ZXN0aW5nLCAKc2hhcmluZyBrbm93bGVk
+Z2UgaW4gdGhlIGZvcnVtcywKYW5kIHRydXN0aW5nIHVzCgpWZXJ5IFNwZWNpYWwgVGhhbmtzIHRv
+IE1hcmsgVHlsZXIKZm9yIGhpcyB3b25kZXJmdWwgY3V0ZSBkcmF3aW5nIHNvZnR3YXJlCk1UUEFJ
+TlQgUk9DS1MgIQoKQW5kIHRvIE1hcmlvIE1hcnRpbgpmb3IgR3VhZGFsaW5leCBNaW5pIENvbnRy
+b2wgQ2VudGVyIApldmVuIHdoZW4gaXQncyBwcm9ncmFtbWVkIGluIFBhc2NhbAoKCgoKCkVuam95
+IEd1YWRhbGluZXggIQoKCgoKCgoKCgoKCgoKCgoKCgoKCgpANApUIEggRSAgIEUgTiBEIApAMgoK
+CgoKCgoKCgoKCgoKCgoKCgoKCgpOby4gVGhlcmUgaXMgbm8gbW9yZSB0aXRsZXMuCgoKCgoKCgoK
+CgoKCgoKCgoKCgoKCgpTdXJlICEKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCldoYXQgcGFydCBvZiAi
+Tm8iIGRpZCB5b3UgbWlzdW5kZXJzdG9vZCA/CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgpPaywgaGVy
+ZSB5b3UgaGF2ZSB0aGUgbGFzdCB0aXRsZToKCgoKCgoKCgoKCgpTZWUgeW91IGluIEd1YWRhbGlu
+ZXggVjQ6IAoiVGhlIFJldmVuZ2Ugb2YgUmVkIFJlZGhvIiAKCgoKCgoKQDQKOy0pCkAyCg==
+'''
+
+
+import pygame,sys,base64
+from pygame.locals import *
+
+bgcolor=(0,0,0)
+size=width,height=640,480
+delay=30
+
+credits=base64.decodestring(stuff()).split("\n")
+
+pygame.init()
+pygame.display.set_caption('Guadalinex Credits')
+pygame.mouse.set_visible(0)
+screen=pygame.display.set_mode(size)
+screen.fill(bgcolor)
+
+vpos=height
+renderedcredits=[]
+fontcolor=(100,200,100)
+fontsize=36
+fontfamily=None
+linefont=pygame.font.Font(fontfamily,fontsize)
+linefonts=[]
+fontcolors=[]
+
+for line in credits:
+	line=line.rstrip("\n")
+	if line.startswith("#"):
+		name,size,red,green,blue=line[1:].split(",")
+		c=(int(red),int(green),int(blue))
+		linefonts.append(pygame.font.Font(None,int(size)))
+		fontcolors.append(c)
+	elif line.startswith("@") and line[1:2].isdigit():
+		n=int(line[1:2])
+		linefont=linefonts[n]		
+		fontcolor=fontcolors[n]
+	else:
+		text = linefont.render(line, 1, fontcolor)
+		textpos=text.get_rect().move(width/2 - text.get_width()/2, vpos)
+		vpos=vpos+text.get_height()
+		renderedcredits.append(text)
+
+vpos=height
+
+while 1:
+	vpos=vpos-1
+	linevpos=vpos
+	screen.fill(bgcolor)
+	for line in renderedcredits:
+		linepos = line.get_rect().move(width/2-line.get_width()/2,linevpos)
+		if linepos > 0 and linevpos < height:
+			screen.blit(line, linepos)
+		linevpos=linevpos+text.get_height()
+	pygame.display.flip()
+	pygame.time.delay(delay)
+	for event in pygame.event.get():
+		if event.type == QUIT:
+			sys.exit()
+		if event.type == KEYDOWN:
+			keyboard=pygame.key.get_pressed()
+			if keyboard[K_s] == 1:
+			   vpos=height
+			elif keyboard[K_g] == 1:
+			   if delay != 30:
+				delay = 30
+			   else:
+				delay = 1 
+			else:
+				sys.exit()

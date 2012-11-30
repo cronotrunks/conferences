@@ -1,0 +1,49 @@
+#!/usr/bin/python
+
+'''
+Installer
+
+This is a installer program for a Ubuntu or Metadistros Live system.
+This is the main program, but there is also a couple of libraries to
+help it to work. For example the frontends library.
+The way it works is simple. It detect the Frontend to use, then
+load the module for that frontend. After that, it makes some calls
+through the frontend in order to get the info necessary to install.
+
+Once it has the info, partitioning, format, copy de distro to the disk
+and configure everything.
+'''
+
+import sys
+import os
+import ue
+from ue import misc
+
+def install(type='gtkui'):
+    '''install(type='gtkui') -> none
+    
+    Get the type of frontend to use and load the module for that.
+    '''
+    mod = __import__('ue.frontend', globals(), locals() , [type])
+    ui = getattr(mod, type)
+
+    distro = os.listdir('/usr/share/ubuntu-express/htmldocs/')[0]
+    wizard = ui.Wizard(distro)
+    ret = wizard.run()
+
+def unmount_target(mountpoints):
+    for path, device in mountpoints.items():
+        if path in ('/', 'swap'):
+            continue
+        path = os.path.join(target, path[1:])
+        misc.ex('umount', path)
+    misc.ex('umount', target)
+
+if __name__ == '__main__':
+    if len(sys.argv) == 2:
+        install(sys.argv[1])
+    install()
+    mountpoints = misc.get_var()
+    umount_target(mountpoints)
+
+# vim:ai:et:sts=4:tw=80:sw=4:

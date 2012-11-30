@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Index</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th bgcolor="#70b0f0" class="navselect">&nbsp;&nbsp;&nbsp;Index&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[show&nbsp;private&nbsp;|&nbsp;<a href="../public/indices.html">hide&nbsp;private</a>]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="indices.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+<br />
+
+<!-- =========== START OF IDENTIFIER INDEX =========== -->
+<table class="index" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="index">
+  <th colspan="2">Identifier Index</th></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html#__call_peez2"><code>__call_peez2</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.peez2.Peez2-class.html"><code>lib.backend.peez2.Peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html#__get_info"><code>__get_info</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.peez2.Peez2-class.html"><code>lib.backend.peez2.Peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.format.Format-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.format.Format-class.html"><code>lib.backend.format.Format</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.peez2.Peez2-class.html"><code>lib.backend.peez2.Peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.noui.Wizard-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.noui.Wizard-class.html"><code>lib.frontend.noui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text.Wizard-class.html#__init__"><code>__init__</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.text.Wizard-class.html"><code>lib.frontend.text.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#__reboot"><code>__reboot</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html#__scan_drives"><code>__scan_drives</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.peez2.Peez2-class.html"><code>lib.backend.peez2.Peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html#auto_partition"><code>auto_partition</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.peez2.Peez2-class.html"><code>lib.backend.peez2.Peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend-module.html"><code>backend</code></a></td>
+    <td>Package in package <a href="lib-module.html"><code>lib</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2-module.html#beautify_device"><code>beautify_device</code></a></td>
+    <td>Function in module <a href="../private/lib.backend.peez2-module.html"><code>lib.backend.peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2-module.html#beautify_size"><code>beautify_size</code></a></td>
+    <td>Function in module <a href="../private/lib.backend.peez2-module.html"><code>lib.backend.peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.part-module.html#call_autoparted"><code>call_autoparted</code></a></td>
+    <td>Function in module <a href="../private/lib.backend.part-module.html"><code>lib.backend.part</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.part-module.html#call_gparted"><code>call_gparted</code></a></td>
+    <td>Function in module <a href="../private/lib.backend.part-module.html"><code>lib.backend.part</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.validation-module.html#check_hostname"><code>check_hostname</code></a></td>
+    <td>Function in module <a href="lib.validation-module.html"><code>lib.validation</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.validation-module.html#check_mountpoint"><code>check_mountpoint</code></a></td>
+    <td>Function in module <a href="lib.validation-module.html"><code>lib.validation</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.validation-module.html#check_password"><code>check_password</code></a></td>
+    <td>Function in module <a href="lib.validation-module.html"><code>lib.validation</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.validation-module.html#check_username"><code>check_username</code></a></td>
+    <td>Function in module <a href="lib.validation-module.html"><code>lib.validation</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#chrex"><code>chrex</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#clean_up"><code>clean_up</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config-module.html"><code>config</code></a></td>
+    <td>Module in package <a href="../private/lib.backend-module.html"><code>lib.backend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html"><code>Config</code></a></td>
+    <td>Class in module <a href="../private/lib.backend.config-module.html"><code>lib.backend.config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_bootloader"><code>configure_bootloader</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_fstab"><code>configure_fstab</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_hardware"><code>configure_hardware</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_hostname"><code>configure_hostname</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_keymap"><code>configure_keymap</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_network"><code>configure_network</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_timezone"><code>configure_timezone</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#configure_user"><code>configure_user</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy-module.html"><code>copy</code></a></td>
+    <td>Module in package <a href="../private/lib.backend-module.html"><code>lib.backend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html"><code>Copy</code></a></td>
+    <td>Class in module <a href="../private/lib.backend.copy-module.html"><code>lib.backend.copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#copy_all"><code>copy_all</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#copy_debconf"><code>copy_debconf</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#copy_logs"><code>copy_logs</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#ex"><code>ex</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#ex"><code>ex</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html"><code>fmisc</code></a></td>
+    <td>Module in package <a href="lib-module.html"><code>lib</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.format-module.html"><code>format</code></a></td>
+    <td>Module in package <a href="../private/lib.backend-module.html"><code>lib.backend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.format.Format-class.html"><code>Format</code></a></td>
+    <td>Class in module <a href="../private/lib.backend.format-module.html"><code>lib.backend.format</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.format.Format-class.html#format_target"><code>format_target</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.format.Format-class.html"><code>lib.backend.format.Format</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend-module.html"><code>frontend</code></a></td>
+    <td>Package in package <a href="lib-module.html"><code>lib</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#get_default_partition_selection"><code>get_default_partition_selection</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html#get_drives"><code>get_drives</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.peez2.Peez2-class.html"><code>lib.backend.peez2.Peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#get_filesystems"><code>get_filesystems</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text.Wizard-class.html#get_hostname"><code>get_hostname</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.text.Wizard-class.html"><code>lib.frontend.text.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.noui.Wizard-class.html#get_info"><code>get_info</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.noui.Wizard-class.html"><code>lib.frontend.noui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#get_locales"><code>get_locales</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text.Wizard-class.html#get_locales"><code>get_locales</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.text.Wizard-class.html"><code>lib.frontend.text.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.noui.Wizard-class.html#get_partitions"><code>get_partitions</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.noui.Wizard-class.html"><code>lib.frontend.noui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text.Wizard-class.html#get_partitions"><code>get_partitions</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.text.Wizard-class.html"><code>lib.frontend.text.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#get_partitions"><code>get_partitions</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#get_progress"><code>get_progress</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#get_progress"><code>get_progress</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#get_sizes"><code>get_sizes</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text.Wizard-class.html#get_user"><code>get_user</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.text.Wizard-class.html"><code>lib.frontend.text.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#get_var"><code>get_var</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#get_var"><code>get_var</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#gparted_loop"><code>gparted_loop</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#grub_dev"><code>grub_dev</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#grub_dev"><code>grub_dev</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#grub_entries"><code>grub_entries</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui-module.html"><code>gtkui</code></a></td>
+    <td>Module in package <a href="../private/lib.frontend-module.html"><code>lib.frontend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#images_loop"><code>images_loop</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#info_loop"><code>info_loop</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.validation-module.html#invalid_names"><code>invalid_names</code></a></td>
+    <td>Function in module <a href="lib.validation-module.html"><code>lib.validation</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui-module.html#launch_autoparted"><code>launch_autoparted</code></a></td>
+    <td>Function in module <a href="../private/lib.frontend.gtkui-module.html"><code>lib.frontend.gtkui</code></a></td></tr>
+  <tr><td width="15%"><a href="lib-module.html"><code>lib</code></a></td>
+    <td>Package</td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#lilo_entries"><code>lilo_entries</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#make_yaboot_header"><code>make_yaboot_header</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#make_yaboot_header"><code>make_yaboot_header</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html"><code>misc</code></a></td>
+    <td>Module in package <a href="lib-module.html"><code>lib</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#mount_source"><code>mount_source</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#mount_target"><code>mount_target</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner-module.html"><code>netcloner</code></a></td>
+    <td>Module in package <a href="../private/lib.frontend-module.html"><code>lib.frontend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.noui-module.html"><code>noui</code></a></td>
+    <td>Module in package <a href="../private/lib.frontend-module.html"><code>lib.frontend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_abort_ok_button_clicked"><code>on_abort_ok_button_clicked</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_back_clicked"><code>on_back_clicked</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_cancel_clicked"><code>on_cancel_clicked</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_cancelbutton_clicked"><code>on_cancelbutton_clicked</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_confirmation_checkbutton_toggled"><code>on_confirmation_checkbutton_toggled</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_drives_changed"><code>on_drives_changed</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_exitbutton_clicked"><code>on_exitbutton_clicked</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_freespace_toggled"><code>on_freespace_toggled</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_help_clicked"><code>on_help_clicked</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_key_press"><code>on_key_press</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_list_changed"><code>on_list_changed</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_manually_toggled"><code>on_manually_toggled</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_next_clicked"><code>on_next_clicked</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_recycle_toggled"><code>on_recycle_toggled</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_steps_switch_page"><code>on_steps_switch_page</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#on_warning_dialog_close"><code>on_warning_dialog_close</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html#only_manually"><code>only_manually</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.peez2.Peez2-class.html"><code>lib.backend.peez2.Peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#parse"><code>parse</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.part-module.html"><code>part</code></a></td>
+    <td>Module in package <a href="../private/lib.backend-module.html"><code>lib.backend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2-module.html"><code>peez2</code></a></td>
+    <td>Module in package <a href="../private/lib.backend-module.html"><code>lib.backend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.peez2.Peez2-class.html"><code>Peez2</code></a></td>
+    <td>Class in module <a href="../private/lib.backend.peez2-module.html"><code>lib.backend.peez2</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#post_log"><code>post_log</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#post_log"><code>post_log</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#pre_log"><code>pre_log</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#pre_log"><code>pre_log</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#progress_loop"><code>progress_loop</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#progress_loop"><code>progress_loop</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#quit"><code>quit</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#quit"><code>quit</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#read_stdout"><code>read_stdout</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#read_stdout"><code>read_stdout</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#reconfigure"><code>reconfigure</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#ret_ex"><code>ret_ex</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#ret_ex"><code>ret_ex</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#run"><code>run</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#run"><code>run</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#run"><code>run</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#run"><code>run</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.config.Config-class.html#set_debconf"><code>set_debconf</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.config.Config-class.html"><code>lib.backend.config.Config</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_locales"><code>set_locales</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#set_locales"><code>set_locales</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_progress"><code>set_progress</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#set_progress"><code>set_progress</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.noui.Wizard-class.html#set_progress"><code>set_progress</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.noui.Wizard-class.html"><code>lib.frontend.noui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text.Wizard-class.html#set_progress"><code>set_progress</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.text.Wizard-class.html"><code>lib.frontend.text.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_size_msg"><code>set_size_msg</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.fmisc-module.html#set_var"><code>set_var</code></a></td>
+    <td>Function in module <a href="../private/lib.fmisc-module.html"><code>lib.fmisc</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.misc-module.html#set_var"><code>set_var</code></a></td>
+    <td>Function in module <a href="lib.misc-module.html"><code>lib.misc</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#set_vars_file"><code>set_vars_file</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#set_vars_file"><code>set_vars_file</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.settings-module.html"><code>settings</code></a></td>
+    <td>Module in package <a href="lib-module.html"><code>lib</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#show_browser"><code>show_browser</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#show_error"><code>show_error</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html#show_error"><code>show_error</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>lib.frontend.netcloner.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html#show_partitions"><code>show_partitions</code></a></td>
+    <td>Method in class <a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>lib.frontend.gtkui.Wizard</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text-module.html"><code>text</code></a></td>
+    <td>Module in package <a href="../private/lib.frontend-module.html"><code>lib.frontend</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#umount_target"><code>umount_target</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.backend.copy.Copy-class.html#unmount_source"><code>unmount_source</code></a></td>
+    <td>Method in class <a href="../private/lib.backend.copy.Copy-class.html"><code>lib.backend.copy.Copy</code></a></td></tr>
+  <tr><td width="15%"><a href="lib.validation-module.html"><code>validation</code></a></td>
+    <td>Module in package <a href="lib-module.html"><code>lib</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.gtkui.Wizard-class.html"><code>Wizard</code></a></td>
+    <td>Class in module <a href="../private/lib.frontend.gtkui-module.html"><code>lib.frontend.gtkui</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.netcloner.Wizard-class.html"><code>Wizard</code></a></td>
+    <td>Class in module <a href="../private/lib.frontend.netcloner-module.html"><code>lib.frontend.netcloner</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.noui.Wizard-class.html"><code>Wizard</code></a></td>
+    <td>Class in module <a href="../private/lib.frontend.noui-module.html"><code>lib.frontend.noui</code></a></td></tr>
+  <tr><td width="15%"><a href="../private/lib.frontend.text.Wizard-class.html"><code>Wizard</code></a></td>
+    <td>Class in module <a href="../private/lib.frontend.text-module.html"><code>lib.frontend.text</code></a></td></tr>
+</table>
+<br />
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th bgcolor="#70b0f0" class="navselect">&nbsp;&nbsp;&nbsp;Index&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Wed Nov  9 13:46:23 2005</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

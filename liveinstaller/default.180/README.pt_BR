@@ -1,0 +1,155 @@
+The Ubuntu Package ubuntu-express
+---------------------------------
+
+O instalador do Guadalinex tem se caracterizado por ser muito
+simples, amigável e gráfico.
+
+Para esta versão desenvolveremos um novo instalador, ainda
+mais potente, usando python como linguagem de desenvolvimento.
+
+Tomaremos cuidado especial no processo de particionamento, para
+que o mesmo seja tão automático e seguro quanto possível.
+
+Especificações
+==============
+
+Introdução
+----------
+
+O instalador do Guadalinex2005 Live será um instalador simples, bastante
+integrado com o sistema Debian e compatível com o Ubuntu.
+
+Casos de uso
+------------
+
+    * Um usuário inicia o Guadalinex2005, o mesmo lhe agrada e ele deseja
+ter o mesmo instalado em seu computador.
+    * Um usuário inicia o Guadalinex2005, que lhe agrada. O usuário configura
+o mesmo e deseja tê-lo instalado, com estas modificações, em seu computador. 
+    * Um usuário já provou o Guadalinex2005, sabe que gosta dele e que o quer
+instalar, mas não quer nem precisa iniciar a distribuição completa, apenas
+instalá-la de maneira rápida e simples.
+    * Um usuário instalou o Guadalinex2005 a partir da versão Live e deseja
+poder ter um arquivo de configuração com as opções escolhidas, para poder
+instalá-lo em equipamentos parecidos.
+
+Pré-requisitos
+--------------
+
+(Condições que devem existir para rodar o instalador)
+
+    * O instalador deve estar em um sistema "live"
+    * Deve existir uma imagem da distribuição em:
+/cdrom/casper/filesystem.cloop ou /cdrom/META/META.squashfs.
+    * Devem estar instalados na distribuição (na imagem) Python, suas bibliotecas
+para debconf e as necessárias para a interface de usuário que se utilizar (gráfica
+ou não).
+
+
+Pós-condições
+--------------
+
+(Condições que devem existir após usar o instalador)
+
+    * Disco particionado com uma partição para a distribuição e uma para o arquivo
+de troca (swap), no mínimo.
+    * Partição da distribuição formatada.
+    * A distribuição copiada a partir da imagem para a partição formatada para
+tal fim.
+    * Hardware configurado.
+    * Um usuário criado.
+    * Idioma, teclado, rede e nome do computador configurados.
+    * Detectar outros sistemas operationais existentes e adicioná-los ao grub e
+ao fstab.
+    * O sistema instalado deve estar configurado "à la Debian", usando o debian-
+installer.
+    * Caso algo seja configurado na sessão live (rede, idioma, hora, teclado, X,
+som, etc), também deverá estar configurado na versão instalada.
+    * Devem ser gerados logs descritivos para depuração.
+    * Deve haver um arquivo com as configurações selecionadas, para no caso de uma
+reinstalação, poder fazê-lo de forma automatizada.
+
+
+Pontos a destacar
+-----------------
+
+    * Deve-se perguntar o mínimo possível.
+    * Deve ser possível personalizá-lo.
+    * Deve suportar diferentes interfaces de usuários: gráfica (Gtk+, Qt,
+etc), não gráfica e inclusive não interativa.
+    * Não usar archivos de configuración, apenas debconf e convenções de nomes.
+    * Deve-se informar ao usuário de maneira clara e simples o que está se passando
+em cada momento.
+    * Deve ser possível pré-configurar (preseed) toda a parte de informação
+necessária para a instalação.
+    * Se a informação de um diálogo estiver pré-configurada (preseed), esse diálogo
+não será mostrado.
+    * Deve ser possível instalar o /home em uma partição separada.
+    * A opção pré-determinada para o particionador deve ser o particionamento
+automático.
+    * Não se devem oferecer opções impossíveis (ex: autoparticionamento)
+    * Deve ser possível internacionalizar.
+    * Todos os sistemas operacionais existentes no disco antes da instalação devem
+ser respeitados.
+    * Se for possível redimensionar uma partição, então tudo bem, caso contrário,
+não houver, deve ser considerar que não há espaço suficiente.
+
+Seqüência
+----------
+
+   1. Saudação e informação do que irá acontecer.
+   2. Nome completo, apelido e senha. Nome do computador.
+   3. Particionador.
+   4. Barra de progreso (formatação, cópia da distribuição e configuração)
+   5. Despedida.
+
+
+Dependências
+------------
+
+    * Uma distribuição live baseada em ubuntu ou em metadistros.
+    * Gparted.
+    * partman.
+    * Python.
+    * Pacote do Debconf, express[1], carregado pelo sistema Live.
+    * Detecção e notificação no sistema live do estado da rede.
+
+
+Debater
+=======
+
+Pontos
+------
+
+   1. Partição /home separada.
+   2. Posibilidade de guardar as seleções de uma instalação
+   3. Posibilidade de adicionar módulos em tempo real.
+   4. Eliminação dos diálogos de idioma e de rede.
+   5. Limitações no comprimento do username, da senha e do hostname.
+(Provisoriamente: nome de usuário entre 3 e 24 carateres; senha entre
+4 e 16 caracteres; hostname entre 3 e 18 caracteres).
+   6. O que fazer com as contas de usuário criadas durante a sessão
+live. (Basicamente, 3 possibilidades: ignorá-las, mantê-las sobrescrevendo
+o /home correspondente com o /etc/skel, ou mesmo manter tanto a conta
+quando os arquivos do usuário).
+(o debate se dá nas listas de discussão)
+
+
+Conclusões
+----------
+
+   1. Não há maiores problemas em realizar isto, e além do mais
+facilita a migração para novas versões,
+   2. As configurações feitas durante a instalação serão salvas
+em um arquivo.
+   3. Este ponto deve ser mais discutido.
+   4. O idioma não afeta o Guadalinex (que está todo em espanhol),
+e sobre a rede diz-se que essa opção irá aumentar a usabilidade,
+mas nada ainda foi decidido.
+
+[1] Isso não seria mais que um pedaço do debconf com as perguntas e
+respostas necessárias para pre-configurar o instalador.
+
+--
+Javier Carranza <javier.carranza@interactors.coop>, Fri, 29 Jul 2005 17:04:51 +0200
+Traduzido por Alexandre Strube <surak@surak.eti.br>, Tue, 9 Aug 2005 23:35:00 +0300

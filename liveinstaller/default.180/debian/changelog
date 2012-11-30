@@ -1,0 +1,22 @@
+ubuntu-express (0.7ubuntu1) unstable; urgency=low
+
+  * Druid changed into notepad.
+  * Backend and frontend connection.
+  * Full bootloader support.
+  * Ubuntu Express scripts are now more modularized.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Tue, 16 Aug 2005 21:02:11 +0200
+
+ubuntu-express (0.4ubuntu2) unstable; urgency=low
+
+  * Some UI changes.
+  * A lot of stuff to get more stabililty between UE modules.
+  * some fixes related to branding.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Thu, 11 Aug 2005 11:31:20 +0200
+
+ubuntu-express (0.4ubuntu1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Fri, 29 Jul 2005 17:04:51 +0200

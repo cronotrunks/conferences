@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="107"
+   name=""
+   committed-date="2005-08-03T11:31:51.488488Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/part/peez2"
+   last-author="antonio"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   committed-rev="97"
+   name="libparted1.6-12_1.6.21-1.ext3bug_i386.deb"
+   text-time="2005-07-29T13:49:49.000000Z"
+   committed-date="2005-07-29T15:07:14.843125Z"
+   checksum="8e6de63c805344f5a19e2491cbb44bd0"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-07-29T13:49:49.000000Z"/>
+<entry
+   committed-rev="92"
+   name="peez2_0.7.8_i386.deb"
+   text-time="2005-07-29T10:41:18.000000Z"
+   committed-date="2005-07-28T15:21:27.619757Z"
+   checksum="d9e8b39a541d623f6d776df1b8120bf2"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-07-29T10:41:16.000000Z"/>
+<entry
+   committed-rev="92"
+   name="peez2_0.7.8.tar.gz"
+   text-time="2005-07-29T10:41:18.000000Z"
+   committed-date="2005-07-28T15:21:27.619757Z"
+   checksum="562f5d933169e88b610b74b3d3379411"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-07-29T10:41:18.000000Z"/>
+<entry
+   committed-rev="107"
+   name="README"
+   text-time="2005-08-03T15:25:52.000000Z"
+   committed-date="2005-08-03T11:31:51.488488Z"
+   checksum="e5788e408fe9c3b4e8ef26f57b2cdc02"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-03T15:25:52.000000Z"/>
+</wc-entries>

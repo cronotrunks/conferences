@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1579"
+   name=""
+   committed-date="2006-01-22T18:32:56.973531Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/glade/locale"
+   last-author="rmartin"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   name="guadalinex"
+   kind="dir"/>
+<entry
+   name="ubuntu"
+   kind="dir"/>
+<entry
+   committed-rev="121"
+   name="default"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-08-04T13:25:33.004038Z"
+   checksum="1ccf2dfe7edefcc4cacf1146828c079f"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+</wc-entries>

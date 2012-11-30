@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="KEYWORDS" content="Portada,Guadalinex,Colaboraciones,Instalar Guadalinex,Trabajando con Guadalinex,Hardware" />
+<meta name="robots" content="index,follow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link title="Creative Commons" type="application/rdf+xml" href="/guadapedia/index.php?title=Portada&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/2.1/es/" />
+
+    <title>Portada - Guadapedia</title>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/guadapedia/stylesheets/monobook/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="/guadapedia/stylesheets/commonPrint.css"/>
+    <!--[if IE]><style type="text/css" media="all">@import "/guadapedia/stylesheets/monobook/IEFixes.css";</style>
+    <script type="text/javascript" src="/guadapedia/stylesheets/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script src="/guadapedia/index.php?title=-&amp;action=raw&amp;gen=js" type="text/javascript"></script>
+    <script type="text/javascript" src="/guadapedia/stylesheets/wikibits.js"></script>
+    <style type="text/css">/*<![CDATA[*/ @import "/guadapedia/index.php?title=-&action=raw&gen=css";
+ /*]]>*/</style>
+    
+  </head>
+  <body class="ns-0">
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	    
+	  <a name="top" id="contentTop"></a>
+	  <h1 class="firstHeading">Portada</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">De Guadapedia, la enciclopedia libre.</h3>
+	    <div id="contentSub"></div>
+	    
+
+	    
+	    <!-- start content -->
+	    <a name="Guadalinex:_Qu.C3.A9_es_y_para_que_sirve"></a><h2> <a href="/guadapedia/index.php/Guadalinex" title ="Guadalinex">Guadalinex: Qué es y para que sirve</a> </h2>
+<p>Has oido hablar de <strong>Guadalinex</strong> pero quieres saber más sobre su origen, fundamentos, implantación y principios que rigen su desarrollo.
+</p>
+<a name="Conseguir.2C_probar_e_instalar_Guadalinex"></a><h2> <a href="/guadapedia/index.php/Instalar_Guadalinex" title ="Instalar Guadalinex">Conseguir, probar e instalar Guadalinex</a> </h2>
+<p>Aprende a instalar <strong>Guadalinex</strong> de la mano del equipo de desarrollo. Siguiendo unos sencillos pasos y leyendo  nuestra guía de ayuda conseguirás tener Guadalinex en tu ordenador.
+</p>
+<a name="Trabajando_.28y_jugando.29_con_Guadalinex"></a><h2> <a href="/guadapedia/index.php/Trabajando_con_Guadalinex" title ="Trabajando con Guadalinex">Trabajando (y jugando) con Guadalinex</a> </h2>
+<p>Con <strong>Guadalinex</strong> puedes realizar todo tipo de tareas. Por si alguna te resulta difícil, aquí te las explicamos paso a paso. Cómo usar las aplicaciones, configurar periféricos, adaptar el sistema a tus preferencias...
+</p>
+<a name="Accesorios.2C_perif.C3.A9ricos.2C_dispositivos..."></a><h2> <a href="/guadapedia/index.php/Hardware" title ="Hardware">Accesorios, periféricos, dispositivos...</a> </h2>
+<p>¿ Funcionará esa tarjeta de red&nbsp;? ¿ Debo comprar esta cámara&nbsp;? A veces el <em>hardware</em> no es compatible con <strong>Guadalinex</strong>. Otras veces hay que seguir ciertas instrucciones para que funcione. En esta sección te aclaramos cómo.
+</p>
+<a name="Colaborar_con_Guadalinex"></a><h2> <a href="/guadapedia/index.php/Colaboraciones" title ="Colaboraciones">Colaborar con Guadalinex</a> </h2>
+<p>La filosofía <em>comparte y mejora</em> del software libre tambíen está en Guadalinex. 
+Aquí te contamos todas las formas en que puedes ayudar, cualquiera que sea tu nivel de conocimientos.
+</p><div class="printfooter">
+Obtenido de "<a href="http://www.guadalinex.org/guadapedia/index.php/Portada">http://www.guadalinex.org/guadapedia/index.php/Portada</a>"</div>
+
+	    
+	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main" class="selected"><a href="/guadapedia/index.php/Portada">Artículo</a></li><li id="ca-talk" class="new"><a href="/guadapedia/index.php?title=Discusi%C3%B3n:Portada&amp;action=edit">Discusión</a></li><li id="ca-viewsource"><a href="/guadapedia/index.php?title=Portada&amp;action=edit">Ver código fuente</a></li><li id="ca-history"><a href="/guadapedia/index.php?title=Portada&amp;action=history">Historia</a></li>
+	  </ul>
+	</div>
+<!--
+	<div class="portlet" id="p-personal">
+	  <h5 i18n:translate="string:personaltools">Personal Tools</h5>
+	  <div class="pBody">
+	    <ul>
+	      <li tal:repeat="item personal_urls" 
+	      tal:attributes="id string:pt-[nameerror: message="(ArrayResolver) Context does not contains key 'item'" code=0 mode=return level=notice prefix="" info=""];"><a href="myuserpage"
+		tal:attributes="href item/href; class item/class|default"
+		tal:content="item/text">Log in</a></li>
+	    </ul>
+	  </div>
+	</div>
+-->
+	<div class="portlet" id="p-logo">
+	  <a title="Portada" style="background-image: url(/guadapedia/stylesheets/images/wiki.png);" href="/guadapedia/index.php/Portada"></a>
+	</div>
+	<div class="portlet" id="p-nav">
+	  <h5>Navegación</h5>
+	  <div class="pBody">
+	    <ul>
+	      <li id="n-mainpage"><a href="/guadapedia/index.php/Portada">Portada</a></li>
+		<!--
+	      <li id="n-portal" tal:condition="nav_urls/portal/href"><a href="/guadapedia/index.php/Guadapedia:Community_Portal"
+		i18n:translate="string:portal">Community Portal</a></li>
+	      <li id="n-currentevents" tal:condition="nav_urls/currentevents/href"><a href="/guadapedia/index.php/Actualidad"
+		i18n:translate="string:currentevents">Current Events</a></li>
+	      <li id="n-randompage"><a href="/guadapedia/index.php/Especial:Randompage"
+		i18n:translate="string:randompage">Random Page</a></li>
+	      <li id="n-help"><a href="/guadapedia/index.php/Guadapedia:Ayuda"
+		i18n:translate="string:help">Help</a></li>
+	      <li id="n-sitesupport" tal:condition="nav_urls/sitesupport/href"><a href=""
+		i18n:translate="string:sitesupport">Donations</a></li>
+		-->
+	      <li id="enlace1"><a href="/guadapedia/index.php/Guadalinex">Qu&eacute; es Guadalinex</a></li>
+	      <li id="enlace2"><a href="/guadapedia/index.php/Instalar_Guadalinex">Instalaci&oacute;n</a></li>
+	      <li id="enlace3"><a href="/guadapedia/index.php/Trabajando_con_Guadalinex">Usando Guadalinex</a></li>
+	      <li id="enlace4"><a href="/guadapedia/index.php/Hardware">Hardware</a></li>
+	      <li id="enlace5"><a href="/guadapedia/index.php/Colaboraciones">Colaboraci&oacute;n</a></li>
+	      <li id="enlace6"><a href="http://www.guadalinex.org">Volver a Guadalinex</a></li>
+	    </ul>
+	  </div>
+	</div>
+	<div id="p-search" class="portlet">
+	  <h5>Buscar</h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/guadapedia/index.php/Especial:Search" id="searchform">
+	      <input accesskey="f" id="searchInput" name="search" type="text" />
+	      <input value="Ir" type="submit" name="go" class="searchButton" />&nbsp;<input value="Buscar" type="submit" name="fulltext" class="searchButton" />
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Herramientas</h5>
+	  <div class="pBody">
+	    <ul>
+	    <!--
+	      <li id="t-recentchangeslinked"><a href="/guadapedia/index.php?title=Especial:Recentchangeslinked&amp;target=Portada"
+		i18n:translate="string:recentchangeslinked">Related Changes</a></li>
+		-->
+	      <li id="n-recentchanges"><a href="/guadapedia/index.php/Especial:Recentchanges">Cambios Recientes</a></li>
+		<!--
+	      <li tal:condition="feeds" id="feedlinks">
+	      <span i18n:translate="string:feedlinks">Feeds:</span>
+	      <span tal:repeat="feed feeds" 
+		tal:attributes="id string:feed-[nameerror: message="(ArrayResolver) Context does not contains key 'feed'" code=0 mode=return level=notice prefix="" info=""];"><a 
+		  tal:attributes="href feed/href;"
+		  tal:content="feed/text">rss</a>&nbsp;</span>
+	      </li>
+	      -->
+	      <li><a href="/guadapedia/index.php?title=Especial:Whatlinkshere&amp;target=Portada">Enlaces a esta p&aacute;gina</a></li>
+		<!--
+	      <li id="t-whatlinkshere"><a href="/guadapedia/index.php?title=Especial:Whatlinkshere&amp;target=Portada"
+		i18n:translate="string:whatlinkshere">What links here</a></li>
+	      <li id="t-contributions" tal:condition="nav_urls/contributions/href"><a href="[nameerror: message="(ArrayResolver) Context does not contains key 'contributions'" code=0 mode=return level=notice prefix="" info=""]"
+		i18n:translate="string:contributions">Contributions</a></li>
+	      <li id="t-emailuser" tal:condition="nav_urls/emailuser/href"><a href="[nameerror: message="(ArrayResolver) Context does not contains key 'emailuser'" code=0 mode=return level=notice prefix="" info=""]"
+		i18n:translate="string:emailuser">Email this user</a></li>
+	      <li id="t-upload" tal:condition="nav_urls/upload/href"><a href="[nameerror: message="(ArrayResolver) Context does not contains key 'upload'" code=0 mode=return level=notice prefix="" info=""]"
+		i18n:translate="string:upload">Upload a file</a></li>
+	      <li id="t-specialpages"><a href="/guadapedia/index.php/Especial:Specialpages"
+		i18n:translate="string:specialpages">Special Pages</a></li>
+		-->
+	    </ul>
+	  </div>
+	</div>
+	
+      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+
+      <div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/guadapedia/stylesheets/images/poweredby_mediawiki_88x31.png" alt="MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-sa/2.1/es/"><img src="http://creativecommons.org/images/public/somerights20.gif" alt='Creative Commons' /></a></div>
+	<ul id="f-list">
+	  <li id="f-lastmod"> Esta página fue modificada por última vez el 06:49 1 jun, 2005.</li>
+	  <li id="f-viewcount">Esta página ha sido visitada 63618 veces.</li>
+	  
+	  <li id="f-copyright">Contenido publicado bajo licencia <a href="http://creativecommons.org/licenses/by-sa/2.1/es/" class='external' title="http://creativecommons.org/licenses/by-sa/2.1/es/">Creative Commons</a>.</li> 
+<!--	  <li id="f-about" tal:condition="about"><a href="/guadapedia/index.php/Guadapedia:Acerca_de" title ="Guadapedia:Acerca de">Acerca de Guadapedia</a></li>-->
+<!--	  <li id="f-disclaimer" tal:condition="disclaimer"><a href="/guadapedia/index.php/Guadapedia:General_disclaimer" title ="Guadapedia:General disclaimer">Disclaimers</a></li>-->
+	</ul>
+      </div>
+    </div>
+    <!-- Served by bollullos in 0.20 secs. -->
+  </body>
+</html>

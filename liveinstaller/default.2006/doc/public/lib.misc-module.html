@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>lib.misc</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="lib-module.html">Package&nbsp;lib</a> ::
+        Module&nbsp;misc
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[<a href="../private/lib.misc-module.html">show&nbsp;private</a>&nbsp;|&nbsp;hide&nbsp;private]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="lib.misc-module.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF MODULE DESCRIPTION =========== -->
+<h2 class="module">Module lib.misc</h2>
+
+
+<!-- =========== START OF FUNCTION SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Function Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#ex" class="summary-sig-name"><code>ex</code></a>(<span class="summary-sig-vararg">*args</span>)</span></code>
+<br />
+runs args* in shell mode.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#get_filesystems" class="summary-sig-name"><code>get_filesystems</code></a>()</span></code>
+<br />
+returns a dictionary with a skeleton { device : filesystem } with data 
+from local hard disks.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#get_partitions" class="summary-sig-name"><code>get_partitions</code></a>()</span></code>
+<br />
+returns an array with fdisk output related to partition data.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#get_progress" class="summary-sig-name"><code>get_progress</code></a>(<span class=summary-sig-arg>str</span>)</span></code>
+<br />
+gets progress percentaje of installing process from progress bar 
+message.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#get_var" class="summary-sig-name"><code>get_var</code></a>()</span></code>
+<br />
+gets install input data from vars file.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#grub_dev" class="summary-sig-name"><code>grub_dev</code></a>(<span class=summary-sig-arg>dev</span>)</span></code>
+<br />
+returns a device name in grub mode from a unix device name.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="grub_entries"></a><span class="summary-sig"><span class="summary-sig-name">grub_entries</span>(<span class=summary-sig-arg>file</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="lilo_entries"></a><span class="summary-sig"><span class="summary-sig-name">lilo_entries</span>(<span class=summary-sig-arg>file</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#make_yaboot_header" class="summary-sig-name"><code>make_yaboot_header</code></a>(<span class=summary-sig-arg>target</span>,
+          <span class=summary-sig-arg>target_dev</span>)</span></code>
+<br />
+builds yaboot header config-file.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#post_log" class="summary-sig-name"><code>post_log</code></a>(<span class=summary-sig-arg>code</span>,
+          <span class=summary-sig-arg>msg</span>)</span></code>
+<br />
+logs install messages into /var/log on installed filesystem.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#pre_log" class="summary-sig-name"><code>pre_log</code></a>(<span class=summary-sig-arg>code</span>,
+          <span class=summary-sig-arg>msg</span>)</span></code>
+<br />
+logs install messages into /var/log on live filesystem.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="ret_ex"></a><span class="summary-sig"><span class="summary-sig-name">ret_ex</span>(<span class="summary-sig-vararg">*args</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="lib.misc-module.html#set_var" class="summary-sig-name"><code>set_var</code></a>(<span class=summary-sig-arg>var</span>)</span></code>
+<br />
+sets install input data into a vars file.</td></tr>
+</table><br />
+
+
+<!-- =========== START OF FUNCTION DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Function Details</th></tr>
+</table>
+
+<a name="ex"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">ex</span>(<span class="sig-vararg">*args</span>)</span>
+  </h3>
+  runs args* in shell mode. Output status is taken.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="get_filesystems"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">get_filesystems</span>()</span>
+  </h3>
+  returns a dictionary with a skeleton { device : filesystem } with 
+  data from local hard disks. Only swap and ext3 filesystems are 
+  available.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="get_partitions"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">get_partitions</span>()</span>
+  </h3>
+  returns an array with fdisk output related to partition data.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="get_progress"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">get_progress</span>(<span class=sig-arg>str</span>)</span>
+  </h3>
+  gets progress percentaje of installing process from progress bar 
+  message.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="get_var"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">get_var</span>()</span>
+  </h3>
+  gets install input data from vars file.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="grub_dev"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">grub_dev</span>(<span class=sig-arg>dev</span>)</span>
+  </h3>
+  returns a device name in grub mode from a unix device name.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="make_yaboot_header"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">make_yaboot_header</span>(<span class=sig-arg>target</span>,
+          <span class=sig-arg>target_dev</span>)</span>
+  </h3>
+  builds yaboot header config-file.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="post_log"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">post_log</span>(<span class=sig-arg>code</span>,
+          <span class=sig-arg>msg</span>=<span class=sig-default>''</span>)</span>
+  </h3>
+  logs install messages into /var/log on installed filesystem.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="pre_log"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">pre_log</span>(<span class=sig-arg>code</span>,
+          <span class=sig-arg>msg</span>=<span class=sig-default>''</span>)</span>
+  </h3>
+  logs install messages into /var/log on live filesystem.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="set_var"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">set_var</span>(<span class=sig-arg>var</span>)</span>
+  </h3>
+  sets install input data into a vars file.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Wed Nov  9 13:46:23 2005</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

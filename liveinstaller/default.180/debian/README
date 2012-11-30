@@ -1,0 +1,157 @@
+The Ubuntu Package ubuntu-express
+---------------------------------
+
+The installer of Ubuntu has characterized itself until now by being very
+simple, friendly and graphical.
+
+For this version we will develop a new installer, still more powerful, using
+Python as a programming language.
+
+We will put special attention at the partitioning process, in order to make it
+as automatic and safe as possible.
+
+
+Specifications
+==============
+
+Introduction
+------------
+
+The Ubuntu’s installer Live will be a simple one and well integrated
+with Debian and Ubuntu based systems.
+
+
+Use Cases
+---------
+
+    * A user takes Ubuntu, she likes it and she wants to install it,
+as is, in her computer.
+    * A user takes Ubuntu, she likes it, she tests it, she configures
+it and she wants to have it installed, keeping the present configuration , in
+her computer.
+    * A user has tried Ubuntu, she knows that she likes it and she
+wants to install it, but neither wants nor needs to launch the complete distro
+(Desktop and so on), she just wants a fast and simple way to install.
+    * A user has installed Ubuntu from its Live version and wants to
+be able to have a configuration file with the chosen options, in case she
+needs to reinstall or to install in a similar computer.
+
+
+Preconditions
+-------------
+
+(Conditions to be satisfied before using the installer)
+
+    * The installer must run on a live system
+    * An image of the distribution must exist in:
+/cdrom/casper/filesystem.cloop or /cdrom/META/META.squashfs .
+    * It’s necessary to have, installed in the distribution (inside of the
+image), Python , his libraries for debconf and all the necessary ones for the
+user interface which is going to be used (graphical or nongraphical).
+
+
+Postconditions
+--------------
+
+(Conditions to be met after using the installer)
+
+    * Disc has been partitioned with a partition for the distribution and
+other for the swap, at least.
+    * Distribution partition has been formated.
+    * Distribution has been copied from the image to the formated partition.
+    * Hardware has been configured.
+    * A user has been created.
+    * Language, keyboard, network and name of the machine have been
+configured.
+    * Other operating systems existing on the box have been detected and added
+to the Grub and fstab .
+    * The installed system must have been configured Debian alike, as the
+debian-installer does.
+    * If something (network, language, hour, tecaldo, X, sound, etc) has been
+configured in the Live session, it must be configured in the installed version
+as well.
+    * It must have been generated enough complete logs to be able to trace and
+debug the system.
+    * A file with the selected configurations (preseed file) must be
+generated, to be used in case of reinstall, or to be able to do it in
+automated way.
+
+
+Outstanding Issues
+------------------
+
+    * Questions should be reduced to a minimum.
+    * It must be possible to personalize it.
+    * It must support different interfaces for users: graph (Gtk+, Qt, etc),
+nongraphical and even noninteractive .
+    * Not to use configuration files, but debconf and conventions of names.
+    * It has to inform to the user, in a clear and simple way, about what it
+is happening at every moment.
+    * It has to be possible to preseed everything or part of the information
+required for the installation.
+    * If the information gathered by a dialogue is preseed, the dialogue will
+not be shown.
+    * It has to be possible to install the HOME in a partition aside.
+    * The default option for the partitioning step must be “automatic
+partitioning” .
+    * Options that can not be used will not be offered (example:
+auto-partitioning).
+    * It has to be able to be internationalized.
+    * It must respect the existing data and operating systems in the disc
+before installing.
+    * It has to be able to resize a partition, with enough available space, if
+there is no space unpartitioned available in the disc.
+
+
+Sequence
+--------
+
+   1. Greetings and information of what is going on in each step.
+   2. User’s name, full name and password. Name of the system (Hostname).
+   3. Partitioning.
+   4. Progress bar (format, copy of distro and configuration)
+   5. Goodbye.
+
+
+Dependences
+-----------
+
+    * A live Ubuntu or Metadistro based distribution.
+    * Gparted.
+    * partman.
+    * Python.
+    * A Debconf package, called express[1], loaded from the live system.
+    * Network’s state detection and notification from the Live system. (At the
+beginning of the session)
+
+
+To discuss
+==========
+
+Points
+------
+
+   1. Sepparate /home partition.
+   2. Possibility of keeping the selections from an installation.
+   3. Possibility of adding modules in real time.
+   4. To eliminate the locales and network dialogs.
+
+(the debate is to be developed in the Mail Lists )
+
+Do not hesitate to make postings in english. Also you have a English Mail List
+Conclusions
+
+   1. No problem with this point. In fact, it makes easy any migration and so
+on.
+   2. The chosen options during the installation process are going to be saved
+into a file.
+   3. We must talk more about this one.
+   4. The locales stuff doesn’t affect to Ubuntu. About the network was
+said it is better for the usability but no decision has been taken yet.
+
+
+[1] It’s just a debconf template with the questions and answers needed for
+presseding the installer
+
+--
+Javier Carranza <javier.carranza@interactors.coop>, Fri, 29 Jul 2005 17:04:51 +0200

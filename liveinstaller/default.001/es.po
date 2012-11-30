@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: liveinstaller\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-22 18:04+0200\n"
+"PO-Revision-Date: 2005-07-22 18:04+0200\n"
+"Last-Translator: Javier Carranza <javier.carranza@interactors.coop>\n"
+"Language-Team: Spanish <ES@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: liveinstaller.glade:11
+msgid "Guadalinex 2005 live installer"
+msgstr "Instalador Guadalinex 2005"
+
+#: liveinstaller.glade:38
+msgid "Welcome to Guadalinex"
+msgstr "Bienvenido a Guadalinex"
+
+#: liveinstaller.glade:39
+msgid ""
+"Guadalinex is Free Software. Every program which includes the Guadalinex "
+"distribution has its own license. The most provides a GPL license, but if "
+"you wish to modify any application should before consult the specific terms "
+"of each one. In any case, the Guadalinex distribution includes the "
+"improvements or modifications on applications and scripts of installation, "
+"the documentation and the graphical material license under GPL and therefore "
+"has allowed to its reproduction and diffusion whenever this license stays."
+msgstr ""
+"Guadalinex es Software Libre. Cada uno de los programas y aplicaciones que "
+"integran la distribución Guadalinex tiene su propia licencia. En muchos "
+"casos es una licencia GPL, pero si desea modificar cualquier aplicación "
+"debería consultar antes los términos específicos de cada una. En cualquier "
+"caso, la distribución Guadalinex en sí, incluidas las mejoras o "
+"modificaciones sobre aplicaciones y scripts de instalación, la documentación"
+"y el material gráfico se licencia bajo GPL y por tanto está permitida su "
+"reproducción y difusión siempre que se mantenga esta licencia."
+
+#: liveinstaller.glade:49
+msgid "Timezone and Language"
+msgstr "Zona horaria e Idioma"
+
+#: liveinstaller.glade:93
+msgid ""
+"Select the using language to the installation process of Guadalinex 2005.\n"
+"In addition the timezone where its computer is located is asked for, in "
+"order to set the local system hour correctly."
+msgstr ""
+"Seleccione el idioma a utilizar durante el proceso de instalación de "
+"Guadalinex 2005.\n"
+"Además se le solicita la zona horaria donde su equipo está localizado, a fin"
+"de configurar correctamente el sistema horario local."
+
+#: liveinstaller.glade:155
+msgid "Timezone:"
+msgstr "Franja Horaria:"
+
+#: liveinstaller.glade:185
+msgid ""
+"English\n"
+"Spanish"
+msgstr ""
+"Español\n"
+"Inglés"
+
+#: liveinstaller.glade:204
+msgid ""
+"Installation \n"
+"language:"
+msgstr ""
+"Idioma de \n"
+"instalación:"
+
+#: liveinstaller.glade:271
+msgid "System Configuration"
+msgstr "Configuración de sistema"
+
+#: liveinstaller.glade:315
+msgid ""
+"The Guadalinex system needs user and password for its installation.\n"
+"The first user created  in the system will obtain administration privileges, "
+"so after this installation it will be the only one who will be enabled to "
+"make tasks of installation or configurations of this system.\n"
+"Type your password twice to verify its correct writing.\n"
+"The system needs a hostname with which to be able to manage tasks of network "
+"and maintenance of system.\n"
+"Assign a name to your computer so it can be easily identifiable in yours "
+"domestic network."
+msgstr ""
+"El sistema Guadalinex precisa de un usuario y contraseña para su "
+"instalación.\n"
+"El primer usuario del sistema obtendrá privilegios de administración, de "
+"forma que tras la instalación será el único capacitado para realizar tareas "
+"de instalación de aplicaciones o configuraciones de sistema.\n"
+"Introduzca su contraseña en dos ocasiones para verificar su correcta "
+"escritura.\n"
+"El sistema necesita un nombre identificativo con el que poder gestionar tareas"
+"de red y mantenimiento de sistema. \n"
+"Asigne un nombre a su equipo de forma que pueda ser fácilmente identificable en"
+"su red doméstica."
+
+#: liveinstaller.glade:464
+msgid "Username:"
+msgstr "Usuario:"
+
+#: liveinstaller.glade:495
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: liveinstaller.glade:525
+msgid "Verify password:"
+msgstr "Comprobación de\n"
+"Contraseña:"
+
+#: liveinstaller.glade:555
+msgid "Hostname:"
+msgstr "Nombre del\n"
+"Equipo:"
+
+#: liveinstaller.glade:622
+msgid "Network configuration"
+msgstr "Configuración de red"
+
+#: liveinstaller.glade:666
+msgid ""
+"In order to be able to communicate this system with other computers of your "
+"own domestic network or the Internet, we will have to verify its "
+"possibilities of connection. \n"
+"In addition, if an automated system of network configuration doesn't exist, "
+"you will have to specify the connection data  provides by your supplier of "
+"services of Internet to you manually."
+msgstr ""
+"Para poder comunicar su sistema con otros ordenadores de su propia red "
+"doméstica o Internet, deberemos comprobar sus posibilidades de conexión.\n"
+"Asímismo, en caso de no existir un sistema automatizado de asignación de "
+"datos de configuración de red, deberá especificar manualmente los datos de "
+"conexión facilitados por su proveedor de servicios de Internet."
+
+#: liveinstaller.glade:709
+msgid "Partitioning"
+msgstr "Particionado"
+
+#: liveinstaller.glade:731
+msgid "Installing..."
+msgstr "Instalando..."
+
+#: liveinstaller.glade:763
+msgid "Guadalinex 2005 progress installation"
+msgstr "Progreso de la instalación de Guadalinex 2005"
+
+#: liveinstaller.glade:781
+msgid "Just enjoy it !!"
+msgstr "Disfrútalo"
+
+#: liveinstaller.glade:782
+msgid ""
+"The Guadalinex 2005 installation has ended. \n"
+"\n"
+"We animated to you to test all the power of the Guadalinex desktop, throws a "
+"first sight to the complete selection of applications including in our "
+"operating system. \n"
+"\n"
+"Enjoy with all the power and functionality that free software makes you "
+"available."
+msgstr ""
+"La instalación de Guadalinex 2005 ha finalizado.\n"
+"\n"
+"Le animamos a probar toda la potencia del escritorio Guadalinex, eche un "
+"vistazo a la completa selección de aplicaciones incluidas en nuestro sistema"
+"operativo. \n"
+"\n"
+"Disfrute con toda la potencia y funcionalidad que el software libre pone a"
+"su disposición."

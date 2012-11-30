@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="118"
+   name=""
+   committed-date="2005-08-04T11:50:30.532418Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/doc"
+   last-author="antonio"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="118"
+   name="index.html"
+   text-time="2005-08-04T10:22:01.000000Z"
+   committed-date="2005-08-04T11:50:30.532418Z"
+   checksum="a978f579320b9ada8814f1acd9a850bb"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-04T10:21:56.000000Z"/>
+<entry
+   committed-rev="118"
+   name="epydoc.css"
+   text-time="2005-08-04T10:22:01.000000Z"
+   committed-date="2005-08-04T11:50:30.532418Z"
+   checksum="eb7542bde61d726f815143c875d24f3f"
+   last-author="antonio"
+   kind="file"
+   prop-time="2005-08-04T10:21:59.000000Z"/>
+<entry
+   name="public"
+   kind="dir"/>
+</wc-entries>

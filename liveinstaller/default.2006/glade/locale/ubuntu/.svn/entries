@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="295"
+   name=""
+   committed-date="2005-08-25T03:18:25.182076Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/glade/locale/ubuntu"
+   last-author="juanje"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+</wc-entries>

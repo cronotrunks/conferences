@@ -1,0 +1,71 @@
+ubuntu-express (0.99-1) breezy; urgency=low
+
+  * New UI design for gtk frontend.
+  * Dual resolution supported (widget distribution and sizes are modified from
+    screen resolution).
+  * New grub configuration algorithm based on grub-installer scripts (from
+    debian package).
+  * Several bugfixes.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Wed, 30 Nov 2005 07:56:39 +0200
+
+ubuntu-express (0.98ubuntu1) breezy; urgency=low
+
+  * Added mountpoints validation and mountpoints preselection.
+  * Added remaining time to progress bar.
+  * Added a lot of source documentation and epydoc output fully updated.
+  * Added peez2 autopartitioning (using freespace and reusing linux filesystems
+    partition algorithms implemented).
+  * A lot of bugfixes.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Sun, 16 Oct 2005 11:05:34 +0200
+
+ubuntu-express (0.92ubuntu1) breezy; urgency=low
+
+  * Added new mountpoint selector.
+  * Some fixes to make lintian-friendly.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Tue, 06 Sep 2005 12:48:23 +0200
+
+ubuntu-express (0.91ubuntu1) breezy; urgency=low
+
+  * Validation module connected with gtk interface (for user and system input 
+    information).
+  * Gtk interface for validation module fully implemented.
+  * fixed several bugs reported from ubuntu-devel list.
+  * snapshots from quickguide updated.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Thu, 25 Aug 2005 16:50:48 +0200
+
+ubuntu-express (0.9ubuntu1) breezy; urgency=low
+
+  * Backend / frontend connection completed.
+  * Bootloader configuration (final implementations).
+  * gtkui.py module full rewrited.
+  * fixed a lot of bugs.
+  * single backend splitted into several separated backends.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Wed, 24 Aug 2005 15:43:53 +0200
+
+ubuntu-express (0.7ubuntu1) breezy; urgency=low
+
+  * Druid changed into notepad.
+  * Backend and frontend connection.
+  * Full bootloader support.
+  * Ubuntu Express scripts are now more modularized.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Tue, 16 Aug 2005 21:02:11 +0200
+
+ubuntu-express (0.4ubuntu2) breezy; urgency=low
+
+  * Some UI changes.
+  * A lot of stuff to get more stabililty between UE modules.
+  * some fixes related to branding.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Thu, 11 Aug 2005 11:31:20 +0200
+
+ubuntu-express (0.4ubuntu1) breezy; urgency=low
+
+  * Initial Release.
+
+ -- Javier Carranza <javier.carranza@interactors.coop>  Fri, 29 Jul 2005 17:04:51 +0200

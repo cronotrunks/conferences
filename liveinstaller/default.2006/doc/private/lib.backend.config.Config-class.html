@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>lib.backend.config.Config</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="lib-module.html">Package&nbsp;lib</a> ::
+        <a href="../private/lib.backend-module.html">Package&nbsp;backend</a> ::
+        <a href="../private/lib.backend.config-module.html">Module&nbsp;config</a> ::
+        Class&nbsp;Config
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[<b>show&nbsp;private</b>&nbsp;|&nbsp;hide&nbsp;private]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="../private/lib.backend.config.Config-class.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF CLASS DESCRIPTION =========== -->
+<h2 class="class">Class Config</h2>
+
+<hr/>
+
+
+<!-- =========== START OF METHOD SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Method Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#__init__" class="summary-sig-name"><code>__init__</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>vars</span>)</span></code>
+<br />
+Initial attributes.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#chrex" class="summary-sig-name"><code>chrex</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class="summary-sig-vararg">*args</span>)</span></code>
+<br />
+executes commands on chroot system (provided by *args).</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_bootloader" class="summary-sig-name"><code>configure_bootloader</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+configuring and installing boot loader into installed hardware 
+system.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_fstab" class="summary-sig-name"><code>configure_fstab</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+create and configure /etc/fstab depending on our installation 
+selections.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_hardware" class="summary-sig-name"><code>configure_hardware</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+reconfiguring several packages which depends on the hardware system in 
+which has been installed on and need some automatic configurations to get 
+work.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_hostname" class="summary-sig-name"><code>configure_hostname</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+setting hostname into installed system from data got along the 
+installation process.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_keymap" class="summary-sig-name"><code>configure_keymap</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+set keymap on installed system (which was obtained from 
+get_locales).</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_network" class="summary-sig-name"><code>configure_network</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+setting network configuration into installed system from live system 
+data.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_timezone" class="summary-sig-name"><code>configure_timezone</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+set timezone on installed system (which was obtained from 
+get_locales).</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#configure_user" class="summary-sig-name"><code>configure_user</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+create the user selected along the installation process into the 
+installed system.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#copy_debconf" class="summary-sig-name"><code>copy_debconf</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>package</span>)</span></code>
+<br />
+setting debconf database into installed system.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#get_locales" class="summary-sig-name"><code>get_locales</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+set timezone and keymap attributes from debconf.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#reconfigure" class="summary-sig-name"><code>reconfigure</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>package</span>)</span></code>
+<br />
+executes a dpkg-reconfigure into installed system to each package 
+which provided by args.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/lib.backend.config.Config-class.html#run" class="summary-sig-name"><code>run</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>queue</span>)</span></code>
+<br />
+Run configuration stage.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="set_debconf"></a><span class="summary-sig"><span class="summary-sig-name">set_debconf</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>owner</span>,
+          <span class=summary-sig-arg>question</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+</table><br />
+
+
+<!-- =========== START OF METHOD DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Method Details</th></tr>
+</table>
+
+<a name="__init__"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">__init__</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>vars</span>)</span>
+    <br /><i>(Constructor)</i>
+  </h3>
+  Initial attributes.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="chrex"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">chrex</span>(<span class=sig-arg>self</span>,
+          <span class="sig-vararg">*args</span>)</span>
+  </h3>
+  executes commands on chroot system (provided by *args).
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_bootloader"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_bootloader</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  configuring and installing boot loader into installed hardware 
+  system.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_fstab"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_fstab</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  create and configure /etc/fstab depending on our installation 
+  selections. It creates a swapfile instead of swap partition if it isn't 
+  defined along the installation process.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_hardware"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_hardware</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  reconfiguring several packages which depends on the hardware system 
+  in which has been installed on and need some automatic configurations 
+  to get work.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_hostname"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_hostname</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  setting hostname into installed system from data got along the 
+  installation process.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_keymap"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_keymap</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  set keymap on installed system (which was obtained from 
+  get_locales).
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_network"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_network</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  setting network configuration into installed system from live system 
+  data. It's provdided by setup-tool-backends.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_timezone"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_timezone</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  set timezone on installed system (which was obtained from 
+  get_locales).
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="configure_user"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">configure_user</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  create the user selected along the installation process into the 
+  installed system. Default user from live system is deleted and skel for 
+  this new user is copied to $HOME.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="copy_debconf"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">copy_debconf</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>package</span>)</span>
+  </h3>
+  setting debconf database into installed system.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="get_locales"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">get_locales</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+  <p>set timezone and keymap attributes from debconf. It uses the same 
+  values the user have selected on live system.</p>
+  get_locales() -&gt; timezone, keymap, locales
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="reconfigure"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">reconfigure</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>package</span>)</span>
+  </h3>
+  executes a dpkg-reconfigure into installed system to each package 
+  which provided by args.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="run"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">run</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>queue</span>)</span>
+  </h3>
+  Run configuration stage. These are the last steps to launch in live 
+  installer.
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="lib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" align="right" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><th class="navbar" align="center">
+        <p class="nomargin">
+          Instalador&nbsp;«live»&nbsp;de&nbsp;Guadalinex&nbsp;2005
+      </p></th></tr></table>
+    </th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Wed Nov  9 13:46:23 2005</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

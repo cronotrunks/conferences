@@ -1,0 +1,13 @@
+Package: ubuntu-express-ubuntu-artwork
+Version: 0.91ubuntu1
+Section: admin
+Priority: optional
+Architecture: all
+Provides: ubuntu-express-artwork
+Installed-Size: 860
+Maintainer: Javier Carranza <javier.carranza@interactors.coop>
+Source: ubuntu-express
+Description: Ubuntu artwork for Ubuntu Express Live installer
+ This package provides a set of pixmaps, logo images and colormap for window
+ styles and Ubuntu Express UI. All the stuff provide by this package is Ubuntu
+ related.

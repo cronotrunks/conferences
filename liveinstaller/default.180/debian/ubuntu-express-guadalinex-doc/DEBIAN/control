@@ -1,0 +1,13 @@
+Package: ubuntu-express-guadalinex-doc
+Version: 0.7ubuntu1
+Section: admin
+Priority: optional
+Architecture: all
+Provides: ubuntu-express-doc
+Installed-Size: 356
+Maintainer: Javier Carranza <javier.carranza@interactors.coop>
+Source: ubuntu-express
+Description: Guadalinex Documentation and help files for Ubuntu Express Live installer
+ This package provides a set of help files, html pages for the Ubuntu Express
+ UI, text messages for the installer and more stuff related to Guadalinex
+ distribution.

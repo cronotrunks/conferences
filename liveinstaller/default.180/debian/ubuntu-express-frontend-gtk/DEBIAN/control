@@ -1,0 +1,11 @@
+Package: ubuntu-express-frontend-gtk
+Version: 0.7ubuntu1
+Section: admin
+Priority: optional
+Architecture: all
+Provides: ubuntu-express-frontend
+Installed-Size: 156
+Maintainer: Javier Carranza <javier.carranza@interactors.coop>
+Source: ubuntu-express
+Description: Gtk+ Frontend for Ubuntu Express Live installer
+ This package provides a Gtk+ based Ubuntu Express GUI.

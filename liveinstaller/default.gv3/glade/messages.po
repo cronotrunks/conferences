@@ -1,0 +1,665 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-06 04:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: liveinstaller.glade:9
+msgid "Express installer"
+msgstr ""
+
+#: liveinstaller.glade:40
+msgid "Cuadro de navegación del instalador"
+msgstr ""
+
+#: liveinstaller.glade:50
+msgid "Introducción al instalador"
+msgstr ""
+
+#: liveinstaller.glade:67 liveinstaller.glade:183 liveinstaller.glade:887
+#: liveinstaller.glade:1408 liveinstaller.glade:1632 liveinstaller.glade:2879
+#: liveinstaller.glade:3130
+msgid "Logotipo de la distribución"
+msgstr ""
+
+#: liveinstaller.glade:80
+msgid ""
+"<span foreground=\"#9F6C49\"> <span foreground=\"white\" background=\"#9F6C49"
+"\"><b>0. Intro</b></span> > <b>1. Identification</b> > <b>2. Disk space</b> "
+"> <b>3. Installation</b> > <b>4. Ready!</b></span>"
+msgstr ""
+
+#: liveinstaller.glade:95
+msgid "Paso 1"
+msgstr ""
+
+#: liveinstaller.glade:96
+msgid "Instrucciones previas sobre el proceso de instalación"
+msgstr ""
+
+#: liveinstaller.glade:140
+msgid "0"
+msgstr ""
+
+#: liveinstaller.glade:166
+msgid "Recopilación de datos"
+msgstr ""
+
+#: liveinstaller.glade:196
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <span foreground=\"white\" "
+"background=\"#9F6C49\"><b>1. Identification</b></span> > <b>2. Disk space</"
+"b> > <b>3. Installation</b> > <b>4. Ready!</b></span>"
+msgstr ""
+
+#: liveinstaller.glade:211
+msgid "Paso 2"
+msgstr ""
+
+#: liveinstaller.glade:212
+msgid "Recopilación de datos para la instalación del sistema"
+msgstr ""
+
+#: liveinstaller.glade:250 liveinstaller.glade:2945
+msgid "Imagen decorativa"
+msgstr ""
+
+#: liveinstaller.glade:269
+msgid "<span size=\"xx-large\">Identify yourself and your computer</span>"
+msgstr ""
+
+#: liveinstaller.glade:284
+msgid "Identifíquese y dé nombre a su equipo"
+msgstr ""
+
+#: liveinstaller.glade:309 liveinstaller.glade:591
+msgid "Datos personales"
+msgstr ""
+
+#: liveinstaller.glade:340
+msgid "Real Name:"
+msgstr ""
+
+#: liveinstaller.glade:355 liveinstaller.glade:381
+msgid "Nombre completo"
+msgstr ""
+
+#: liveinstaller.glade:382
+msgid "Rellene el campo con su nombre completo"
+msgstr ""
+
+#: liveinstaller.glade:398
+msgid "Username:"
+msgstr ""
+
+#: liveinstaller.glade:413 liveinstaller.glade:439
+msgid "Nombre de usuario"
+msgstr ""
+
+#: liveinstaller.glade:440
+msgid "Teclee el nombre de usuario que desea utilizar para el sistema"
+msgstr ""
+
+#: liveinstaller.glade:456
+msgid "Password:"
+msgstr ""
+
+#: liveinstaller.glade:471 liveinstaller.glade:497
+msgid "Contraseña"
+msgstr ""
+
+#: liveinstaller.glade:498
+msgid ""
+"Rellene este campo con la contraseña que desee asignar a su usuario en el "
+"equipo"
+msgstr ""
+
+#: liveinstaller.glade:523
+msgid "Comprobación de contraseña"
+msgstr ""
+
+#: liveinstaller.glade:524
+msgid "Vuelva a teclear su contraseña para la verificación."
+msgstr ""
+
+#: liveinstaller.glade:540
+msgid "Verify password:"
+msgstr ""
+
+#: liveinstaller.glade:555
+msgid "Repetir contraseña"
+msgstr ""
+
+#: liveinstaller.glade:576
+msgid "<b>Personal data</b>"
+msgstr ""
+
+#: liveinstaller.glade:620 liveinstaller.glade:752
+msgid "Datos del equipo"
+msgstr ""
+
+#: liveinstaller.glade:648
+msgid "Hostname:"
+msgstr ""
+
+#: liveinstaller.glade:663 liveinstaller.glade:716
+msgid "Nombre del equipo"
+msgstr ""
+
+#: liveinstaller.glade:717
+msgid "Rellene el campo con el nombre que desee adjudicar a su ordenador."
+msgstr ""
+
+#: liveinstaller.glade:737
+msgid "<b>Computer data</b>"
+msgstr ""
+
+#: liveinstaller.glade:777
+msgid ""
+"<span>Es necesario que introduzca su <b>nombre de usuario</b> para el "
+"sistema, su <b>nombre completo</b> para generar una ficha de usuario, así "
+"como el <b>nombre de máquina</b> con el que quiera bautizar su equipo. "
+"Deberá teclear la contraseña de usuario en dos ocasiones.</span>"
+msgstr ""
+
+#: liveinstaller.glade:844
+msgid "1"
+msgstr ""
+
+#: liveinstaller.glade:870
+msgid "Selección de particionado"
+msgstr ""
+
+#: liveinstaller.glade:900 liveinstaller.glade:1421 liveinstaller.glade:1645
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <b>1. Identification</b> > "
+"<span foreground=\"white\" background=\"#9F6C49\"><b>2. Disk space</b></"
+"span> > <b>3. Installation</b> > <b>4. Ready!</b></span>"
+msgstr ""
+
+#: liveinstaller.glade:915
+msgid "Selección del modo de instalación"
+msgstr ""
+
+#: liveinstaller.glade:916
+msgid "Selección del tipo de particionamiento preferido para la instalación"
+msgstr ""
+
+#: liveinstaller.glade:955 liveinstaller.glade:1476 liveinstaller.glade:1693
+msgid ""
+"<span size=\"xx-large\">Please prepare some space for you new system</span>"
+msgstr ""
+
+#: liveinstaller.glade:970
+msgid "Decida el método de instalación para su sistema"
+msgstr ""
+
+#: liveinstaller.glade:1006
+msgid "<b>Unidades de disco disponibles</b>"
+msgstr ""
+
+#: liveinstaller.glade:1070
+msgid "<b>¿Cómo desea particionar el disco?</b>"
+msgstr ""
+
+#: liveinstaller.glade:1111
+msgid ""
+"Seleccione esta opción para usar el espacio libre que hay en su disco duro, "
+"sin perder los datos que ya contiene"
+msgstr ""
+
+#: liveinstaller.glade:1113
+msgid "Usar el espacio libre [EXPERIMENTAL]"
+msgstr ""
+
+#: liveinstaller.glade:1136
+msgid ""
+"Con este método se aprovecharán las particiones GNU/Linux que hay en el "
+"disco duro, reemplazando el sistema anterior"
+msgstr ""
+
+#: liveinstaller.glade:1138
+msgid "Reutilizar las particiones existentes"
+msgstr ""
+
+#: liveinstaller.glade:1162 liveinstaller.glade:1188
+msgid ""
+"Particionamiento avanzado: mediante esta opción podrá crear, redimensionar y "
+"destruir las particiones actuales de su disco duro con entera libertad"
+msgstr ""
+
+#: liveinstaller.glade:1164
+msgid "Particionar a mano"
+msgstr ""
+
+#: liveinstaller.glade:1190
+msgid "Utilizar el disco completo"
+msgstr ""
+
+#: liveinstaller.glade:1275
+msgid "Marque esta casilla para confirmar la operación"
+msgstr ""
+
+#: liveinstaller.glade:1277
+msgid "Confirmar el particionado automático"
+msgstr ""
+
+#: liveinstaller.glade:1324
+msgid "Barra de progreso del particionado"
+msgstr ""
+
+#: liveinstaller.glade:1365
+msgid "2-1"
+msgstr ""
+
+#: liveinstaller.glade:1391
+msgid "Particionado avanzado"
+msgstr ""
+
+#: liveinstaller.glade:1436
+msgid "Particionamiento avanzado"
+msgstr ""
+
+#: liveinstaller.glade:1437
+msgid "Selección, creación y modificación de particiones"
+msgstr ""
+
+#: liveinstaller.glade:1491
+msgid "Particione manualmente sus discos"
+msgstr ""
+
+#: liveinstaller.glade:1539
+msgid ""
+"You have to make room in one or more of your hard disks in order to have GNU/"
+"Linux properly installed. 3 partitions are necessary:\n"
+"· The root partition (“/”), with a minimum size of 2.0 GB.\n"
+"· The home partition (“/home”), of 512 MB at least.\n"
+"· The swap partition (“swap”), with 256 MB or more.\n"
+"You can now modify your existing partition table and select where you wan "
+"what.\n"
+"Remember that you can keep the data in a previous home partition – just "
+"leave it as it is and it will not be formatted.\n"
+"Alternatively, it is possible to return to the previous page to select an "
+"easier partitioning method."
+msgstr ""
+
+#: liveinstaller.glade:1589
+msgid "2-2"
+msgstr ""
+
+#: liveinstaller.glade:1615 liveinstaller.glade:1660
+msgid "Selección de puntos de montaje"
+msgstr ""
+
+#: liveinstaller.glade:1708
+msgid "Decida los puntos de montaje para su sistema"
+msgstr ""
+
+#: liveinstaller.glade:1757
+msgid ""
+"Now you should have at least 3 GNU/Linux partitions with space enough. It's "
+"time to specify where you want every component to be installed.\n"
+"Proceed as follows: select one partition in the column on the left and link "
+"it with one mount point on the right. Repeat for every desired partition.\n"
+"There are 3 necessary “mount points” – they must be associated with 3 "
+"partitions. They are “/”, “/home” and “swap”.\n"
+"If you kept an intact home partition, you can now link it with the “/home” "
+"mount point. It will not be formatted, so data is preserved."
+msgstr ""
+
+#: liveinstaller.glade:1811
+msgid "<b>Mountpoint</b>"
+msgstr ""
+
+#: liveinstaller.glade:1826
+msgid "Puntos de montaje"
+msgstr ""
+
+#: liveinstaller.glade:1849 liveinstaller.glade:1872 liveinstaller.glade:1895
+#: liveinstaller.glade:1918 liveinstaller.glade:1941 liveinstaller.glade:1964
+#: liveinstaller.glade:1987 liveinstaller.glade:2010 liveinstaller.glade:2033
+#: liveinstaller.glade:2056
+msgid ""
+"swap\n"
+"/\n"
+"/home\n"
+"/boot\n"
+"/usr\n"
+"/var"
+msgstr ""
+
+#: liveinstaller.glade:1859
+msgid "Punto de montaje 1"
+msgstr ""
+
+#: liveinstaller.glade:1882
+msgid "Punto de montaje 2"
+msgstr ""
+
+#: liveinstaller.glade:1905
+msgid "Punto de montaje 3"
+msgstr ""
+
+#: liveinstaller.glade:1928
+msgid "Punto de montaje 4"
+msgstr ""
+
+#: liveinstaller.glade:1951
+msgid "Punto de montaje 5"
+msgstr ""
+
+#: liveinstaller.glade:1974
+msgid "Punto de montaje 6"
+msgstr ""
+
+#: liveinstaller.glade:1997
+msgid "Punto de montaje 7"
+msgstr ""
+
+#: liveinstaller.glade:2020
+msgid "Punto de montaje 8"
+msgstr ""
+
+#: liveinstaller.glade:2043
+msgid "Punto de montaje 9"
+msgstr ""
+
+#: liveinstaller.glade:2066
+msgid "Punto de montaje 10"
+msgstr ""
+
+#: liveinstaller.glade:2093
+msgid "<b>Size</b>"
+msgstr ""
+
+#: liveinstaller.glade:2108
+msgid "Tamaño"
+msgstr ""
+
+#: liveinstaller.glade:2146
+msgid "Tamaño partición 1"
+msgstr ""
+
+#: liveinstaller.glade:2174
+msgid "Tamaño partición 2"
+msgstr ""
+
+#: liveinstaller.glade:2202
+msgid "Tamaño partición 3"
+msgstr ""
+
+#: liveinstaller.glade:2230
+msgid "Tamaño partición 4"
+msgstr ""
+
+#: liveinstaller.glade:2258
+msgid "Tamaño partición 5"
+msgstr ""
+
+#: liveinstaller.glade:2286
+msgid "Tamaño partición 6"
+msgstr ""
+
+#: liveinstaller.glade:2314
+msgid "Tamaño partición 7"
+msgstr ""
+
+#: liveinstaller.glade:2342
+msgid "Tamaño partición 8"
+msgstr ""
+
+#: liveinstaller.glade:2370
+msgid "Tamaño partición 9"
+msgstr ""
+
+#: liveinstaller.glade:2398
+msgid "Tamaño partición 10"
+msgstr ""
+
+#: liveinstaller.glade:2425
+msgid "<b>Partition</b>"
+msgstr ""
+
+#: liveinstaller.glade:2440
+msgid "Partición"
+msgstr ""
+
+#: liveinstaller.glade:2463 liveinstaller.glade:2480 liveinstaller.glade:2497
+#: liveinstaller.glade:2514 liveinstaller.glade:2531 liveinstaller.glade:2548
+#: liveinstaller.glade:2565 liveinstaller.glade:2582 liveinstaller.glade:2599
+#: liveinstaller.glade:2616
+msgid "/dev/hda"
+msgstr ""
+
+#: liveinstaller.glade:2467
+msgid "Partición 1"
+msgstr ""
+
+#: liveinstaller.glade:2484
+msgid "Partición 2"
+msgstr ""
+
+#: liveinstaller.glade:2501
+msgid "Partición 3"
+msgstr ""
+
+#: liveinstaller.glade:2518
+msgid "Partición 4"
+msgstr ""
+
+#: liveinstaller.glade:2535
+msgid "Partición 5"
+msgstr ""
+
+#: liveinstaller.glade:2552
+msgid "Partición 6"
+msgstr ""
+
+#: liveinstaller.glade:2569
+msgid "Partición 7"
+msgstr ""
+
+#: liveinstaller.glade:2586
+msgid "Partición 8"
+msgstr ""
+
+#: liveinstaller.glade:2603
+msgid "Partición 9"
+msgstr ""
+
+#: liveinstaller.glade:2620
+msgid "Partición 10"
+msgstr ""
+
+#: liveinstaller.glade:2712 liveinstaller.glade:3554 liveinstaller.glade:3729
+msgid "Aviso"
+msgstr ""
+
+#: liveinstaller.glade:2744
+msgid ""
+"<span>Debe introducir un punto de montaje <b>\"/\"</b> para su sistema "
+"instalado.</span>"
+msgstr ""
+
+#: liveinstaller.glade:2759
+msgid "Debe introducir un punto de montaje \"/\" para su sistema instalado."
+msgstr ""
+
+#: liveinstaller.glade:2836
+msgid "2-3"
+msgstr ""
+
+#: liveinstaller.glade:2862
+msgid "Progreso de la instalación desasistida"
+msgstr ""
+
+#: liveinstaller.glade:2892
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <b>1. Identification</b> > "
+"<b>2. Disk space</b> > <span foreground=\"white\" background=\"#9F6C49"
+"\"><b>3. Installation</b></span> > <b>4. Ready!</b></span>"
+msgstr ""
+
+#: liveinstaller.glade:2907
+msgid "Progreso de la instalación"
+msgstr ""
+
+#: liveinstaller.glade:2964
+msgid ""
+"<span size=\"xx-large\">Introducing your forthcoming free desktop</span>"
+msgstr ""
+
+#: liveinstaller.glade:2979
+msgid "Presentación de la distribución"
+msgstr ""
+
+#: liveinstaller.glade:3007
+msgid "Mensajes de introducción a la distribución"
+msgstr ""
+
+#: liveinstaller.glade:3026
+msgid "Capturas de pantalla de la distribución"
+msgstr ""
+
+#: liveinstaller.glade:3057
+msgid "Installation progress"
+msgstr ""
+
+#: liveinstaller.glade:3060
+msgid "Barra de progreso de la instalación"
+msgstr ""
+
+#: liveinstaller.glade:3087
+msgid "3"
+msgstr ""
+
+#: liveinstaller.glade:3113 liveinstaller.glade:3158
+msgid "Instalación finalizada"
+msgstr ""
+
+#: liveinstaller.glade:3143
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <b>1. Identification</b> > "
+"<b>2. Disk space</b> > <b>3. Installation</b> > <span foreground=\"white\" "
+"background=\"#9F6C49\"><b>4. Ready!</b></span></span>"
+msgstr ""
+
+#: liveinstaller.glade:3191
+msgid "<span size=\"xx-large\">Congratulations!</span>"
+msgstr ""
+
+#: liveinstaller.glade:3206
+msgid "¡Felicidades!"
+msgstr ""
+
+#: liveinstaller.glade:3227
+msgid ""
+"The installation has been successfully completed.\n"
+"\n"
+"In order to work with your new free operative system you need to eject the "
+"CDLive and reboot your computer."
+msgstr ""
+
+#: liveinstaller.glade:3244
+msgid ""
+"La instalación se ha completado con éxito. Para probar su nuevo sistema "
+"operativo, reinicie el equipo y extraiga el CD de la bandeja del lector."
+msgstr ""
+
+#: liveinstaller.glade:3270
+msgid "Ready"
+msgstr ""
+
+#: liveinstaller.glade:3303 liveinstaller.glade:3337
+msgid "Botonera del instalador"
+msgstr ""
+
+#: liveinstaller.glade:3338
+msgid "Barra de control del proceso de instalación"
+msgstr ""
+
+#: liveinstaller.glade:3357
+msgid "Ayuda"
+msgstr ""
+
+#: liveinstaller.glade:3358
+msgid "Mostrar de nuevo la información de ayuda."
+msgstr ""
+
+#: liveinstaller.glade:3390 liveinstaller.glade:3505
+msgid "Cancelar"
+msgstr ""
+
+#: liveinstaller.glade:3391 liveinstaller.glade:3524
+msgid "Salir del instalador"
+msgstr ""
+
+#: liveinstaller.glade:3392
+msgid "Saliendo del instalador"
+msgstr ""
+
+#: liveinstaller.glade:3410
+msgid "Atrás"
+msgstr ""
+
+#: liveinstaller.glade:3411
+msgid "Volver al paso anterior"
+msgstr ""
+
+#: liveinstaller.glade:3429
+msgid "Siguiente"
+msgstr ""
+
+#: liveinstaller.glade:3430
+msgid "Avanzar al paso siguiente"
+msgstr ""
+
+#: liveinstaller.glade:3463 liveinstaller.glade:3479
+msgid "¿Salir del instalador?"
+msgstr ""
+
+#: liveinstaller.glade:3506 liveinstaller.glade:3699
+msgid "Volver al instalador"
+msgstr ""
+
+#: liveinstaller.glade:3523
+msgid "Salir"
+msgstr ""
+
+#: liveinstaller.glade:3589 liveinstaller.glade:3604
+msgid "¿Desea salir verdaderamente del instalador?"
+msgstr ""
+
+#: liveinstaller.glade:3616 liveinstaller.glade:3790
+msgid "<b>Instalador</b>"
+msgstr ""
+
+#: liveinstaller.glade:3631 liveinstaller.glade:3805
+msgid "Instalador"
+msgstr ""
+
+#: liveinstaller.glade:3659
+msgid "Se interrumpió el particionado"
+msgstr ""
+
+#: liveinstaller.glade:3698
+msgid "Aceptar"
+msgstr ""
+
+#: liveinstaller.glade:3764 liveinstaller.glade:3779
+msgid ""
+"No es posible particionar automáticamente esta unidad. Tendrá que "
+"seleccionar otra forma de particionado."
+msgstr ""

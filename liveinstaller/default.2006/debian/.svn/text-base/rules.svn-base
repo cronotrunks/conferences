@@ -1,0 +1,95 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+BUILDDIR=$(CURDIR)/debian/build
+
+build: build-stamp
+
+build-stamp:
+	dh_testdir
+
+	mkdir -p $(BUILDDIR)/ubuntu
+	mkdir -p $(BUILDDIR)/guadalinex
+
+	# Ubuntu-doc
+	for file in $$(ls $(CURDIR)/glade/locale/ubuntu/*.po); do msgfmt -o $(BUILDDIR)/ubuntu/$$(echo $$(basename $$file) | sed -e 's,\.po$$,\.mo,') $(CURDIR)/glade/locale/ubuntu/$$(basename $$file); done || true
+
+	# Guadalinex-doc
+	for file in $$(ls $(CURDIR)/glade/locale/guadalinex/*.po); do msgfmt -o $(BUILDDIR)/guadalinex/$$(echo $$(basename $$file) | sed -e 's,\.po$$,\.mo,') $(CURDIR)/glade/locale/guadalinex/$$(basename $$file); done || true
+
+	# Fixing perms
+	chmod +x $(CURDIR)/lib/backend/*.py
+	chmod +x $(CURDIR)/lib/backend/*.sh
+
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -fr build-stamp $(BUILDDIR)
+
+	dh_clean 
+
+install:
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	dh_installdirs -A
+
+	# Ubuntu-doc
+	for locale in $$(find $(BUILDDIR)/ubuntu/ -name \*.mo -exec basename {} \; | sed -e 's/\.mo//g'); do mkdir -p $(CURDIR)/debian/ubuntu-express-ubuntu-doc/usr/share/locale/$$locale/LC_MESSAGES/; mv $(BUILDDIR)/ubuntu/$$locale\.mo $(CURDIR)/debian/ubuntu-express-ubuntu-doc/usr/share/locale/$$locale/LC_MESSAGES/ubuntu-installer.mo; done
+	cp -r $(CURDIR)/htmldocs/ubuntu $(CURDIR)/debian/ubuntu-express-ubuntu-doc/usr/share/ubuntu-express/htmldocs/
+
+	# Ubuntu-artwork
+	cp -r $(CURDIR)/glade/pixmaps/ubuntu $(CURDIR)/debian/ubuntu-express-ubuntu-artwork/usr/share/ubuntu-express/glade/pixmaps/
+
+	# Guadalinex-doc
+	for locale in $$(find $(BUILDDIR)/guadalinex/ -name \*.mo -exec basename {} \; | sed -e 's/\.mo//g'); do mkdir -p $(CURDIR)/debian/ubuntu-express-guadalinex-doc/usr/share/locale/$$locale/LC_MESSAGES/; mv $(BUILDDIR)/guadalinex/$$locale\.mo $(CURDIR)/debian/ubuntu-express-guadalinex-doc/usr/share/locale/$$locale/LC_MESSAGES/guadalinex-installer.mo; done
+	cp -r $(CURDIR)/htmldocs/guadalinex $(CURDIR)/debian/ubuntu-express-guadalinex-doc/usr/share/ubuntu-express/htmldocs/ 2> /dev/null || true
+
+	# Guadalinex-artwork
+	cp -r $(CURDIR)/glade/pixmaps/guadalinex $(CURDIR)/debian/ubuntu-express-guadalinex-artwork/usr/share/ubuntu-express/glade/pixmaps/
+
+	# Gtk+ Frontend
+	cp $(CURDIR)/lib/frontend/gtkui.py $(CURDIR)/debian/ubuntu-express-frontend-gtk/usr/lib/python2.4/site-packages/ue/frontend/
+	cp $(CURDIR)/glade/liveinstaller.glade* $(CURDIR)/debian/ubuntu-express-frontend-gtk/usr/share/ubuntu-express/glade/
+
+	# Network Cloner Frontend
+	cp $(CURDIR)/lib/frontend/netcloner.py $(CURDIR)/debian/ubuntu-express-frontend-cloner/usr/lib/python2.4/site-packages/ue/frontend/
+	cp $(CURDIR)/netcloner $(CURDIR)/debian/ubuntu-express-frontend-cloner/usr/sbin/
+
+	# Ubuntu-express
+	cp $(CURDIR)/lib/frontend/noui.py $(CURDIR)/debian/ubuntu-express/usr/lib/python2.4/site-packages/ue/frontend/
+	cp $(CURDIR)/lib/frontend/__init__.py $(CURDIR)/debian/ubuntu-express/usr/lib/python2.4/site-packages/ue/frontend/
+	cp -r $(CURDIR)/doc/* $(CURDIR)/debian/ubuntu-express/usr/share/doc/ubuntu-express/
+	cp -a $(CURDIR)/lib/{*.py,backend} $(CURDIR)/debian/ubuntu-express/usr/lib/python2.4/site-packages/ue/
+	cp $(CURDIR)/ubuntu-express $(CURDIR)/installer $(CURDIR)/debian/ubuntu-express/usr/bin/
+	rm -rf `find $(CURDIR)/debian/ -mindepth 2 -type d -name .svn`
+
+# Build architecture-independent files here.
+binary-indep: install
+
+# Build architecture-dependent files here.
+binary-arch: install
+	dh_testdir -A
+	dh_testroot -A
+	dh_installchangelogs Changelog
+	dh_installdocs -A
+#	dh_installexamples -A
+#	dh_install -A
+#	dh_installdebconf -A
+#	dh_installman -A
+	dh_strip -A
+	dh_compress -A
+	dh_fixperms -A
+	dh_python -A
+	dh_installdeb -A
+	dh_shlibdeps -A
+	dh_gencontrol -A
+	dh_md5sums -A
+	dh_builddeb -A
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

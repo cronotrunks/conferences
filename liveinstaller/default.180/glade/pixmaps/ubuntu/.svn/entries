@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="187"
+   name=""
+   committed-date="2005-08-10T10:28:36.346504Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/glade/pixmaps/ubuntu"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   committed-rev="140"
+   name="snapshot1.png"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-05T15:51:32.627834Z"
+   checksum="5bece84ca706278e81f52ba3505d072f"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+<entry
+   committed-rev="140"
+   name="logo.png"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-05T15:51:32.627834Z"
+   checksum="a436b01d7274024b477a07afe4e668b5"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+<entry
+   committed-rev="140"
+   name="lockscreen_icon.png"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-05T15:51:32.627834Z"
+   checksum="75daebe4720b40eeaedfe8f4874bc8c0"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+<entry
+   committed-rev="140"
+   name="nameresolution_id.png"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-05T15:51:32.627834Z"
+   checksum="e28e41bb674615a805c6e010f1032190"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+<entry
+   committed-rev="140"
+   name="users.png"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-05T15:51:32.627834Z"
+   checksum="3da18ccb0800458bbbd7f186e88c436b"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+<entry
+   committed-rev="187"
+   name="snapshot2.png"
+   text-time="2005-08-10T07:54:35.000000Z"
+   committed-date="2005-08-10T10:28:36.346504Z"
+   checksum="03646f7d90686aa8f707f336999bcafe"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-10T08:19:22.000000Z"/>
+<entry
+   committed-rev="187"
+   name="snapshot3.png"
+   text-time="2005-08-10T08:02:40.000000Z"
+   committed-date="2005-08-10T10:28:36.346504Z"
+   checksum="7f4f832f799e59cbfda4994b8e28ae21"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-10T08:19:22.000000Z"/>
+<entry
+   committed-rev="187"
+   name="snapshot4.png"
+   text-time="2005-08-10T07:56:04.000000Z"
+   committed-date="2005-08-10T10:28:36.346504Z"
+   checksum="9fd44002710cebc1b758fae76d9e6cb3"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-10T08:19:22.000000Z"/>
+<entry
+   committed-rev="187"
+   name="snapshot5.png"
+   text-time="2005-08-10T08:09:47.000000Z"
+   committed-date="2005-08-10T10:28:36.346504Z"
+   checksum="c0c630c6e2409ffcfa3dfb735fa01af0"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-10T08:19:22.000000Z"/>
+<entry
+   committed-rev="187"
+   name="snapshot6.png"
+   text-time="2005-08-10T08:11:46.000000Z"
+   committed-date="2005-08-10T10:28:36.346504Z"
+   checksum="22d7eac2ab285bc98f6458d836df5811"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-10T08:19:22.000000Z"/>
+<entry
+   committed-rev="187"
+   name="snapshot7.png"
+   text-time="2005-08-10T08:18:54.000000Z"
+   committed-date="2005-08-10T10:28:36.346504Z"
+   checksum="1cb4842a233f104236eddd6b9fb2e0f1"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-10T08:19:22.000000Z"/>
+<entry
+   committed-rev="140"
+   name="gnome-html.png"
+   text-time="2005-08-09T09:22:34.000000Z"
+   committed-date="2005-08-05T15:51:32.627834Z"
+   checksum="c2fb2e4a8a5281d2a35613f5800bb75c"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-09T09:22:34.000000Z"/>
+</wc-entries>

@@ -1,0 +1,652 @@
+<?xml version="1.0">
+<glade-interface>
+	<widget class="gtk.Label" id="system_label2">
+		<accessibility name="Datos del equipo">
+			<atk rel_type="label-for" name="Nombre del equipo" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="no_buttons">
+	</widget>
+	<widget class="gtk.Label" id="diskspace2_label3">
+		<accessibility name="Decida los puntos de montaje para su sistema">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="step-ready">
+		<accessibility name="Instalación finalizada">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBox" id="partition9">
+		<accessibility name="Partición 9">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="ident">
+	</widget>
+	<widget class="gtk.ComboBox" id="partition8">
+		<accessibility name="Partición 8">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBox" id="partition7">
+		<accessibility name="Partición 7">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="label-2-1">
+	</widget>
+	<widget class="gtk.Frame" id="frame7">
+	</widget>
+	<widget class="gtk.ComboBox" id="partition6">
+		<accessibility name="Partición 6">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Alignment" id="alignment8">
+	</widget>
+	<widget class="gtk.Label" id="goodbye_label1">
+		<accessibility name="La instalación se ha completado con éxito. Para probar su nuevo sistema operativo, reinicie el equipo y extraiga el CD de la bandeja del lector.">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBox" id="partition5">
+		<accessibility name="Partición 5">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint10">
+		<accessibility name="Punto de montaje 10">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Frame" id="frame5">
+	</widget>
+	<widget class="gtk.Alignment" id="alignment7">
+	</widget>
+	<widget class="gtk.ComboBox" id="partition4">
+		<accessibility name="Partición 4">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Frame" id="frame4">
+	</widget>
+	<widget class="gtk.ComboBox" id="partition3">
+		<accessibility name="Partición 3">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBox" id="partition2">
+		<accessibility name="Partición 2">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBox" id="partition1">
+		<accessibility name="Partición 1">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Alignment" id="alignment4">
+	</widget>
+	<widget class="gtk.VBox" id="subtitle-6">
+	</widget>
+	<widget class="gtk.Frame" id="frame1">
+	</widget>
+	<widget class="gtk.VBox" id="subtitle-5">
+	</widget>
+	<widget class="gtk.Alignment" id="alignment2">
+	</widget>
+	<widget class="gtk.VBox" id="vbox_mountpoints">
+	</widget>
+	<widget class="gtk.Alignment" id="alignment1">
+	</widget>
+	<widget class="gtk.VBox" id="subtitle-4">
+	</widget>
+	<widget class="gtk.VBox" id="subtitle-3">
+	</widget>
+	<widget class="gtk.VBox" id="vbox28">
+	</widget>
+	<widget class="gtk.VBox" id="subtitle-2">
+	</widget>
+	<widget class="gtk.VBox" id="vbox27">
+	</widget>
+	<widget class="gtk.VBox" id="subtitle-1">
+	</widget>
+	<widget class="gtk.VBox" id="subtitle-0">
+	</widget>
+	<widget class="gtk.VBox" id="vbox25">
+	</widget>
+	<widget class="gtk.Image" id="logo_image23">
+		<accessibility name="Logotipo de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="vbox24">
+	</widget>
+	<widget class="gtk.Image" id="logo_image22">
+		<accessibility name="Logotipo de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="vbox23">
+	</widget>
+	<widget class="gtk.VBox" id="vbox22">
+	</widget>
+	<widget class="gtk.Image" id="logo_image21">
+		<accessibility name="Logotipo de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="vbox21">
+	</widget>
+	<widget class="gtk.Label" id="label40">
+	</widget>
+	<widget class="gtk.VBox" id="vbox20">
+	</widget>
+	<widget class="gtk.Frame" id="system_frame">
+		<accessibility name="Datos del equipo">
+			<atk rel_type="label-for" name="Nombre del equipo" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="msg_error2">
+		<accessibility name="Debe introducir un punto de montaje "/" para su sistema instalado.">
+			<atk rel_type="controlled-by" name="Siguiente" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="title2-3">
+		<accessibility name="Selección de puntos de montaje">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="title2-2">
+		<accessibility name="Particionamiento avanzado" description="Selección, creación y modificación de particiones">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="password_label1">
+		<accessibility name="Contraseña">
+			<atk rel_type="label-for" name="Contraseña" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="title2-1">
+		<accessibility name="Selección del modo de instalación" description="Selección del tipo de particionamiento preferido para la instalación">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Entry" id="username">
+		<accessibility name="Nombre de usuario" description="Teclee el nombre de usuario que desea utilizar para el sistema">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="warning_info">
+	</widget>
+	<widget class="gtk.VBox" id="step-2-2">
+		<accessibility name="Particionado avanzado">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Entry" id="hostname">
+		<accessibility name="Nombre del equipo" description="Rellene el campo con el nombre que desee adjudicar a su ordenador.">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="step-2-1">
+		<accessibility name="Selección de particionado">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Dialog" id="abort_dialog">
+	</widget>
+	<widget class="gtk.Image" id="photo2">
+		<accessibility name="Imagen decorativa">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ScrolledWindow" id="scrolledwindow3">
+	</widget>
+	<widget class="gtk.ScrolledWindow" id="scrolledwindow2">
+	</widget>
+	<widget class="gtk.Image" id="photo1">
+		<accessibility name="Imagen decorativa">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HButtonBox" id="dialog-action_area1">
+	</widget>
+	<widget class="gtk.Label" id="label-ready">
+	</widget>
+	<widget class="gtk.Label" id="label38">
+	</widget>
+	<widget class="gtk.VBox" id="vbox18">
+	</widget>
+	<widget class="gtk.Window" id="live_installer">
+	</widget>
+	<widget class="gtk.VBox" id="vbox15">
+	</widget>
+	<widget class="gtk.Button" id="exitbutton">
+		<accessibility name="Salir" description="Salir del instalador">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="partition_message">
+	</widget>
+	<widget class="gtk.Dialog" id="warning_dialog">
+		<accessibility name="¿Salir del instalador?">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="vbox11">
+	</widget>
+	<widget class="gtk.RadioButton" id="recycle">
+	</widget>
+	<widget class="gtk.Label" id="installing_title_label3">
+		<accessibility name="Presentación de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Image" id="logo_image4">
+		<accessibility name="Logotipo de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Image" id="logo_image3">
+		<accessibility name="Logotipo de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.RadioButton" id="fully">
+	</widget>
+	<widget class="gtk.Label" id="fullname_label1">
+		<accessibility name="Nombre completo">
+			<atk rel_type="label-for" name="Nombre completo" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Image" id="logo_image1">
+		<accessibility name="Logotipo de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Image" id="logo_image0">
+		<accessibility name="Logotipo de la distribución">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Alignment" id="alignment10">
+	</widget>
+	<widget class="gtk.Label" id="size10">
+		<accessibility name="Tamaño partición 10">
+			<atk rel_type="controlled-by" name="Partición 10" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBox" id="drives">
+	</widget>
+	<widget class="gtk.Image" id="image4">
+		<accessibility name="Aviso">
+			<atk rel_type="label-for" name="No es posible particionar automáticamente esta unidad. Tendrá que seleccionar otra forma de particionado." />
+			<atk rel_type="label-for" name="Instalador" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Image" id="image3">
+		<accessibility name="Aviso">
+			<atk rel_type="label-for" name="¿Desea salir verdaderamente del instalador?" />
+			<atk rel_type="label-for" name="Instalador" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="hostname_label1">
+		<accessibility name="Nombre del equipo">
+			<atk rel_type="label-for" name="Nombre del equipo" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox31">
+	</widget>
+	<widget class="gtk.Frame" id="user_frame">
+		<accessibility name="Datos personales">
+			<atk rel_type="label-for" name="Nombre completo" />
+			<atk rel_type="label-for" name="Nombre de usuario" />
+			<atk rel_type="label-for" name="Contraseña" />
+			<atk rel_type="label-for" name="Comprobación de contraseña" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox30">
+	</widget>
+	<widget class="gtk.Button" id="back">
+		<accessibility name="Atrás" description="Volver al paso anterior">
+			<atk rel_type="member-of" name="Botonera del instalador" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="wizard">
+	</widget>
+	<widget class="gtk.Label" id="label-3">
+	</widget>
+	<widget class="gtk.Image" id="installing_image">
+		<accessibility name="Capturas de pantalla de la distribución">
+			<atk rel_type="controlled-by" name="Barra de progreso de la instalación" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="label29">
+	</widget>
+	<widget class="gtk.Label" id="label-1">
+	</widget>
+	<widget class="gtk.Label" id="label-0">
+	</widget>
+	<widget class="gtk.Button" id="abort_ok_button">
+		<accessibility name="Aceptar" description="Volver al instalador">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="ident_label3">
+		<accessibility name="Identifíquese y dé nombre a su equipo">
+			<atk rel_type="label-for" name="Datos personales" />
+			<atk rel_type="label-for" name="Datos del equipo" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="label3">
+	</widget>
+	<widget class="gtk.VBox" id="browser_vbox">
+	</widget>
+	<widget class="gtk.Entry" id="fullname">
+		<accessibility name="Nombre completo" description="Rellene el campo con su nombre completo">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="hbox_partitioning">
+	</widget>
+	<widget class="gtk.Button" id="help">
+		<accessibility name="Ayuda" description="Mostrar de nuevo la información de ayuda.">
+			<atk rel_type="member-of" name="Botonera del instalador" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="drives_label2">
+	</widget>
+	<widget class="gtk.Label" id="user_label2">
+		<accessibility name="Datos personales">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="vbox_partitions">
+	</widget>
+	<widget class="gtk.TextView" id="partition_help">
+	</widget>
+	<widget class="gtk.Label" id="username_label1">
+		<accessibility name="Nombre de usuario">
+			<atk rel_type="label-for" name="Nombre de usuario" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint9">
+		<accessibility name="Punto de montaje 9">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint8">
+		<accessibility name="Punto de montaje 8">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="step2-3">
+		<accessibility name="Selección de puntos de montaje">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint7">
+		<accessibility name="Punto de montaje 7">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox29">
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint6">
+		<accessibility name="Punto de montaje 6">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint5">
+		<accessibility name="Punto de montaje 5">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox28">
+	</widget>
+	<widget class="gtk.HBox" id="hbox27">
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint4">
+		<accessibility name="Punto de montaje 4">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="dialog-vbox1">
+	</widget>
+	<widget class="gtk.HBox" id="hbox26">
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint3">
+		<accessibility name="Punto de montaje 3">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint2">
+		<accessibility name="Punto de montaje 2">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox25">
+	</widget>
+	<widget class="gtk.Image" id="img_error2">
+		<accessibility name="Aviso">
+			<atk rel_type="label-for" name="Debe introducir un punto de montaje "/" para su sistema instalado." />
+		</accessibility>
+	</widget>
+	<widget class="gtk.ComboBoxEntry" id="mountpoint1">
+		<accessibility name="Punto de montaje 1">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox24">
+	</widget>
+	<widget class="gtk.Button" id="next">
+		<accessibility name="Siguiente" description="Avanzar al paso siguiente">
+			<atk rel_type="member-of" name="Botonera del instalador" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox23">
+	</widget>
+	<widget class="gtk.HBox" id="hbox22">
+	</widget>
+	<widget class="gtk.HBox" id="hbox21">
+	</widget>
+	<widget class="gtk.Label" id="abort_dialog_label2">
+		<accessibility name="Instalador">
+			<atk rel_type="label-for" name="No es posible particionar automáticamente esta unidad. Tendrá que seleccionar otra forma de particionado." />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="abort_dialog_label1">
+		<accessibility name="No es posible particionar automáticamente esta unidad. Tendrá que seleccionar otra forma de particionado.">
+			<atk rel_type="label-for" name="Aceptar" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="final_title_label3">
+		<accessibility name="¡Felicidades!">
+			<atk rel_type="label-for" name="La instalación se ha completado con éxito. Para probar su nuevo sistema operativo, reinicie el equipo y extraiga el CD de la bandeja del lector." />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Notebook" id="steps">
+		<accessibility name="Cuadro de navegación del instalador">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HPaned" id="embedded">
+	</widget>
+	<widget class="gtk.Label" id="size_label2">
+		<accessibility name="Tamaño">
+			<atk rel_type="label-for" name="Tamaño partición 1" />
+			<atk rel_type="label-for" name="Tamaño partición 2" />
+			<atk rel_type="label-for" name="Tamaño partición 3" />
+			<atk rel_type="label-for" name="Tamaño partición 4" />
+			<atk rel_type="label-for" name="Tamaño partición 5" />
+			<atk rel_type="label-for" name="Tamaño partición 6" />
+			<atk rel_type="label-for" name="Tamaño partición 7" />
+			<atk rel_type="label-for" name="Tamaño partición 8" />
+			<atk rel_type="label-for" name="Tamaño partición 9" />
+			<atk rel_type="label-for" name="Tamaño partición 10" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Entry" id="password">
+		<accessibility name="Contraseña" description="Rellene este campo con la contraseña que desee asignar a su usuario en el equipo">
+		</accessibility>
+	</widget>
+	<widget class="gtk.TextView" id="mount_help">
+	</widget>
+	<widget class="gtk.ComboBox" id="partition10">
+		<accessibility name="Partición 10">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size9">
+		<accessibility name="Tamaño partición 9">
+			<atk rel_type="controlled-by" name="Partición 9" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size8">
+		<accessibility name="Tamaño partición 8">
+			<atk rel_type="controlled-by" name="Partición 8" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Button" id="cancel">
+		<accessibility name="Cancelar" description="Salir del instalador">
+			<atk rel_type="member-of" name="Botonera del instalador" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size7">
+		<accessibility name="Tamaño partición 7">
+			<atk rel_type="controlled-by" name="Partición 7" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size6">
+		<accessibility name="Tamaño partición 6">
+			<atk rel_type="controlled-by" name="Partición 6" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="vbox_sizes">
+	</widget>
+	<widget class="gtk.Label" id="size5">
+		<accessibility name="Tamaño partición 5">
+			<atk rel_type="controlled-by" name="Partición 5" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size4">
+		<accessibility name="Tamaño partición 4">
+			<atk rel_type="controlled-by" name="Partición 4" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="verified_label1">
+		<accessibility name="Repetir contraseña">
+			<atk rel_type="label-for" name="Comprobación de contraseña" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size3">
+		<accessibility name="Tamaño partición 3">
+			<atk rel_type="controlled-by" name="Partición 3" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.RadioButton" id="manually">
+	</widget>
+	<widget class="gtk.ProgressBar" id="progressbar">
+		<accessibility name="Barra de progreso de la instalación">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size2">
+		<accessibility name="Tamaño partición 2">
+			<atk rel_type="controlled-by" name="Partición 2" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="size1">
+		<accessibility name="Tamaño partición 1">
+			<atk rel_type="controlled-by" name="Partición 1" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox16">
+		<accessibility name="Botonera del instalador" description="Barra de control del proceso de instalación">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="hbox15">
+		<accessibility name="Botonera del instalador">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Entry" id="verified_password">
+		<accessibility name="Comprobación de contraseña" description="Vuelva a teclear su contraseña para la verificación.">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Table" id="table9">
+	</widget>
+	<widget class="gtk.Button" id="cancelbutton">
+		<accessibility name="Cancelar" description="Volver al instalador">
+		</accessibility>
+	</widget>
+	<widget class="gtk.ProgressBar" id="partition_bar">
+		<accessibility name="Barra de progreso del particionado">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Table" id="table8">
+	</widget>
+	<widget class="gtk.Table" id="table7">
+	</widget>
+	<widget class="gtk.Label" id="installing_text">
+		<accessibility name="Mensajes de introducción a la distribución">
+			<atk rel_type="label-for" name="Capturas de pantalla de la distribución" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.HBox" id="info">
+	</widget>
+	<widget class="gtk.Label" id="title4">
+		<accessibility name="Instalación finalizada">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="device_label2">
+		<accessibility name="Partición">
+			<atk rel_type="label-for" name="Partición 1" />
+			<atk rel_type="label-for" name="Partición 2" />
+			<atk rel_type="label-for" name="Partición 3" />
+			<atk rel_type="label-for" name="Partición 4" />
+			<atk rel_type="label-for" name="Partición 5" />
+			<atk rel_type="label-for" name="Partición 6" />
+			<atk rel_type="label-for" name="Partición 7" />
+			<atk rel_type="label-for" name="Partición 8" />
+			<atk rel_type="label-for" name="Partición 9" />
+			<atk rel_type="label-for" name="Partición 10" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="title3">
+		<accessibility name="Progreso de la instalación">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="partition_label2">
+	</widget>
+	<widget class="gtk.Label" id="title1">
+		<accessibility name="Paso 2" description="Recopilación de datos para la instalación del sistema">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HButtonBox" id="hbuttonbox4">
+	</widget>
+	<widget class="gtk.Label" id="title0">
+		<accessibility name="Paso 1" description="Instrucciones previas sobre el proceso de instalación">
+		</accessibility>
+	</widget>
+	<widget class="gtk.HButtonBox" id="hbuttonbox3">
+	</widget>
+	<widget class="gtk.HButtonBox" id="hbuttonbox2">
+	</widget>
+	<widget class="gtk.VBox" id="step-3">
+		<accessibility name="Progreso de la instalación desasistida">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="step-1">
+		<accessibility name="Recopilación de datos">
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="step-0">
+		<accessibility name="Introducción al instalador">
+		</accessibility>
+	</widget>
+	<widget class="gtk.RadioButton" id="freespace">
+	</widget>
+	<widget class="gtk.VBox" id="vbox34">
+	</widget>
+	<widget class="gtk.Label" id="warning_dialog_label2">
+		<accessibility name="Instalador">
+			<atk rel_type="label-for" name="Instalador" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.VBox" id="vbox33">
+	</widget>
+	<widget class="gtk.Label" id="label2-3">
+	</widget>
+	<widget class="gtk.Label" id="warning_dialog_label1">
+		<accessibility name="¿Desea salir verdaderamente del instalador?">
+			<atk rel_type="label-for" name="Cancelar" />
+			<atk rel_type="label-for" name="Salir" />
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="diskspace_label3">
+		<accessibility name="Particione manualmente sus discos">
+		</accessibility>
+	</widget>
+	<widget class="gtk.Label" id="label2-2">
+	</widget>
+	<widget class="gtk.VBox" id="vbox32">
+	</widget>
+	<widget class="gtk.VBox" id="vbox31">
+	</widget>
+	<widget class="gtk.VBox" id="vbox30">
+	</widget>
+	<widget class="gtk.Label" id="disk_label3">
+		<accessibility name="Decida el método de instalación para su sistema">
+		</accessibility>
+	</widget>
+	<widget class="gtk.CheckButton" id="confirmation_checkbutton">
+	</widget>
+	<widget class="gtk.Label" id="mountpoint_label2">
+		<accessibility name="Puntos de montaje">
+			<atk rel_type="label-for" name="Punto de montaje 1" />
+			<atk rel_type="label-for" name="Punto de montaje 2" />
+			<atk rel_type="label-for" name="Punto de montaje 3" />
+			<atk rel_type="label-for" name="Punto de montaje 4" />
+			<atk rel_type="label-for" name="Punto de montaje 5" />
+			<atk rel_type="label-for" name="Punto de montaje 6" />
+			<atk rel_type="label-for" name="Punto de montaje 7" />
+			<atk rel_type="label-for" name="Punto de montaje 8" />
+			<atk rel_type="label-for" name="Punto de montaje 9" />
+			<atk rel_type="label-for" name="Punto de montaje 10" />
+		</accessibility>
+	</widget>
+</glade-interface>

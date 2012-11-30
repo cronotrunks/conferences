@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1927"
+   name=""
+   committed-date="2006-04-20T12:41:15.595937Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/lib/frontend"
+   last-author="juanje"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   committed-rev="1906"
+   name="netcloner.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-12T22:43:10.744339Z"
+   checksum="2b37d4baf19c72b40df547cdc7b0cc9b"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="785"
+   name="noui.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-11T20:16:44.019515Z"
+   checksum="3133deaaa5991d83e0dad5e8f4a4a4ba"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="360"
+   name="__init__.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-09-02T11:58:02.039067Z"
+   checksum="a6884664304595f1a60e4a815ec3868b"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1927"
+   name="gtkui.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-20T12:41:15.595937Z"
+   checksum="b6335788bda03d89e4a451c75b4db05a"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="360"
+   name="text.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-09-02T11:58:02.039067Z"
+   checksum="412dbb164bb10a040aa5d28fb669bc02"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+</wc-entries>

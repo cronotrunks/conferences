@@ -1,0 +1,699 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" >
+<meta http-equiv="content-language" content="es" >
+<meta name="robots" content="index,follow" >
+<meta name="keywords" content="guadalinex, linux, andalucia, junta, software libre, open source, linex" >
+<meta name="description" content="Guadalinex es la distribución de linux desarrollada por la Junta de Andalucía para facilitar el acceso a todos los ciudadanos al software libre." >
+<meta name="rating" content="general" >
+<meta name="author" content="SADESI" >
+<meta name="copyright" content="Copyleft © 2003" >
+<meta name="generator" content="XOOPS" >
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="Sat, 01 Jan 2005 00:00:01 GMT">
+<title>Guadalinex - Artículos</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.guadalinex.org/themes/Guadalinex/style.css" >
+<!-- RMV: added module header -->
+
+<script type="text/javascript">
+<!--
+//--></script><script type="text/javascript" src="http://www.guadalinex.org/include/xoops.js"></script><script type="text/javascript"><!--
+//-->
+</script>
+</head>
+<body>
+
+
+
+<h1 class="oculto">GUADALINEX</h1>
+<form action="http://www.guadalinex.org/search.php" method="post">
+<!--CABECERA-->
+<div class="header">
+ <div class="headerlogo">
+
+        <a href="http://www.andaluciajunta.es" title="Portal de la Junta de Andalucía (Nueva ventana)" target="blank" class="headerJunta"><span class="logo">Junta de Andalucía</span></a>
+        <a href="http://www.guadalinex.org" title="Página de inicio de Guadalinex" class="headerGuadalinex"><span class="logo">Guadalinex</span></a>
+
+ </div>
+ <div class="headerbanner"><a href="http://www.guadalinex.org/banners.php?op=click&amp;bid=12" target="_blank"><img src="http://www.guadalinex.org/uploads/img4296f9108029c.png" alt=" (Nueva ventana)" title=" (Nueva ventana)"/></a></div>
+</div>
+<div class="headerbar"><label for="consulta">Buscador de guadalinex.org</label>
+    <input type="text" name="query" size="14" id="consulta"><input type="hidden" name="action" value="results" >&nbsp;<input type="submit" value="Buscar" >&nbsp;
+ </div>
+</form>
+
+<a class="ocultar" href="#informacion" title="Ir a contenidos">Ir a contenidos</a>
+
+
+
+    <!--COLUMNA 1-->
+    <div class="columna1">
+        <!-- Start left blocks loop -->
+                     <div class="blockTitle"><strong>Entrada</strong></div>
+<div class="blockContent"><div class="formLogin">
+<form  action="http://www.guadalinex.org/user.php" method="post" ><label for="Nombre: ">Nombre: </label><br><input type="text" name="uname" size="12" value="" id="Nombre: "><br><label for="Contrase&ntilde;a: ">Contrase&ntilde;a: </label><br><input type="password" name="pass" size="12" id="Contrase&ntilde;a: " ><br><br><input type="hidden" name="xoops_redirect" value="/modules/news/article.php?storyid=140" ><input type="hidden" name="op" value="login" ><input type="submit" class="submit" value="Ingresar" ><br ></form>
+</div>
+<br>
+<a href="http://www.guadalinex.org/user.php#lost" >¿Perdió su Contrase&ntilde;a?</a><br><br><a href="http://www.guadalinex.org/register.php" title="Nuevo registro (Nueva ventana)" ><strong>Regístrese</strong> Ahora!</a></div>                     <div class="blockTitle"><strong>Menú</strong></div>
+<div class="blockContent"><!--div-->
+  
+<!--div id="mainmenu"--><ul>
+<li>
+<a class="menuTop" href="http://www.guadalinex.org/">Inicio</a>
+</li>
+ <!-- start module menu loop -->
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/guadapedia">Ayuda y Documentacion (Guadapedia)</a>
+</li>
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/cursos">Cursos  de Guadalinex</a>
+</li>
+       <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/news/" >Artículos</a>        
+       
+<ul class="submenu">
+           <li class="submenu"><a href="http://www.guadalinex.org/modules/news/archive.php" >Archivo</a></li>
+                     
+</ul>
+   
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/newbb/" >Foros</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mydownloads/" >Descargas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsgallery/" >Galería de Imágenes</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsfaq/" >Preguntas y Respuestas (FAQ)</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mylinks/" >Enlaces</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/quien/" >¿Donde está Guadalinex?</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopspoll/" >Encuestas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/contact/" >Contacta con nosotros</a>        
+                    
+      </li>
+            
+      <!-- end module menu loop -->
+</ul>
+    <!--/div-->
+  
+<!--/div--></div>                     <div class="blockTitle"><strong>Nivel de Accesibilidad</strong></div>
+<div class="blockContent"><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Nueva ventana" alt="Nueva ventana">
+<img src="http://www.guadalinex.org/uploads/img41e7c1e4810e7.gif" title="Nivel Doble-A de Conformidad con las Directrices de Accesibilidad para el Contenido Web 1.0 (WCAG 1.0) " alta="Nivel Doble-A de Conformidad con las Directrices de Accesibilidad para el Contenido Web 1.0 (WCAG 1.0) ">
+</a></div>                <!-- End left blocks loop -->
+
+    </div>
+
+
+    <div class="columna2-dcha">
+        <!--No existe la columna derecha-->
+                    <a name="informacion"></a>
+            <h2 class="oculto">Contenido</h2>
+            <div class="capaIzquierdaM10"></div>
+
+  <div class="itemHeadArticulo">
+       <span class="itemTitle"> <a href='http://www.guadalinex.org/modules/news/index.php?storytopic=3'>Guadalinex</a>&nbsp;:&nbsp;Nuevas descargas en Guadalinex</span>
+  </div>
+
+
+<div class="capaP3M3">
+<div class="item">
+  <div class="itemHead">
+     <span class="itemTitle"> </span>
+  </div>
+  <div class="itemInfoNoticia">
+    <span class="itemPoster">Enviado por <strong> <a href="http://www.guadalinex.org/userinfo.php?uid=18">perry</a></strong></span> <span class="itemPostDate">el 4/8/2005 12:25:23&nbsp;(533 Lecturas</span>)
+  </div>
+  <div class="itemBody">
+    
+    <p class="itemText">Tras varias versiones de prueba - gracias a nuestros usuarios por su colaboración - disponemos finalmente de las versiones estables de dos nuevos productos:     <br ><br >* Guadalinex Mini (<a href="http://www.guadalinex.org/descargas/iso/guadalinex-mini-2004_1.0.iso" target="_blank">http://www.guadalinex.org/descargas/iso/guadalinex-mini-2004_1.0.iso</a>)<br >* CD de actualización de 1.0 a 2004 (<a href="http://www.guadalinex.org/descargas/iso/guadalinex-1.0_a_2004_1.0.iso" target="_blank">http://www.guadalinex.org/descargas/iso/guadalinex-1.0_a_2004_1.0.iso</a>)<br ><br >Análogamente anunciamos la versión estable de Guadalinex 2004 actualizada (<a href="http://www.guadalinex.org/descargas/iso/guadalinex-2004_act1_1.0.iso" target="_blank">http://www.guadalinex.org/descargas/iso/guadalinex-2004_act1_1.0.iso</a>), con la que no será necesario aplicar las actualizaciones disponibles en el repositorio (enlace al anuncio de la actualización) tras instalar Guadalinex 2004 original, ya que todas las actualizaciones y correciones de errores disponibles a la fecha ya han sido aplicadas en este nuevo CD - LiveCD e Instalación.<br > <br >Adicionalmente a las actualizaciones de seguridad y de subsanación de<br >errores incluye: <br ><br >* Evolution 2.2<br >* Noodle: utilidad que permite la sincronización de PDAs (Pocket PC) con<br >Evolution (<a href="http://noodle.yacoi.com/" target="_blank">http://noodle.yacoi.com/</a>). Mozilla-Firefox 1.0.4<br >* Una copia de la Guadapedia, con recetas y documentación variada.<br >* Utlidades de conectividad bluetooth<br >* Mayor compatibilidad con el hardware actual<br > <br ><br >Guadalinex Mini, destinada a equipos antiguos y con recursos reducidos,<br >ya fue anunciada (<a href="http://www.guadalinex.org/modules/news/article.php?storyid=128" target="_blank">http://www.guadalinex.org/modules/news/article.php?storyid=128</a>) en su momento y ha sido objeto de debate (<a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=12" target="_blank">http://www.guadalinex.org/modules/newbb/viewforum.php?forum=12</a>)<br >en este sitio.<br > <br >El CD de actualización 1.0 a 2004 permite, de manera segura, convertir<br >una instalación de Guadalinex 1.0 en una instalación de Guadalinex 2004,<br >conservando usuarios, configuraciones y datos. De cualquier manera,<br >recomendamos a nuestros usuarios realicen periódicamente copias de<br >seguridad y especialmente en los momentos en que vayan a acometer<br >cambios sustanciales a sus equipos; como es el caso.</p>
+  </div>
+
+  <div class="itemFoot">
+   <span class="itemAdminLink">
+   </span>
+  </div>
+</div><br></div>
+
+<div class="capaIzquierdaM10"></div>
+
+ 
+<div class="capaDchaP5M3">
+<a href="print.php?storyid=140"><img
+src="images/print.gif" border="0"
+alt="Página de Impresión Amigable" /></a> <a target="_top"
+href="mailto:?subject=Artículo interesante en Guadalinex&amp;body=Aquí hay un artículo interesante, lo encontre en Guadalinex:  http://www.guadalinex.org/modules/news/article.php?storyid=140"><img src="images/friend.gif"
+border="0" alt="Enviar esta historia a un amigo" /></a>
+</div>
+
+<div class="capaCentradaP3M3">
+
+<form method="get" action="article.php">
+<table width="95%" class="outerForo" cellspacing="1">
+  <tr>
+    <td class="even" align="center"><select name="com_mode"><option value="flat">Vista Plana</option><option value="thread">Vista Arbol</option><option value="nest" selected="selected">Vista escalonada</option></select> <select name="com_order"><option value="0" selected="selected">Viejos Primero</option><option value="1">Nuevos Primero</option></select><input type="hidden" name="storyid" value="140" > <input type="submit" value="Actualizar" class="formButton" >
+    </td>
+  </tr>
+</table>
+</form>
+<span class=span40>Los comentarios son propiedad de quien los envió. No somos responsables por su contenido.</span>
+</div>
+
+<div class="capaP3M3">
+<!-- start comments loop -->
+<br />
+<table cellspacing="1" class="outerForo">
+  <tr>
+    <th width="20%">Envió</th>
+    <th>Hilo</th>
+  </tr>
+  <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1698"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=6573">mijeno</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 4/8/2005 22:42&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 4/8/2005 22:42</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Colaborador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8eb1a72e7.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/savt3f41c7fd0bae6.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 21/9/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Mijas/Andalucía</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 170</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/subject/icon3.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">¡Prime!, ¡prime! <img src="http://www.guadalinex.org/uploads/smil3dbd4dbc14f3f.gif" alt="" ><br ><br >Bueno creo que estamos de enhorabuena toda la comunidad. Dos viejas reivindicaciones ya están disponibles definitivamente. <br >Me alegro por todos, y en particular por <strong>alfabet</strong> que con su flamante mini ya puede dormir tranquilo; lo malo es que con este calor es un poco difícil dormir  <img src="http://www.guadalinex.org/uploads/smil3dbd4daabd491.gif" alt="" > .<br ><br >No sería justo terminar este comentario sin agradecer enormemente la labor de los desarrolladores. Porque están haciendo un trabajo increible, y gracias a ellos podemos presumir de una de las mejores distribuciones de este planeta mundial  <img src="http://www.guadalinex.org/uploads/smil3dbd4d4e4c4f2.gif" alt="" >  <img src="http://www.guadalinex.org/uploads/smil3dbd4d4e4c4f2.gif" alt="" > .<br >Y, además, producto andaluz.  <img src="http://www.guadalinex.org/uploads/smil3dbd4ddd6835f.gif" alt="" ></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post --></table>
+
+<!-- start comment replies -->
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="25"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1703"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=610">alfabet</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 18:25&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 18:26</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Colaborador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8eb1a72e7.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/savt3f41ca2ea30c6.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 27/9/2003</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Carmona</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 1906</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Acotación:<div class="xoopsQuote"><blockquote>mjieno dijo:<br >en particular por alfabet que con su flamante mini ya puede dormir tranquilo</blockquote></div><br ><br >Bueno, ni es mía ni creo que pueda dormir tranquilo hasta probar la GL2005. Además, alguno se lo ha currado más que yo últimamente (verdad guadafan  <img src="http://www.guadalinex.org/uploads/smil3dbd4e398ff7b.gif" alt="" > )<br ><br >Ahora fuera bromas, sin duda una gran noticia. Ale, a descargarla.<br ><br >Taluego</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<!-- end comment tree -->
+<br />
+<table cellspacing="1" class="outerForo">
+  <tr>
+    <th width="20%">Envió</th>
+    <th>Hilo</th>
+  </tr>
+  <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1699"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=175">jgallego</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 9:49&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 9:49</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Participativo</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8ea81e642.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/blank.gif" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 23/8/2003</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Malaga</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 29</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">¿La actualización de Guadalinex 1 a 2004 sirve también para las distintas RC de Guadalinex 2004 o sólo para aquella?</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post --></table>
+
+<!-- start comment replies -->
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="25"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1700"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=18">perry</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 12:15&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 12:15</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Administrador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8ee8681cd.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/cavt42c3e5a958b76.jpg" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 13/8/2003</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Sevilla</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 43</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Únicamente se ha probado para la versión 1.0 final, no las RC. Es posible que en alguna RC cercana a la final funcione pero no está probado en absoluto.</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="25"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1701"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=5292">semanue</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 12:20&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 12:20</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Colaborador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8eb1a72e7.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/cavt4289ca4b4a8c4.jpg" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 17/6/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Triana - Andalucía vía Alemania</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 1432</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Enhorabuena a los desarrolladores por el trabajo!!  <img src="http://www.guadalinex.org/uploads/smil3dbd4d6422f04.gif" alt="" > <br ><br ><br >saludos</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="50"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1702"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=5812">guadafan</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 16:54&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 16:54</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Colaborador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8eb1a72e7.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/cavt41937a75357e4.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 23/7/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Alcalareño City (de Guadaira)</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 707</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Me he descargado la mini 2 veces con firefox y me ha dado error el md5.<br ><br >Luego he probado este script y no sé si está bien, pero lleva ya cuatro vueltas el bucle y nada de nada ¿Hay que retocar algo?<br >Aquí lo dejo:<br >Acotación:<div class="xoopsQuote"><blockquote>#!/bin/sh<br ><br >wget -c <a href="http://www.guadalinex.org/descargas/iso/guadalinex-mini-2004_1.0.iso" target="_blank">http://www.guadalinex.org/descargas/iso/guadalinex-mini-2004_1.0.iso</a><br >md5sum=`md5sum guadalinex-mini-2004_1.0.iso`<br ><br >if [ &quot;$md5sum&quot; != &quot;a39f56bbf49d4c42242e05a74685fbe3 guadalinex-mini-2004_1.0.iso&quot; ];<br >then<br >rm -f guadalinex-mini-2004_1.0.iso<br >./descargamini<br >else<br >echo &quot;Se ha descargado bien por fin.&quot;<br >fi</blockquote></div><br ><br >Estoy que me muerdo las uñas y no puedo probar la minimini minini <img src="http://www.guadalinex.org/uploads/smil3dbd4d99c6eaa.gif" alt="" > <br ><br >PD. el archivo ejecutable se llama &quot;descargamini&quot;</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="75"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1704"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=24">jbotonero</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 18:46&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 6/8/2005 0:09</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Asiduo</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8e94a6f72.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/savt3f41ca137e6d7.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 14/8/2003</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> </div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 9</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Buenas...<br ><br >En principio si quitaras la instrucción de borrado la descarga debiera ir más rápida....<br ><br >Ten en cuenta que &quot;wget&quot; permite la continuación de la descarga desde el punto en que se interrumpió, pero si borras lo ya descargado partes siempre de cero... <img src="http://www.guadalinex.org/uploads/smil3dbd4e398ff7b.gif" alt="" > <br ><br >Saludos...  <img src="http://www.guadalinex.org/uploads/smil3dbd4e398ff7b.gif" alt="" > ...Jaime</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="100"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1705"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=5812">guadafan</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 21:51&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 21:51</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Colaborador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8eb1a72e7.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/cavt41937a75357e4.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 23/7/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Alcalareño City (de Guadaira)</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 707</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Ya he descubierto cuál era el problema. El script estaba errado por un despiste casi invisible al ojo humano e incluso invisible a la lógica.<br ><br >Cuando haces md5sum archivo-que-sea el resultado es el siguiente:<br ><br >numeracos-y-letras-a-tutiplen  archivo<br ><br >Y he aquí el dato curioso, NO HAY UN ESPACIO entre los numeracos-y-letras, SINO DOS!!!<br >Por eso nunca coincidía cuando hacía la comprobación.<br ><br >Talué, vamo a probal la yaaaa!!!!</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="100"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1707"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=5812">guadafan</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 22:48&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 22:48</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Colaborador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8eb1a72e7.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/cavt41937a75357e4.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 23/7/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Alcalareño City (de Guadaira)</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 707</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Acotación:<div class="xoopsQuote"><blockquote>En principio si quitaras la instrucción de borrado la descarga debiera ir más rápida....<br ><br >Ten en cuenta que &quot;wget&quot; permite la continuación de la descarga desde el punto en que se interrumpió, pero si borras lo ya descargado partes siempre de cero...</blockquote></div><br >Creo que te has confundido, únicamente se borra la imagen si la imagen una vez completada se descargó mal. Si por cualquier motivo se para la descarga al ejecutar el comando de nuevo se reinicia la descarga por donde se quedó, no se borra lo que ya había ¿no?.</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="125"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1708"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=24">jbotonero</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 23:49&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 6/8/2005 11:11</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Asiduo</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8e94a6f72.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/savt3f41ca137e6d7.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 14/8/2003</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> </div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 9</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Buenas...<br ><br >Pues me parece que no me he confundido... <img src="http://www.guadalinex.org/uploads/smil3dbd4e398ff7b.gif" alt="" > <br >Primero el &quot;wget&quot; intenta la descarga, reintentando 20 veces en caso de que produzcan errores en la conexión.<br >Cuando el &quot;wget&quot; termina, pueden haber pasado tres cosas:<br >a) Se ha descargado corréctamente la iso, luego el md5 que obtienes es el correcto y no se entra en el &quot;if&quot;.<br >b) Se ha descargado completamente la iso la ISO, pero no el md5 no coincide con el esperado. Se ejecuta lo que hay dentro del &quot;if&quot;, y en este caso si sería correcto el borrado de la ISO, ya que estaría &quot;estropeada&quot;...<br >c) No se ha descargado completamente la ISO, con lo que el md5 que se obtiene no sería el esperado. Se ejecuta el interior del &quot;if&quot; y se borra la parte de la ISO ya descargada.<br >Tanto para el caso b como el c, la ISO bajada se borra y al reiniciar el script en la siguiente instrucción la descarga partirá de cero... <img src="http://www.guadalinex.org/uploads/smil3dbd4daabd491.gif" alt="" > <br >Sin embargo, sería interesante que en el caso c no se borrara la iso para que la descarga no partiera de cero, sino desde lo ya previamente descargado. Imagina que ya hubieras descargado 200 MB correctos, o que sólo te quedara 1 MB por descargar y se produjera el error de conexión 20.... <img src="http://www.guadalinex.org/uploads/smil3dbd4daabd491.gif" alt="" > <br >A eso es a lo que yo me refería anteriormente, lo mismo no me había explicado bien... <img src="http://www.guadalinex.org/uploads/smil3dbd4e398ff7b.gif" alt="" > <br ><br >También podrías subir el número de reintentos de &quot;wget&quot;, porque 20 creo que pueden ser algo cortitos para los servidores oficiales de descargas... <img src="http://www.guadalinex.org/uploads/smil3dbd4daabd491.gif" alt="" > <br ><br >Saludos...  <img src="http://www.guadalinex.org/uploads/smil3dbd4e398ff7b.gif" alt="" > ...Jaime</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<br />
+<table cellspacing="0" border="0">
+  <tr>
+    <td width="150"></td>
+    <td>
+      <table class="outerForo2" cellspacing="1">
+        <tr>
+          <th width="20%">Envió</th>
+          <th>Hilo</th>
+        </tr>
+        <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1709"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=5812">guadafan</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 6/8/2005 14:21&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 6/8/2005 14:21</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Colaborador</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8eb1a72e7.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/cavt41937a75357e4.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 23/7/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Alcalareño City (de Guadaira)</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 707</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Acotación:<div class="xoopsQuote"><blockquote>Imagina que ya hubieras descargado 200 MB correctos, o que sólo te quedara 1 MB por descargar y se produjera el error de conexión 20....</blockquote></div><br >Muy interesante, no había caído en eso, la única opción que tenía en mente era que cerrara o matara el script por algún motivo (cuelgue, apagón, etc.), pero no se me había ocurrido que en la misma ejecución se pudiera quedar pillao el proceso.<br >Todos los días aprendo algo en estos foros <img src="http://www.guadalinex.org/uploads/smil3dbd4e398ff7b.gif" alt="" > <br ><br >OFFTOPIC: Vaya er caló que está jasiendo hoy, la hostia, copón...¿Dónde está er gahpachito frehkito?</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post -->      </table>
+    </td>
+  </tr>
+</table>
+<!-- end comment tree -->
+<br />
+<table cellspacing="1" class="outerForo">
+  <tr>
+    <th width="20%">Envió</th>
+    <th>Hilo</th>
+  </tr>
+  <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1706"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=12075">fedd</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 5/8/2005 22:39&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 5/8/2005 22:39</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Participativo</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8ea81e642.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/savt3f41cf0180df8.png" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 23/3/2005</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Mendoza, Argentina</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 21</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Felicitaciones. Estoy orgulloso de Guadalinex2004. La disfruto mucho...y también duermo bastante bien en éste invierno en Argentina...aunque algunos me envidien... <img src="http://www.guadalinex.org/uploads/smil3dbd4d6422f04.gif" alt="" ><br ><br >Comenzaré a bajar la actualización ya. <br >Saludos.<br >Fed.</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post --></table>
+
+<!-- start comment replies -->
+<!-- end comment tree -->
+<br />
+<table cellspacing="1" class="outerForo">
+  <tr>
+    <th width="20%">Envió</th>
+    <th>Hilo</th>
+  </tr>
+  <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1711"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=3012">parsifal</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 8/8/2005 13:20&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 8/8/2005 13:20</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">De paso</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3e632f95e81ca.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/blank.gif" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 17/3/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> </div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 2</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Actualizarán los cds que mandan?</div><div class="comText">Hola que tal!<br ><br >Mi pregunta es si van a sacar una tirada nueva de CDs de Guadalinex 2004 conteniendo estas actualizaciones o seguirán enviando la &quot;original&quot;, pues en caso positivo pediría un nuevo CD para actualizar mi instalación actual...<br ><br >Se sabe algo o se tiene previsto?<br ><br >Gracias!</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post --></table>
+
+<!-- start comment replies -->
+<!-- end comment tree -->
+<br />
+<table cellspacing="1" class="outerForo">
+  <tr>
+    <th width="20%">Envió</th>
+    <th>Hilo</th>
+  </tr>
+  <!-- start comment post -->
+        <tr>
+          <td class="head"><a id="comment1712"></a> <a href="http://www.guadalinex.org/userinfo.php?uid=4239">onubatux</a></td>
+          <td class="head"><div class="comDate"><span class="comDateCaption">Enviado:</span> 8/8/2005 20:47&nbsp;&nbsp;<span class="comDateCaption">Actualizado:</span> 8/8/2005 20:47</div></td>
+        </tr>
+        <tr>
+
+          
+          <td class="odd"><div class="comUserRank"><div class="comUserRankText">Participativo</div><img class="comUserRankImg" src="http://www.guadalinex.org/uploads/rank3dbf8ea81e642.gif" alt="" /></div><img class="comUserImg" src="http://www.guadalinex.org/uploads/cavt4298a931f3dd9.gif" alt="" /><div class="comUserStat"><span class="comUserStatCaption">Conectado:</span> 24/4/2004</div><div class="comUserStat"><span class="comUserStatCaption">Desde:</span> Huelva</div><div class="comUserStat"><span class="comUserStatCaption">Envios:</span> 28</div><div class="comUserStatus"></div></td>
+
+          
+          <td class="odd">
+            <div class="comTitle"><img src="http://www.guadalinex.org/images/icons/no_posticon.gif" alt="" >&nbsp;Re: Nuevas descargas en Guadalinex</div><div class="comText">Enhorabuenas a todos, a los desarolladores y a los usuarios finales.<br ><br >ha descargarla se ha dicho...........y esta noche a probarla.<br ><br >Saludos.</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="even"></td>
+
+          
+          <td class="even"> </td>
+
+          
+        </tr>
+<!-- end comment post --></table>
+
+<!-- start comment replies -->
+<!-- end comment tree -->
+<!-- end comments loop -->
+</div>
+
+        
+        <!--cuando no existe la barra derecha deberás eliminar las dos siguientes capa-->
+         
+    
+
+    </div>
+
+<div class="footerbar"><span class="itemPie">Este sitio funciona con </span>
+<a class="white" href="http://www.debian.org/" target="_blank" ><img src="http://www.guadalinex.org/images/debian-logo.png" alt="Debian (nueva ventana)" title="Debian (nueva ventana)" ></a>
+  <a class="white" href="http://www.apache.org/" target="_blank" ><img src="http://www.guadalinex.org/images/apache-logo.png" alt="Apache (nueva ventana)" title="Apache (nueva ventana)" ></a>
+  <a class="white" href="http://www.php.net/" target="_blank" ><img src="http://www.guadalinex.org/images/php-logo.png" alt="PHP (nueva ventana)" title="PHP (nueva ventana)" ></a>
+  <a class="white" href="http://www.mysql.com/" target="_blank" ><img src="http://www.guadalinex.org/images/mysql-logo.png" alt="Mysql (nueva ventana)" title="Mysql (nueva ventana)" /></a>
+ <a class="white" href="http://www.xoops.org/" target="_blank" ><img src="http://www.guadalinex.org/images/xoops-logo.png" alt="XOOPS (nueva ventana)" title="XOOPS (nueva ventana)" /></a></div>
+
+</body>
+</html>

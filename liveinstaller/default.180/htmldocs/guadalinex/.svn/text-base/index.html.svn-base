@@ -1,0 +1,284 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" >
+<meta http-equiv="content-language" content="es" >
+<meta name="robots" content="index,follow" >
+<meta name="keywords" content="guadalinex, linux, andalucia, junta, software libre, open source, linex" >
+<meta name="description" content="Guadalinex es la distribución de linux desarrollada por la Junta de Andalucía para facilitar el acceso a todos los ciudadanos al software libre." >
+<meta name="rating" content="general" >
+<meta name="author" content="SADESI" >
+<meta name="copyright" content="Copyleft © 2003" >
+<meta name="generator" content="XOOPS" >
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="Sat, 01 Jan 2005 00:00:01 GMT">
+<title>Guadalinex - Artículos</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.guadalinex.org/themes/Guadalinex/style.css" >
+<!-- RMV: added module header -->
+
+<script type="text/javascript">
+<!--
+//--></script><script type="text/javascript" src="http://www.guadalinex.org/include/xoops.js"></script><script type="text/javascript"><!--
+//-->
+</script>
+</head>
+<body>
+
+
+
+<h1 class="oculto">GUADALINEX</h1>
+<form action="http://www.guadalinex.org/search.php" method="post">
+<!--CABECERA-->
+<div class="header">
+ <div class="headerlogo">
+
+        <a href="http://www.andaluciajunta.es" title="Portal de la Junta de Andalucía (Nueva ventana)" target="blank" class="headerJunta"><span class="logo">Junta de Andalucía</span></a>
+        <a href="http://www.guadalinex.org" title="Página de inicio de Guadalinex" class="headerGuadalinex"><span class="logo">Guadalinex</span></a>
+
+ </div>
+ <div class="headerbanner"><a href="http://www.guadalinex.org/banners.php?op=click&amp;bid=6" target="_blank"><img src="http://www.raitec.es/CDA/Imagenes/Banners/bnn_decreto72-2003-2.gif" alt="Raitec (Nueva ventana)" title="Raitec (Nueva ventana)"/></a></div>
+</div>
+<div class="headerbar"><label for="consulta">Buscador de guadalinex.org</label>
+    <input type="text" name="query" size="14" id="consulta"><input type="hidden" name="action" value="results" >&nbsp;<input type="submit" value="Buscar" >&nbsp;
+ </div>
+</form>
+
+<a class="ocultar" href="#informacion" title="Ir a contenidos">Ir a contenidos</a>
+
+
+
+    <!--COLUMNA 1-->
+    <div class="columna1">
+        <!-- Start left blocks loop -->
+                     <div class="blockTitle"><strong>Entrada</strong></div>
+<div class="blockContent"><div class="formLogin">
+<form  action="http://www.guadalinex.org/user.php" method="post" ><label for="Nombre: ">Nombre: </label><br><input type="text" name="uname" size="12" value="" id="Nombre: "><br><label for="Contrase&ntilde;a: ">Contrase&ntilde;a: </label><br><input type="password" name="pass" size="12" id="Contrase&ntilde;a: " ><br><br><input type="hidden" name="xoops_redirect" value="/modules/news/" ><input type="hidden" name="op" value="login" ><input type="submit" class="submit" value="Ingresar" ><br ></form>
+</div>
+<br>
+<a href="http://www.guadalinex.org/user.php#lost" >¿Perdió su Contrase&ntilde;a?</a><br><br><a href="http://www.guadalinex.org/register.php" title="Nuevo registro (Nueva ventana)" ><strong>Regístrese</strong> Ahora!</a></div>                     <div class="blockTitle"><strong>Menú</strong></div>
+<div class="blockContent"><!--div-->
+  
+<!--div id="mainmenu"--><ul>
+<li>
+<a class="menuTop" href="http://www.guadalinex.org/">Inicio</a>
+</li>
+ <!-- start module menu loop -->
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/guadapedia">Ayuda y Documentacion (Guadapedia)</a>
+</li>
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/cursos">Cursos  de Guadalinex</a>
+</li>
+       <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/news/" >Artículos</a>        
+       
+<ul class="submenu">
+           <li class="submenu"><a href="http://www.guadalinex.org/modules/news/archive.php" >Archivo</a></li>
+                     
+</ul>
+   
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/newbb/" >Foros</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mydownloads/" >Descargas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsgallery/" >Galería de Imágenes</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsfaq/" >Preguntas y Respuestas (FAQ)</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mylinks/" >Enlaces</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/quien/" >¿Donde está Guadalinex?</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopspoll/" >Encuestas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/contact/" >Contacta con nosotros</a>        
+                    
+      </li>
+            
+      <!-- end module menu loop -->
+</ul>
+    <!--/div-->
+  
+<!--/div--></div>                     <div class="blockTitle"><strong>Nivel de Accesibilidad</strong></div>
+<div class="blockContent"><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Nueva ventana" alt="Nueva ventana">
+<img src="http://www.guadalinex.org/uploads/img41e7c1e4810e7.gif" title="Nivel Doble-A de Conformidad con las Directrices de Accesibilidad para el Contenido Web 1.0 (WCAG 1.0) " alta="Nivel Doble-A de Conformidad con las Directrices de Accesibilidad para el Contenido Web 1.0 (WCAG 1.0) ">
+</a></div>                <!-- End left blocks loop -->
+
+    </div>
+
+
+    <div class="columna2-dcha">
+        <!--No existe la columna derecha-->
+        
+        <!--cuando no existe la barra derecha deberás eliminar las dos siguientes capa-->
+                 <div class="columna2"><a name="informacion"></a><h2 class="oculto">Contenido</h2>
+             <!--div id="content"-->
+             <!-- start news item loop -->
+  <div class="item">
+  <div class="itemHead">
+     <span class="itemTitle"> <a href='http://www.guadalinex.org/modules/news/article.php?storyid=140'>Nuevas descargas en Guadalinex</a></span>
+  </div>
+  <div class="itemInfoNoticia">
+    <span class="itemPoster">Enviado por <strong> <a href='http://www.guadalinex.org/userinfo.php?uid=18'>perry</a></strong></span> <span class="itemPostDate">el 4/8/2005 12:25:23&nbsp;(533 Lecturas</span>)
+  </div>
+  <div class="itemBody">
+    
+    <p class="itemText">Tras varias versiones de prueba - gracias a nuestros usuarios por su colaboración - disponemos finalmente de las versiones estables de dos nuevos productos:     <br ><br >* Guadalinex Mini (<a href="http://www.guadalinex.org/descargas/iso/guadalinex-mini-2004_1.0.iso" target="_blank">http://www.guadalinex.org/descargas/iso/guadalinex-mini-2004_1.0.iso</a>)<br >* CD de actualización de 1.0 a 2004 (<a href="http://www.guadalinex.org/descargas/iso/guadalinex-1.0_a_2004_1.0.iso" target="_blank">http://www.guadalinex.org/descargas/iso/guadalinex-1.0_a_2004_1.0.iso</a>)<br ><br >Análogamente anunciamos la versión estable de Guadalinex 2004 actualizada (<a href="http://www.guadalinex.org/descargas/iso/guadalinex-2004_act1_1.0.iso" target="_blank">http://www.guadalinex.org/descargas/iso/guadalinex-2004_act1_1.0.iso</a>), con la que no será necesario aplicar las actualizaciones disponibles en el repositorio (enlace al anuncio de la actualización) tras instalar Guadalinex 2004 original, ya que todas las actualizaciones y correciones de errores disponibles a la fecha ya han sido aplicadas en este nuevo CD - LiveCD e Instalación.<br > <br >Adicionalmente a las actualizaciones de seguridad y de subsanación de<br >errores incluye: <br ><br >* Evolution 2.2<br >* Noodle: utilidad que permite la sincronización de PDAs (Pocket PC) con<br >Evolution (<a href="http://noodle.yacoi.com/" target="_blank">http://noodle.yacoi.com/</a>). Mozilla-Firefox 1.0.4<br >* Una copia de la Guadapedia, con recetas y documentación variada.<br >* Utlidades de conectividad bluetooth<br >* Mayor compatibilidad con el hardware actual<br > </p>
+  </div>
+
+  <div class="itemFoot">
+   <span class="itemAdminLink">
+   <a href="http://www.guadalinex.org/modules/news/article.php?storyid=140">Leer el artículo completo</a> | 2523 bytes más | <a href="http://www.guadalinex.org/modules/news/article.php?storyid=140">14 comentarios</a></span>
+  </div>
+</div><br>  <br />
+  <div class="item">
+  <div class="itemHead">
+     <span class="itemTitle"> <a href='http://www.guadalinex.org/modules/news/article.php?storyid=139'>Desarrollo de Guadalinex 2005 en abierto</a></span>
+  </div>
+  <div class="itemInfoNoticia">
+    <span class="itemPoster">Enviado por <strong> <a href='http://www.guadalinex.org/userinfo.php?uid=18'>perry</a></strong></span> <span class="itemPostDate">el 29/7/2005 13:12:34&nbsp;(665 Lecturas</span>)
+  </div>
+  <div class="itemBody">
+    
+    <p class="itemText">Tras los pasos iniciales de definición del proyecto, anunciamos que el sitio que alberga el desarrollo de 2005 se encuentra disponible para acceso público en<br ><a href="http://www.juntadeandalucia.es/repositorio/projects/guadalinex2005/." target="_blank">http://www.juntadeandalucia.es/repositorio/projects/guadalinex2005/.</a> <br ><br >Se trata de un típico sitio de desarrollo de proyectos de software libre al estilo "gforge" compuesto de repositorio de  software y documentación, sistema de control de versiones "subversion" -de donde los más atrevidos pueden descargar los desarrollos más recientes -, listas públicas de correo de desarrollo y un "wiki"  donde se está elaborando colaborativamente la documentación del proyecto.<br ><br >Esperamos vuestras visitas.</p>
+  </div>
+
+  <div class="itemFoot">
+   <span class="itemAdminLink">
+   <a href="http://www.guadalinex.org/modules/news/article.php?storyid=139">Leer el artículo completo</a> | 1581 bytes más | <a href="http://www.guadalinex.org/modules/news/article.php?storyid=139">10 comentarios</a></span>
+  </div>
+</div><br>  <br />
+  <div class="item">
+  <div class="itemHead">
+     <span class="itemTitle"> <a href='http://www.guadalinex.org/modules/news/article.php?storyid=138'>Dos nuevos discos de Guadalinex</a></span>
+  </div>
+  <div class="itemInfoNoticia">
+    <span class="itemPoster">Enviado por <strong> <a href='http://www.guadalinex.org/userinfo.php?uid=3'>alfem</a></strong></span> <span class="itemPostDate">el 1/7/2005 10:08:00&nbsp;(1769 Lecturas</span>)
+  </div>
+  <div class="itemBody">
+    
+    <p class="itemText">Os presentamos dos nuevos CDs de Guadalinex -una vez terminado su  desarrollo- para que los probéis:<br ><br ><br ><strong>* Disco de actualización de Guadalinex 1.0 a Guadalinex 2004</strong><br ><br >Este disco convierte un sistema Guadalinex 1.0 ya instalado, en un Guadalinex 2004 conservando los datos (correo, documentos, favoritos, etc) que el usuario pueda tener.<br ><br ><br ><strong>* Guadalinex 2004 Actualización 1</strong><br ><br >La ya conocida Guadalinex 2004, actualizada incorporando las mejoras y correcciones de la revisión 1, y con versiones nuevas de Firefox y Evolution que facilitan la sincronización con PDAs. También incluimos una copia de nuestra "Guadapedia" con todas sus recetas.<br ><br >Ambos discos están disponibles en la <a href="http://www.guadalinex.org/modules/mydownloads/viewcat.php?cid=1" target="_blank"  title="(Nueva ventana)">área de descargas</a><br > <br ><br ><strong>IMPORTANTE:</strong><br >Estos discos están en fase de pruebas. Os agradecemos cualquier aportación que nos permita mejorarlos, enviándonos cualquier problema que detectéis a "control de errores" (<a href="http://www.guadalinex.org/errores" target="_blank">http://www.guadalinex.org/errores</a>), una vez que los hayais descargado y probado en vuestros equipo, no sin realizar previamente  una copia de seguridad. También recomendamos que se haga un uso prudente de estos discos, no poniendo en riesgo sistemas con datos valiosos.<br > <br ></p>
+  </div>
+
+  <div class="itemFoot">
+   <span class="itemAdminLink">
+   <a href="http://www.guadalinex.org/modules/news/article.php?storyid=138">Leer el artículo completo</a> | <a href="http://www.guadalinex.org/modules/news/article.php?storyid=138">15 comentarios</a></span>
+  </div>
+</div><br>  <br />
+<!-- end news item loop -->
+
+<div class="capaCentrada7">
+    <form name="form1" action="index.php" method="get" class="formLogin">
+    Tema:
+<select name='storytopic'>
+<option value='0'>----</option>
+<option value='3'>Guadalinex</option>
+<option value='2'>Guadalinex EDU</option>
+<option value='4'>Junta de Andalucía</option>
+</select>
+&nbsp; <select name="storynum"> <option value="1">1</option><option value="2">2</option><option value="5">5</option><option value="10">10</option><option value="15">15</option><option value="20">20</option><option value="25">25</option><option value="30">30</option></select> Art&iacute;culos <input type="submit" value="Cambiar">&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<strong>(1)</strong> <a href="/modules/news/index.php?storytopic=0&amp;start=3">2</a> <a href="/modules/news/index.php?storytopic=0&amp;start=6">3</a> <a href="/modules/news/index.php?storytopic=0&amp;start=9">4</a> ... <a href="/modules/news/index.php?storytopic=0&amp;start=84">29</a> <a href="/modules/news/index.php?storytopic=0&amp;start=3"><u>&raquo;</u></a> </form>
+  </div>
+
+             <!--/div-->
+
+
+                <!-- Display center blocks if any -->
+                                    <!-- Start center-center blocks loop -->
+                                          <div class="p5">
+     <div class="blockTitle"><strong>Artículos Recientes</strong></div>
+    <div class="blockContent"><ul>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=140">Nuevas descargas en Guad... (4/8/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=139">Desarrollo de Guadalinex... (29/7/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=138">Dos nuevos discos de Gua... (1/7/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=137">Guadalinex en la 802 Par... (24/6/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=136">Más accesibilidad en Gua... (3/6/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=135">Adjudicado el concurso d... (27/5/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=134">La Junta de Andalucía co... (25/5/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=133">SOLFA: Software Libre en... (16/5/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=132">Guadalinex y Ubuntu (4/5/2005)</li></a>
+      <li><a href="http://www.guadalinex.org/modules/news/article.php?storyid=131">Guadalinex en el Foro de... (28/4/2005)</li></a>
+  </ul></div>
+ </div>                                    <!-- End center-center blocks loop -->
+                                <!-- End display center blocks -->
+
+        </div>
+
+
+        <!--COLUMNA 3-->
+
+        <div class="columna3"><h2 class="oculto">Otras secciones</h2>
+            <!-- Start right blocks loop -->
+            
+              <div class="blockTitle"><strong>CDs de Guadalinex</strong></div>
+<div class="blockContent">Si quieres recibir un CD de Guadalinex en tu domicilio, pulsa <strong><a href="/cds.php">aquí.</a></strong>
+<p align=center>
+<img alt="Varios CDs de Guadalinex" src="http://www.guadalinex.org/uploads/img429c19095ce6a.jpg">
+</p>
+Si organizas un evento y necesitas más CDs, rellena   <strong><a href="/cds_eventos.php">este otro formulario.</a></strong></div>              <br>
+            
+              <div class="blockTitle"><strong>Últimas versiones de Guadalinex</strong></div>
+<div class="blockContent">Versión estable:<ul><li>HTTP:<strong><a href="http://www.guadalinex.org/modules/mydownloads/singlefile.php?cid=1&lid=56" target="_blank"  title="(Nueva ventana)">Guadalinex 2004</a></strong></li><br ><li>FTP:<strong><a href="http://www.guadalinex.org/mirror/descarga.php?proto=ftp&file=descargas/iso/guadalinex-2004.iso" target="_blank"  title="(Nueva ventana)">Guadalinex 2004</a></strong></li><br ><li>EDONKEY:<strong><a href="ed2k://|file|guadalinex-2004.iso|733736960|61993EC55453CD03F4123F607E0CDCB8|" target="_blank" title="(Nueva ventana)">ed2k: Guadalinex 2004</a></strong></li><br ></ul></div>              <br>
+            
+              <div class="blockTitle"><strong>Conferencia Internacional</strong></div>
+<div class="blockContent"><!-- Málaga, 18-20 febrero 2004  --><br ><a href="http://www.conferenciasoftwarelibre.com/" target="_blank"  title="(Nueva ventana)"><img src="http://www.guadalinex.org/uploads/img42b684fa72c59.gif" alt="Conferencia Internacional de Software Libre Málaga 2006 (Nueva Ventana)" title="Conferencia Internacional de Software Libre Málaga 2006 (Nueva Ventana)" ></a><br ><br><br ><a href="http://www.conferenciasoftwarelibre.com/" target="_blank"  title="(Nueva ventana)"><img src="http://www.guadalinex.org/uploads/img42b685212c37a.gif" alt="Encuentro Internacional de Software Libre Mérida 2005(Nueva Ventana)" title="Encuentro Internacional de Software Libre Mérida 2005(Nueva Ventana)" ></a></div>              <br>
+            
+              <div class="blockTitle"><strong>Encuesta</strong></div>
+<div class="blockContent"><form  action="http://www.guadalinex.org/modules/xoopspoll/index.php" method="post">
+<div class="outerEncuesta">
+  <div class="blockTitleC">
+    <input type="hidden" name="poll_id" value="10" >Te gustaría una Guadalinex...
+  </div>
+
+    <div class='even'>
+    <div><span><input type="radio" name="option_id" value="56" ></span>
+    <span>...en dos o más CDROMs</span></div>
+  </div>
+    <div class='odd'>
+    <div><span><input type="radio" name="option_id" value="57" ></span>
+    <span>...en un sólo DVD</span></div>
+  </div>
+    <div class='even'>
+    <div><span><input type="radio" name="option_id" value="58" ></span>
+    <span>...en un sólo CDROM, como hasta ahora</span></div>
+  </div>
+  
+
+    <div class="foot"><input type="submit" value="Votar!" > <input type="button" value="Resultados" onclick="location='http://www.guadalinex.org/modules/xoopspoll/pollresults.php?poll_id=10'" ></div>
+
+</div>
+</form>
+</div>              <br>
+                        <!-- End right blocks loop -->
+        </div>
+
+        
+    
+
+    </div>
+
+<div class="footerbar"><span class="itemPie">Este sitio funciona con </span>
+<a class="white" href="http://www.debian.org/" target="_blank" ><img src="http://www.guadalinex.org/images/debian-logo.png" alt="Debian (nueva ventana)" title="Debian (nueva ventana)" ></a>
+  <a class="white" href="http://www.apache.org/" target="_blank" ><img src="http://www.guadalinex.org/images/apache-logo.png" alt="Apache (nueva ventana)" title="Apache (nueva ventana)" ></a>
+  <a class="white" href="http://www.php.net/" target="_blank" ><img src="http://www.guadalinex.org/images/php-logo.png" alt="PHP (nueva ventana)" title="PHP (nueva ventana)" ></a>
+  <a class="white" href="http://www.mysql.com/" target="_blank" ><img src="http://www.guadalinex.org/images/mysql-logo.png" alt="Mysql (nueva ventana)" title="Mysql (nueva ventana)" /></a>
+ <a class="white" href="http://www.xoops.org/" target="_blank" ><img src="http://www.guadalinex.org/images/xoops-logo.png" alt="XOOPS (nueva ventana)" title="XOOPS (nueva ventana)" /></a></div>
+
+</body>
+</html>

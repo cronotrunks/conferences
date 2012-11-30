@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Guadalinex</title> 
+  </head>
+  <body>
+	<div style="clear: right; float: left; padding-left: 40px; padding-right: 40px;">
+	<img src="photo_1024.jpg" alt="Bienvenido a Guadalinex v3" />
+	</div>
+	<div style="clear: right; padding-right: 40px;">
+        <h1 style="page-break-before: avoid; color: #3b5da5; font-size: 18pt; font-weight: normal; font-family: Arial;">Guadalinex Express</h1>
+        <div style="margin: 1em 0 ! important; line-height: 1.2em; font-size: 11pt; !important; font-weight: bold; margin-top: 4em; color: #90b5f9; font-family: Arial;">La manera más rápida de instalar Guadalinex en su ordenador</div>
+        <div style="font-size: 9pt; font-weight: normal; font-family: Arial;">
+<p>Se dispone a instalar el sistema Guadalinex
+que está probando. Es un proceso
+sencillo de <b>3 pasos</b>, se realiza en unos <b>15 minutos</b> y precisa
+un mínimo de <b>1,5Gb</b> de espacio libre en su disco, si bien es
+recomendable llegar a 5GB si va a instalar muchos programas adicionales.
+<br /><br />
+Consulte la <a href="screenshots.html">guía rápida</a> para ver cómo se
+desarrolla la instalación.</p>
+	</div>
+	</div>
+  </body>
+</html>

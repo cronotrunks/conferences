@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1926"
+   name=""
+   committed-date="2006-04-20T12:36:18.043865Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/lib/backend"
+   last-author="juanje"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   committed-rev="1924"
+   name="format.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-20T11:30:38.833649Z"
+   checksum="6814613449758e988e8638928daa1092"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1900"
+   name="copy.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-12T14:12:19.320157Z"
+   checksum="213af6387ff97b02c60f48304c6f62b6"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="582"
+   name="__init__.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-09-26T09:59:53.471612Z"
+   checksum="020178d3bbab0c9a5415cf9f156532e3"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1891"
+   name="grub-config.sh"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-11T18:49:35.258413Z"
+   checksum="9d5b7d18a8bc2dcaab7572589aedacf9"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1916"
+   name="config.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-19T16:50:46.704560Z"
+   checksum="e90531675a0919eec87ea31c1747dc2b"
+   last-author="carlospc"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1908"
+   name="peez2.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-13T18:28:24.690779Z"
+   checksum="c202a881f9391afbaf034c76433b811a"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1926"
+   name="part.py"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2006-04-20T12:36:18.043865Z"
+   checksum="3d86ec542cf623e3ca920263f85fd97d"
+   last-author="juanje"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+</wc-entries>

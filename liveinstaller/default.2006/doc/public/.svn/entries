@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1116"
+   name=""
+   committed-date="2005-11-09T15:02:02.636571Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/doc/public"
+   last-author="antonio"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   committed-rev="1063"
+   name="toc-lib-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-02T19:26:08.635339Z"
+   checksum="9025066164f7063dff794722615ac36b"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="786"
+   name="frames.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-11T20:22:01.615847Z"
+   checksum="105589094123f6d758f61c84692e09aa"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1116"
+   name="indices.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-09T15:02:02.636571Z"
+   checksum="095966f583db34721f0bfa945ff2e45b"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1116"
+   name="lib.validation-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-09T15:02:02.636571Z"
+   checksum="5fae9cd763629c3654efa4e810d6e991"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1116"
+   name="trees.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-09T15:02:02.636571Z"
+   checksum="443a5c2f26f4bbac9e2544f4d0004806"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1116"
+   name="lib.misc-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-09T15:02:02.636571Z"
+   checksum="0c58cf320aa26a63b10e75057de20780"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1063"
+   name="toc.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-02T19:26:08.635339Z"
+   checksum="355373fcc497bc914acb0886d2dfe9ee"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1116"
+   name="lib.settings-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-09T15:02:02.636571Z"
+   checksum="864ff22acf5eb61388e535a8b82709cd"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1116"
+   name="help.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-09T15:02:02.636571Z"
+   checksum="087acafc97d71cd9e73750644effd013"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1116"
+   name="lib-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-09T15:02:02.636571Z"
+   checksum="9c554c4a7dcca38bb03bbb4e322519f6"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="786"
+   name="toc-lib.validation-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-11T20:22:01.615847Z"
+   checksum="355f2e37bf2872829bfc37074e69fd5f"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1063"
+   name="toc-lib.misc-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-02T19:26:08.635339Z"
+   checksum="7d082a28e9dfba14eb515f374cfb23f7"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="786"
+   name="epydoc.css"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-11T20:22:01.615847Z"
+   checksum="eb7542bde61d726f815143c875d24f3f"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="786"
+   name="index.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-11T20:22:01.615847Z"
+   checksum="105589094123f6d758f61c84692e09aa"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1063"
+   name="toc-everything.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-02T19:26:08.635339Z"
+   checksum="1f596387388fdfa07f9407e8c6c2e8cc"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="786"
+   name="toc-lib.settings-module.html"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-10-11T20:22:01.615847Z"
+   checksum="ffcd6e34241336efae35ad6f1601e11f"
+   last-author="antonio"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+</wc-entries>

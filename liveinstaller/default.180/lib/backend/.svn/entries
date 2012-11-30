@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="242"
+   name=""
+   committed-date="2005-08-17T13:31:51.598190Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/lib/backend"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   committed-rev="230"
+   name="format.py"
+   text-time="2005-08-16T14:00:46.000000Z"
+   committed-date="2005-08-16T15:52:06.705145Z"
+   checksum="cbc7ee74c36022be80a4374433ff71dd"
+   last-author="juanje"
+   kind="file"
+   prop-time="2005-08-16T14:00:46.000000Z"/>
+<entry
+   committed-rev="234"
+   name="copy.py"
+   text-time="2005-08-17T11:28:05.000000Z"
+   committed-date="2005-08-17T05:55:18.355483Z"
+   checksum="c90be9b67ced321c379d127c3c7c11f3"
+   last-author="juanje"
+   kind="file"
+   prop-time="2005-08-17T11:28:05.000000Z"/>
+<entry
+   committed-rev="232"
+   name="__init__.py"
+   text-time="2005-08-16T14:11:15.000000Z"
+   committed-date="2005-08-16T16:33:52.013324Z"
+   checksum="777e158433b4d16e7e2b5ade1cfe55ab"
+   last-author="carranza"
+   kind="file"/>
+<entry
+   committed-rev="236"
+   name="config.py"
+   text-time="2005-08-17T11:28:05.000000Z"
+   committed-date="2005-08-17T05:59:09.073006Z"
+   checksum="c6272656534d2f14512ddd0adda4859f"
+   last-author="juanje"
+   kind="file"
+   prop-time="2005-08-17T11:28:05.000000Z"/>
+<entry
+   committed-rev="242"
+   name="part.py"
+   text-time="2005-08-17T11:22:09.000000Z"
+   committed-date="2005-08-17T13:31:51.598190Z"
+   checksum="5c86b7653c50bb9a3c2180f4d6ca224e"
+   last-author="carranza"
+   kind="file"
+   prop-time="2005-08-16T13:31:01.000000Z"/>
+</wc-entries>

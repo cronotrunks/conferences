@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="242"
+   name=""
+   committed-date="2005-08-17T13:31:51.598190Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   name="debian"
+   kind="dir"/>
+<entry
+   committed-rev="233"
+   name="README.pt_BR"
+   text-time="2005-08-16T23:06:53.000000Z"
+   committed-date="2005-08-17T02:05:04.161769Z"
+   checksum="b189866ba5b9657ce3e67f59465a7adf"
+   last-author="carranza"
+   kind="file"/>
+<entry
+   committed-rev="101"
+   name="README.es"
+   text-time="2005-08-02T07:52:21.000000Z"
+   committed-date="2005-08-02T10:00:28.791476Z"
+   checksum="97ac669fd901cffdfc8702d09b2fab8d"
+   last-author="carranza"
+   kind="file"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="part"
+   kind="dir"/>
+<entry
+   committed-rev="158"
+   name="Changelog"
+   text-time="2005-08-09T08:14:26.000000Z"
+   committed-date="2005-08-09T10:04:20.102937Z"
+   checksum="0aa7ec94cb241176530d1bebf273858d"
+   last-author="juanje"
+   kind="file"
+   prop-time="2005-08-09T08:14:26.000000Z"/>
+<entry
+   committed-rev="192"
+   name="ubuntu-express"
+   text-time="2005-08-10T10:41:43.000000Z"
+   committed-date="2005-08-10T12:48:53.918412Z"
+   checksum="4bd901f71279ba5848353ca1231b8d74"
+   last-author="juanje"
+   kind="file"
+   prop-time="2005-08-10T10:41:43.000000Z"/>
+<entry
+   name="glade"
+   kind="dir"/>
+<entry
+   committed-rev="237"
+   name="installer"
+   text-time="2005-08-17T11:28:05.000000Z"
+   committed-date="2005-08-17T06:00:25.917693Z"
+   checksum="34b81daf21f61c665d4b0f5401b8cc98"
+   last-author="juanje"
+   kind="file"
+   prop-time="2005-08-17T11:28:05.000000Z"/>
+<entry
+   name="htmldocs"
+   kind="dir"/>
+</wc-entries>

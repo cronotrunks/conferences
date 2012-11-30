@@ -1,0 +1,295 @@
+# Ubuntu Express PO file.
+# Copyright (C) 2005 Junta de Andalucia
+# This file is distributed under the same license as the ubuntu-express package.
+# Junta de Andalucia <packmaster@guadalinex.es>, 2005.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Express 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-30 08:05+0100\n"
+"PO-Revision-Date: 2005-11-30 08:05+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: liveinstaller.glade:9
+msgid "Express installer"
+msgstr "Guadalinex Express"
+
+#: liveinstaller.glade:70
+msgid ""
+"<span foreground=\"#9F6C49\"> <span foreground=\"white\" background=\"#9F6C49"
+"\"><b>0. Intro</b></span> > <b>1. Identification</b> > <b>2. Disk space</b> "
+"> <b>3. Installation</b> > <b>4. Ready!</b></span>"
+msgstr ""
+"<span foreground=\"#3b5da5\"> <span foreground=\"white\" background=\"#3b5da5"
+"\"><b>0. Intro</b></span> > <b>1. Identificación</b> > <b>2. Disco</b> "
+"> <b>3. Instalación</b> > <b>4. ¡Fin!</b></span>"
+
+#: liveinstaller.glade:176
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <span foreground=\"white\" "
+"background=\"#9F6C49\"><b>1. Identification</b></span> > <b>2. Disk space</"
+"b> > <b>3. Installation</b> > <b>4. Ready!</b></span>"
+msgstr ""
+"<span foreground=\"#3b5da5\"> <b>0. Intro</b> > <span foreground=\"white\" "
+"background=\"#3b5da5\"><b>1. Identificación</b></span> > <b>2. Disco</"
+"b> > <b>3. Instalación</b> > <b>4. ¡Fin!</b></span>"
+
+#: liveinstaller.glade:242
+msgid "<span size=\"xx-large\">Identify yourself and your computer</span>"
+msgstr "<span size=\"xx-large\" foreground=\"#3b5da5\">Identifíquese y ponga nombre a su ordenador</span>"
+
+#: liveinstaller.glade:301
+msgid "Real Name:"
+msgstr "<span foreground='#3b5da5'>Nombre completo</span> "
+
+#: liveinstaller.glade:351
+msgid "Username:"
+msgstr "<span foreground='#3b5da5'>Usuario</span> "
+
+#: liveinstaller.glade:401
+msgid "Password:"
+msgstr "<span foreground='#3b5da5'>Contraseña</span> "
+
+#: liveinstaller.glade:473
+msgid "Verify password:"
+msgstr "<span foreground='#3b5da5'>Verifique contraseña</span> "
+
+#: liveinstaller.glade:505
+msgid "<b>Personal data</b>"
+msgstr "<span foreground='#90b5f9'><b>Datos personales</b></span>"
+
+#: liveinstaller.glade:570
+msgid "Hostname:"
+msgstr "<span foreground='#3b5da5'>Nombre</span> "
+
+#: liveinstaller.glade:651
+msgid "<b>Computer data</b>"
+msgstr "<span foreground='#90b5f9'><b>Datos del ordenador</b></span>"
+
+#: liveinstaller.glade:687
+msgid ""
+"<span>Es necesario que introduzca su <b>nombre de usuario</b> para el "
+"sistema, su <b>nombre completo</b> para generar una ficha de usuario, así "
+"como el <b>nombre de máquina</b> con el que quiera bautizar su equipo. "
+"Deberá teclear la contraseña de usuario en dos ocasiones.</span>"
+msgstr ""
+"El nuevo sistema necesita su nombre completo (ej: María Sánchez), su "
+"nombre de usuario (ej: msanchez) y una contraseña que sólo usted conozca y sea "
+"sencilla de recordar.\n"
+"También precisa un nombre para su ordenador, que debe constar de una única "
+"palabra sin acentos, eñes o caracteres especiales (ej: Grazalema)."
+
+#: liveinstaller.glade:796 liveinstaller.glade:1261 liveinstaller.glade:1472
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <b>1. Identification</b> > "
+"<span foreground=\"white\" background=\"#9F6C49\"><b>2. Disk space</b></"
+"span> > <b>3. Installation</b> > <b>4. Ready!</b></span>"
+msgstr ""
+"<span foreground=\"#3b5da5\"> <b>0. Intro</b> > <b>1. Identificación</b> > "
+"<span foreground=\"white\" background=\"#3b5da5\"><b>2. Disco</b></"
+"span> > <b>3. Instalación</b> > <b>4. ¡Fin!</b></span>"
+
+#: liveinstaller.glade:847 liveinstaller.glade:1312 liveinstaller.glade:1517
+msgid ""
+"<span size=\"xx-large\">Please prepare some space for you new system</span>"
+msgstr ""
+"<span size=\"xx-large\" foreground=\"#3b5da5\">¿Donde ubicar Guadalinex?</span>"
+
+#: liveinstaller.glade:895
+msgid "<b>Unidades de disco disponibles</b>"
+msgstr ""
+
+#: liveinstaller.glade:956
+msgid "<b>¿Cómo desea particionar el disco?</b>"
+msgstr ""
+
+#: liveinstaller.glade:991
+msgid ""
+"Seleccione esta opción para usar el espacio libre que hay en su disco duro, "
+"sin perder los datos que ya contiene"
+msgstr ""
+
+#: liveinstaller.glade:993
+msgid "Usar el espacio libre [EXPERIMENTAL]"
+msgstr ""
+
+#: liveinstaller.glade:1016
+msgid ""
+"Con este método se aprovecharán las particiones GNU/Linux que hay en el "
+"disco duro, reemplazando el sistema anterior"
+msgstr ""
+
+#: liveinstaller.glade:1018
+msgid "Reutilizar las particiones existentes"
+msgstr ""
+
+#: liveinstaller.glade:1042
+msgid ""
+"Particionamiento avanzado: mediante esta opción podrá crear, redimensionar y "
+"destruir las particiones actuales de su disco duro con entera libertad"
+msgstr ""
+
+#: liveinstaller.glade:1044
+msgid "Particionar a mano"
+msgstr ""
+
+#: liveinstaller.glade:1129
+msgid "Marque esta casilla para confirmar la operación"
+msgstr ""
+
+#: liveinstaller.glade:1131
+msgid "Confirmar el particionado automático"
+msgstr ""
+
+#: liveinstaller.glade:1372
+msgid ""
+"You have to make room in one or more of your hard disks in order to have GNU/"
+"Linux properly installed. 3 partitions are necessary:\n"
+"· The root partition (“/”), with a minimum size of 2.0 GB.\n"
+"· The home partition (“/home”), of 512 MB at least.\n"
+"· The swap partition (“swap”), with 256 MB or more.\n"
+"You can now modify your existing partition table and select where you wan "
+"what.\n"
+"Remember that you can keep the data in a previous home partition – just "
+"leave it as it is and it will not be formatted.\n"
+"Alternatively, it is possible to return to the previous page to select an "
+"easier partitioning method."
+msgstr ""
+"Con este particionador manual puede crear, borrar y redimensionar "
+"particiones. No se lo tome a la ligera: su uso indebido puede conllevar la "
+"eliminación de datos valiosos existentes en el disco duro.\n"
+"Se recomiendan tres particiones para el nuevo sistema, que puede obtener de "
+"su espacio libre en disco o de particiones ya existentes:\n"
+"· La partición raíz (\"/\"), donde el nuevo sistema será instalado. Requiere un"
+" mínimo de 2,0 GB.\n"
+"· La partición /swap, utilizada por el sistema para su propio funcionamiento. "
+"Tiene suficiente con 256Mb.\n"
+"· La partición /home es donde se ubican los documentos y ficheros de los "
+"usuarios. El mínimo recomendado es de 500Mb y cuanto más espacio le pueda "
+"asignar, mejor. Si ya tiene una partición /home de otro sistema Linux puede "
+"conservarla para el nuevo sistema, sin necesidad de cambio alguno.\n"
+"Todas las particiones, a excepción de la seleccionada para el sistema raíz "
+"('/') de Guadalinex v3, conservarán sus datos anteriores a no ser que usted "
+"efectúe un formateo del dispositivo en este paso.\n"
+"Si tiene más espacio disponible puede crear más particiones. Cada partición es "
+"interpretada por el sistema como un disco independiente, por lo que puede "
+"tener por ejemplo una partición /copias para guardar copias de seguridad de "
+"sus archivos.\n"
+"Siga adelante para efectuar los cambios en la tabla de particiones o retroceda "
+"para realizar un particionamiento asistido."
+
+#: liveinstaller.glade:1578
+msgid ""
+"Now you should have at least 3 GNU/Linux partitions with space enough. It's "
+"time to specify where you want every component to be installed.\n"
+"Proceed as follows: select one partition in the column on the left and link "
+"it with one mount point on the right. Repeat for every desired partition.\n"
+"There are 3 necessary “mount points” – they must be associated with 3 "
+"partitions. They are “/”, “/home” and “swap”.\n"
+"If you kept an intact home partition, you can now link it with the “/home” "
+"mount point. It will not be formatted, so data is preserved."
+msgstr ""
+"Ahora sólo falta que le asigne a las nuevas particiones un punto de montaje. "
+"Es decir, un directorio dentro del sistema de ficheros:\n"
+"· / para la partición de directorio raíz\n"
+"· /swap para la partición de intercambio\n"
+"· /home para la partición de archivos de los usuarios\n"
+"Puede definir el punto de montaje que desee para las particiones adicionales "
+"que haya creado para su propio uso (ej: /copias).\n"
+"Una vez definidos todos los puntos de montaje puede seguir adelante."
+
+#: liveinstaller.glade:1632
+msgid "<b>Mountpoint</b>"
+msgstr "<b>Punto de montaje</b>"
+
+#: liveinstaller.glade:1871
+msgid "<b>Size</b>"
+msgstr "<b>Tamaño</b>"
+
+#: liveinstaller.glade:2150
+msgid "<b>Partition</b>"
+msgstr "<b>Partición</b>"
+
+#: liveinstaller.glade:2422
+msgid ""
+"<span>Debe introducir un punto de montaje <b>\"/\"</b> para su sistema "
+"instalado.</span>"
+msgstr ""
+
+#: liveinstaller.glade:2560
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <b>1. Identification</b> > "
+"<b>2. Disk space</b> > <span foreground=\"white\" background=\"#9F6C49"
+"\"><b>3. Installation</b></span> > <b>4. Ready!</b></span>"
+msgstr ""
+"<span foreground=\"#3b5da5\"> <b>0. Intro</b> > <b>1. Identificación</b> > "
+"<b>2. Disco</b> > <span foreground=\"white\" background=\"#3b5da5"
+"\"><b>3. Instalación</b></span> > <b>4. ¡Fin!</b></span>"
+
+#: liveinstaller.glade:2626
+msgid ""
+"<span size=\"xx-large\">Introducing your forthcoming free desktop</span>"
+msgstr ""
+"<span size=\"xx-large\" foreground=\"#3b5da5\">Cómo será su nuevo escritorio libre</span>"
+
+#: liveinstaller.glade:2731
+msgid "Installation progress"
+msgstr "Progreso de la instalación"
+
+#: liveinstaller.glade:2808
+msgid ""
+"<span foreground=\"#9F6C49\"> <b>0. Intro</b> > <b>1. Identification</b> > "
+"<b>2. Disk space</b> > <b>3. Installation</b> > <span foreground=\"white\" "
+"background=\"#9F6C49\"><b>4. Ready!</b></span></span>"
+msgstr ""
+"<span foreground=\"#3b5da5\"> <b>0. Intro</b> > <b>1. Identificación</b> > "
+"<b>2. Disco</b> > <b>3. Instalación</b> > <span foreground=\"white\" "
+"background=\"#3b5da5\"><b>4. ¡Fin!</b></span></span>"
+
+#: liveinstaller.glade:2853
+msgid "<span size=\"xx-large\">Congratulations!</span>"
+msgstr "<span size=\"xx-large\" foreground=\"#3b5da5\">¡Felicidades!</span>"
+
+#: liveinstaller.glade:2885
+msgid ""
+"The installation has been successfully completed.\n"
+"\n"
+"In order to work with your new free operative system you need to eject the "
+"CDLive and reboot your computer."
+msgstr ""
+"El proceso de instalación se ha completado.\n"
+"\n"
+"Para utilizar su nuevo sistema operativo libre es necesario extraer el "
+"CDLive y reiniciar su ordenador."
+
+#: liveinstaller.glade:2925
+msgid "Ready"
+msgstr "Fin"
+
+#: liveinstaller.glade:3090
+msgid "¿Salir del instalador de Guadalinex?"
+msgstr ""
+
+#: liveinstaller.glade:3200
+msgid "¿Desea salir verdaderamente del instalador de Guadalinex 2005?"
+msgstr ""
+
+#: liveinstaller.glade:3222 liveinstaller.glade:3379
+msgid "<b>Instalador de Guadalinex 2005</b>"
+msgstr ""
+
+#: liveinstaller.glade:3261
+msgid "Se interrumpió el particionado"
+msgstr ""
+
+#: liveinstaller.glade:3357
+msgid ""
+"No es posible particionar automáticamente esta unidad. Tendrá que "
+"seleccionar otra forma de particionado."
+msgstr ""

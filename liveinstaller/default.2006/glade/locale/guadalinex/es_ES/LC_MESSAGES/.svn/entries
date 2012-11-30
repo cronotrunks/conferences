@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1313"
+   name=""
+   committed-date="2005-11-23T19:42:47.876455Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/glade/locale/guadalinex/es_ES/LC_MESSAGES"
+   last-author="carranza"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   committed-rev="1313"
+   name="liveinstaller.mo"
+   text-time="2006-04-20T15:04:25.000000Z"
+   committed-date="2005-11-23T19:42:47.876455Z"
+   checksum="09710dde34e7dec7c721a40a8124e71d"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+</wc-entries>

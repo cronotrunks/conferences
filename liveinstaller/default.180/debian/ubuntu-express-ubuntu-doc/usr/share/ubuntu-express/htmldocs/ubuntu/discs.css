@@ -1,0 +1,42 @@
+#navigation_download_install
+{
+	background-color: #E9CE9F;
+	border: 1px solid #E9CE9F;
+	padding: 3px 10px 15px 10px;
+}
+#navigation_download_install img
+{
+	padding: 0 3px 0 0;
+}
+#navigation_download_install strong
+{
+	font-weight: bolder;
+	font-size: 130%;
+}
+#navigation_download_install a
+{
+	font-weight: 400;
+	color: #5B4832;
+	text-decoration: underline;
+}
+#navigation_download_livecd
+{
+	background-color: #FEEFD6;
+	border: 1px solid #E9CE9F;
+	padding: 3px 10px 15px 10px;
+}
+#navigation_download_livecd img
+{
+	padding: 0 0 3px 0;
+}
+#navigation_download_livecd strong
+{
+	font-weight: bolder;
+	font-size: 130%;
+}
+#navigation_download_livecd a
+{
+	font-weight: 400;
+	color: #5B4832;
+	text-decoration: underline;
+}

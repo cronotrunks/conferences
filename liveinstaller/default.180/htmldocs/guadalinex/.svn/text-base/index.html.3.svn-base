@@ -1,0 +1,456 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" >
+<meta http-equiv="content-language" content="es" >
+<meta name="robots" content="index,follow" >
+<meta name="keywords" content="guadalinex, linux, andalucia, junta, software libre, open source, linex" >
+<meta name="description" content="Guadalinex es la distribución de linux desarrollada por la Junta de Andalucía para facilitar el acceso a todos los ciudadanos al software libre." >
+<meta name="rating" content="general" >
+<meta name="author" content="SADESI" >
+<meta name="copyright" content="Copyleft © 2003" >
+<meta name="generator" content="XOOPS" >
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="Sat, 01 Jan 2005 00:00:01 GMT">
+<title>Guadalinex - Foros</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.guadalinex.org/themes/Guadalinex/style.css" >
+<!-- RMV: added module header -->
+
+<script type="text/javascript">
+<!--
+//--></script><script type="text/javascript" src="http://www.guadalinex.org/include/xoops.js"></script><script type="text/javascript"><!--
+//-->
+</script>
+</head>
+<body>
+
+
+
+<h1 class="oculto">GUADALINEX</h1>
+<form action="http://www.guadalinex.org/search.php" method="post">
+<!--CABECERA-->
+<div class="header">
+ <div class="headerlogo">
+
+        <a href="http://www.andaluciajunta.es" title="Portal de la Junta de Andalucía (Nueva ventana)" target="blank" class="headerJunta"><span class="logo">Junta de Andalucía</span></a>
+        <a href="http://www.guadalinex.org" title="Página de inicio de Guadalinex" class="headerGuadalinex"><span class="logo">Guadalinex</span></a>
+
+ </div>
+ <div class="headerbanner"><a href="http://www.guadalinex.org/banners.php?op=click&amp;bid=12" target="_blank"><img src="http://www.guadalinex.org/uploads/img4296f9108029c.png" alt=" (Nueva ventana)" title=" (Nueva ventana)"/></a></div>
+</div>
+<div class="headerbar"><label for="consulta">Buscador de guadalinex.org</label>
+    <input type="text" name="query" size="14" id="consulta"><input type="hidden" name="action" value="results" >&nbsp;<input type="submit" value="Buscar" >&nbsp;
+ </div>
+</form>
+
+<a class="ocultar" href="#informacion" title="Ir a contenidos">Ir a contenidos</a>
+
+
+
+    <!--COLUMNA 1-->
+    <div class="columna1">
+        <!-- Start left blocks loop -->
+                     <div class="blockTitle"><strong>Entrada</strong></div>
+<div class="blockContent"><div class="formLogin">
+<form  action="http://www.guadalinex.org/user.php" method="post" ><label for="Nombre: ">Nombre: </label><br><input type="text" name="uname" size="12" value="" id="Nombre: "><br><label for="Contrase&ntilde;a: ">Contrase&ntilde;a: </label><br><input type="password" name="pass" size="12" id="Contrase&ntilde;a: " ><br><br><input type="hidden" name="xoops_redirect" value="/modules/newbb/" ><input type="hidden" name="op" value="login" ><input type="submit" class="submit" value="Ingresar" ><br ></form>
+</div>
+<br>
+<a href="http://www.guadalinex.org/user.php#lost" >¿Perdió su Contrase&ntilde;a?</a><br><br><a href="http://www.guadalinex.org/register.php" title="Nuevo registro (Nueva ventana)" ><strong>Regístrese</strong> Ahora!</a></div>                     <div class="blockTitle"><strong>Menú</strong></div>
+<div class="blockContent"><!--div-->
+  
+<!--div id="mainmenu"--><ul>
+<li>
+<a class="menuTop" href="http://www.guadalinex.org/">Inicio</a>
+</li>
+ <!-- start module menu loop -->
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/guadapedia">Ayuda y Documentacion (Guadapedia)</a>
+</li>
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/cursos">Cursos  de Guadalinex</a>
+</li>
+       <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/news/" >Artículos</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/newbb/" >Foros</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mydownloads/" >Descargas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsgallery/" >Galería de Imágenes</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsfaq/" >Preguntas y Respuestas (FAQ)</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mylinks/" >Enlaces</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/quien/" >¿Donde está Guadalinex?</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopspoll/" >Encuestas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/contact/" >Contacta con nosotros</a>        
+                    
+      </li>
+            
+      <!-- end module menu loop -->
+</ul>
+    <!--/div-->
+  
+<!--/div--></div>                     <div class="blockTitle"><strong>Nivel de Accesibilidad</strong></div>
+<div class="blockContent"><a href="http://www.w3.org/WAI/WCAG1AA-Conformance"><img src="http://www.guadalinex.org/uploads/img41e7c1d688615.gif" alt="Nivel Doble-A de Conformidad con las Directrices de Accesibilidad para el Contenido Web 1.0 (WCAG 1.0) " title="Nivel Doble-A de Conformidad con las Directrices de Accesibilidad para el Contenido Web 1.0 (WCAG 1.0) " title="Nueva ventana" alt="Nueva ventana"></a></div>                     <div class="blockTitle"><strong>Los que más escriben</strong></div>
+<div class="blockContent"><table cellspacing="1" class="tablaTop">
+    <tr class="even" valign="middle">
+    <td>1</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/savt3f41ca2ea30c6.png" alt="avatar de alfabet"  title="avatar de alfabet" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=610">alfabet</a>
+    </td>
+    <td align="center">1906</td>
+  </tr>
+    <tr class="odd" valign="middle">
+    <td>2</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt4289ca4b4a8c4.jpg" alt="avatar de semanue"  title="avatar de semanue" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=5292">semanue</a>
+    </td>
+    <td align="center">1432</td>
+  </tr>
+    <tr class="even" valign="middle">
+    <td>3</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt416525a8cae40.gif" alt="avatar de trunks"  title="avatar de trunks" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=3158">trunks</a>
+    </td>
+    <td align="center">1382</td>
+  </tr>
+    <tr class="odd" valign="middle">
+    <td>4</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt3f551b2dd3bbe.png" alt="avatar de advocatux"  title="avatar de advocatux" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=152">advocatux</a>
+    </td>
+    <td align="center">1291</td>
+  </tr>
+    <tr class="even" valign="middle">
+    <td>5</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt408d8ad2b3e3e.jpg" alt="avatar de Marduk"  title="avatar de Marduk" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=2407">Marduk</a>
+    </td>
+    <td align="center">1251</td>
+  </tr>
+    <tr class="odd" valign="middle">
+    <td>6</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt41e3d350cddb9.png" alt="avatar de IndioCabreao"  title="avatar de IndioCabreao" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=576">IndioCabreao</a>
+    </td>
+    <td align="center">1004</td>
+  </tr>
+    <tr class="even" valign="middle">
+    <td>7</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt41937a75357e4.png" alt="avatar de guadafan"  title="avatar de guadafan" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=5812">guadafan</a>
+    </td>
+    <td align="center">707</td>
+  </tr>
+    <tr class="odd" valign="middle">
+    <td>8</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/savt3f432ff1b4236.gif" alt="avatar de marillion"  title="avatar de marillion" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=2887">marillion</a>
+    </td>
+    <td align="center">617</td>
+  </tr>
+    <tr class="even" valign="middle">
+    <td>9</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt417636dff3c5c.gif" alt="avatar de cheitozz"  title="avatar de cheitozz" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=6014">cheitozz</a>
+    </td>
+    <td align="center">614</td>
+  </tr>
+    <tr class="odd" valign="middle">
+    <td>10</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt41fd47469751e.jpg" alt="avatar de basoalto"  title="avatar de basoalto" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=3172">basoalto</a>
+    </td>
+    <td align="center">611</td>
+  </tr>
+    <tr class="even" valign="middle">
+    <td>11</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt410d1f5e08ccb.jpg" alt="avatar de erflako"  title="avatar de erflako" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=4590">erflako</a>
+    </td>
+    <td align="center">607</td>
+  </tr>
+    <tr class="odd" valign="middle">
+    <td>12</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt4287a670202ba.jpg" alt="avatar de ambiental"  title="avatar de ambiental" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=2471">ambiental</a>
+    </td>
+    <td align="center">591</td>
+  </tr>
+    <tr class="even" valign="middle">
+    <td>13</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt4186403c25613.jpg" alt="avatar de marrajo"  title="avatar de marrajo" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=5624">marrajo</a>
+    </td>
+    <td align="center">588</td>
+  </tr>
+    <tr class="odd" valign="middle">
+    <td>14</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt4281100c166e0.gif" alt="avatar de JoeLui"  title="avatar de JoeLui" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=7749">JoeLui</a>
+    </td>
+    <td align="center">563</td>
+  </tr>
+    <tr class="even" valign="middle">
+    <td>15</td>
+    <td align="center">
+            <img src="http://www.guadalinex.org/uploads/cavt41d80839595e0.gif" alt="avatar de TrIaN"  title="avatar de TrIaN" width="32" ><br >
+            <a href="http://www.guadalinex.org/userinfo.php?uid=1644">TrIaN</a>
+    </td>
+    <td align="center">540</td>
+  </tr>
+  </table></div>                <!-- End left blocks loop -->
+
+    </div>
+
+
+    <div class="columna2-dcha">
+        <!--No existe la columna derecha-->
+                    <a name="informacion"></a>
+            <h2 class="oculto">Contenido</h2>
+            <!-- start module contents -->
+<table cellspacing="0" width="100%" class="tabla">
+  <tr>
+    <td colspan="2"><strong>Bienvenido al foro Guadalinex</strong><br>
+<p>
+Un sitio de debate público donde puedes plantear preguntas, proponer soluciones y mejoras y, en definitiva, compartir tus conocimientos e inquietudes con los demás usuarios de Guadalinex. 
+</p>
+<p>
+<strong>NOTA:</strong> Las opiniones y comentarios publicados en estos foros son propiedad de sus autores. Si deseas consultar a los responsables de Guadalinex, estamos a tu disposición en la opción  <strong><a href=/modules/contact/>contacta con nosotros</a></strong> del menú principal.
+</p>
+Para comenzar a ver los mensajes, seleccione el foro que quiera visitar.<hr /></td>
+  </tr>
+  <tr valign="bottom">
+    <td><small>Total de temas: <strong>8128</strong> | Total de Envíos: <strong>40223</strong></small><br ><br ><a href="http://www.guadalinex.org/modules/newbb/index.php"></a></td>
+    <td align="right"><small>La hora 9/8/2005 12:46<br>Su última Visita: 9/8/2005 12:46:42</small></td>
+  </tr>
+</table>
+<br >
+
+<!-- start forum categories -->
+<table cellspacing="1" class="tabla">
+  <tr align="left" valign="top"><th colspan="6"> <a  class="white" href="http://www.guadalinex.org/modules/newbb/index.php?cat=3"> Foros Generales</a></th></tr>
+  <tr class="foot" align="center">
+    <td>&nbsp;</td>
+	<td nowrap="nowrap" align="left">Foro</td>
+	<td nowrap="nowrap">Temas</td>
+	<td nowrap="nowrap">Envios</td>
+	<td nowrap="nowrap">Ultimo envío</td>
+  </tr>
+  <!-- start forums -->
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=3'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=3"><b>Traducciones al castellano</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">41</td>
+    <td class="odd" width="5%" align="center" valign="middle">245</td>
+    <td class="even" width="20%" align="center" valign="middle">14/7/2005 22:25:13<br ><a href="http://www.guadalinex.org/userinfo.php?uid=9825">novato.eterno</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=39342&amp;topic_id=7677&amp;forum=3#forumpost39342"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=4'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=4"><b>Sugerencias para la edición del Ciudadano</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">459</td>
+    <td class="odd" width="5%" align="center" valign="middle">1941</td>
+    <td class="even" width="20%" align="center" valign="middle">21/7/2005 10:01:22<br ><a href="http://www.guadalinex.org/userinfo.php?uid=18">perry</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=39648&amp;topic_id=6716&amp;forum=4#forumpost39648"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=6'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=6"><b>Sugerencias para Guadalinex Mini</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">81</td>
+    <td class="odd" width="5%" align="center" valign="middle">367</td>
+    <td class="even" width="20%" align="center" valign="middle">27/7/2005 16:17:21<br ><a href="http://www.guadalinex.org/userinfo.php?uid=5812">guadafan</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=39891&amp;topic_id=3476&amp;forum=6#forumpost39891"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=9'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=9"><b>Usabilidad</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">242</td>
+    <td class="odd" width="5%" align="center" valign="middle">1393</td>
+    <td class="even" width="20%" align="center" valign="middle">8/8/2005 15:49:37<br ><a href="http://www.guadalinex.org/userinfo.php?uid=610">alfabet</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40335&amp;topic_id=8148&amp;forum=9#forumpost40335"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <!-- end forums -->
+</table>
+<img src="images/pixel.gif" height="5" alt="" ><br >
+<table cellspacing="1" class="tabla">
+  <tr align="left" valign="top"><th colspan="6"> <a  class="white" href="http://www.guadalinex.org/modules/newbb/index.php?cat=1"> Instalación de Guadalinex</a></th></tr>
+  <tr class="foot" align="center">
+    <td>&nbsp;</td>
+	<td nowrap="nowrap" align="left">Foro</td>
+	<td nowrap="nowrap">Temas</td>
+	<td nowrap="nowrap">Envios</td>
+	<td nowrap="nowrap">Ultimo envío</td>
+  </tr>
+  <!-- start forums -->
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=7'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=7"><b>Instalación de Guadalinex</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">1097</td>
+    <td class="odd" width="5%" align="center" valign="middle">5238</td>
+    <td class="even" width="20%" align="center" valign="middle">9/8/2005 10:13:54<br ><a href="http://www.guadalinex.org/userinfo.php?uid=3172">basoalto</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40364&amp;topic_id=8059&amp;forum=7#forumpost40364"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <!-- end forums -->
+</table>
+<img src="images/pixel.gif" height="5" alt="" ><br >
+<table cellspacing="1" class="tabla">
+  <tr align="left" valign="top"><th colspan="6"> <a  class="white" href="http://www.guadalinex.org/modules/newbb/index.php?cat=2"> Usando Guadalinex</a></th></tr>
+  <tr class="foot" align="center">
+    <td>&nbsp;</td>
+	<td nowrap="nowrap" align="left">Foro</td>
+	<td nowrap="nowrap">Temas</td>
+	<td nowrap="nowrap">Envios</td>
+	<td nowrap="nowrap">Ultimo envío</td>
+  </tr>
+  <!-- start forums -->
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=8'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=8"><b>Usando Guadalinex</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">2578</td>
+    <td class="odd" width="5%" align="center" valign="middle">12773</td>
+    <td class="even" width="20%" align="center" valign="middle">9/8/2005 10:22:38<br ><a href="http://www.guadalinex.org/userinfo.php?uid=3172">basoalto</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40365&amp;topic_id=8155&amp;forum=8#forumpost40365"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=10'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=10"><b>Guadalinex 2004</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">2545</td>
+    <td class="odd" width="5%" align="center" valign="middle">13186</td>
+    <td class="even" width="20%" align="center" valign="middle">9/8/2005 10:45:28<br ><a href="http://www.guadalinex.org/userinfo.php?uid=560">cpcero</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40368&amp;topic_id=8165&amp;forum=10#forumpost40368"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=11'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=11"><b>Conexión ADSL</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">413</td>
+    <td class="odd" width="5%" align="center" valign="middle">2017</td>
+    <td class="even" width="20%" align="center" valign="middle">8/8/2005 11:53:24<br ><a href="http://www.guadalinex.org/userinfo.php?uid=6267">PanteraRosa</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40324&amp;topic_id=8157&amp;forum=11#forumpost40324"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=14'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=14"><b>Redes inalámbricas (Wireless)</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">48</td>
+    <td class="odd" width="5%" align="center" valign="middle">420</td>
+    <td class="even" width="20%" align="center" valign="middle">9/8/2005 10:58:47<br ><a href="http://www.guadalinex.org/userinfo.php?uid=2471">ambiental</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40369&amp;topic_id=8132&amp;forum=14#forumpost40369"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <!-- end forums -->
+</table>
+<img src="images/pixel.gif" height="5" alt="" ><br >
+<table cellspacing="1" class="tabla">
+  <tr align="left" valign="top"><th colspan="6"> <a  class="white" href="http://www.guadalinex.org/modules/newbb/index.php?cat=5"> Desarrollo</a></th></tr>
+  <tr class="foot" align="center">
+    <td>&nbsp;</td>
+	<td nowrap="nowrap" align="left">Foro</td>
+	<td nowrap="nowrap">Temas</td>
+	<td nowrap="nowrap">Envios</td>
+	<td nowrap="nowrap">Ultimo envío</td>
+  </tr>
+  <!-- start forums -->
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=12'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=12"><b>Guadalinex Mini</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">105</td>
+    <td class="odd" width="5%" align="center" valign="middle">759</td>
+    <td class="even" width="20%" align="center" valign="middle">9/8/2005 11:07:13<br ><a href="http://www.guadalinex.org/userinfo.php?uid=12079">JRIAT</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40370&amp;topic_id=8102&amp;forum=12#forumpost40370"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=13'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=13"><b>Desarrollo de Guadalinex 2005</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">37</td>
+    <td class="odd" width="5%" align="center" valign="middle">284</td>
+    <td class="even" width="20%" align="center" valign="middle">9/8/2005 11:50:27<br ><a href="http://www.guadalinex.org/userinfo.php?uid=9073">rafiki2003dr</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=40372&amp;topic_id=8166&amp;forum=13#forumpost40372"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <!-- end forums -->
+</table>
+<img src="images/pixel.gif" height="5" alt="" ><br >
+<table cellspacing="1" class="tabla">
+  <tr align="left" valign="top"><th colspan="6"> <a  class="white" href="http://www.guadalinex.org/modules/newbb/index.php?cat=4"> Guadalinex en el entorno educativo</a></th></tr>
+  <tr class="foot" align="center">
+    <td>&nbsp;</td>
+	<td nowrap="nowrap" align="left">Foro</td>
+	<td nowrap="nowrap">Temas</td>
+	<td nowrap="nowrap">Envios</td>
+	<td nowrap="nowrap">Ultimo envío</td>
+  </tr>
+  <!-- start forums -->
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=1'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=1"><b>Instalación de Guadalinex EDU</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">204</td>
+    <td class="odd" width="5%" align="center" valign="middle">665</td>
+    <td class="even" width="20%" align="center" valign="middle">9/9/2004 10:08:04<br ><a href="http://www.guadalinex.org/userinfo.php?uid=248">mequedesinnick</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=11413&amp;topic_id=2746&amp;forum=1#forumpost11413"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=2'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=2"><b>Usando Guadalinex EDU</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">234</td>
+    <td class="odd" width="5%" align="center" valign="middle">795</td>
+    <td class="even" width="20%" align="center" valign="middle">14/9/2004 10:14:07<br ><a href="http://www.guadalinex.org/userinfo.php?uid=248">mequedesinnick</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=11789&amp;topic_id=2666&amp;forum=2#forumpost11789"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <tr>
+    <td class="even" align="center" valign="middle" width="5%"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Mensajes del foro" title="Mensajes del foro" ></td>
+    <td class="odd" onclick="window.location='http://www.guadalinex.org/modules/newbb/viewforum.php?forum=5'"><a href="http://www.guadalinex.org/modules/newbb/viewforum.php?forum=5"><b>Nuevas Tecnologías y Educación</b></a><br /></td>
+    <td class="even" width="5%" align="center" valign="middle">44</td>
+    <td class="odd" width="5%" align="center" valign="middle">140</td>
+    <td class="even" width="20%" align="center" valign="middle">12/9/2004 12:07:20<br ><a href="http://www.guadalinex.org/userinfo.php?uid=248">mequedesinnick</a> <a href="http://www.guadalinex.org/modules/newbb/viewtopic.php?post_id=11628&amp;topic_id=2789&amp;forum=5#forumpost11628"><img src="http://www.guadalinex.org/images/subject/icon1.gif" width="15" height="15" border="0" alt="Ver Mensaje" title="Ver Mensaje" ></a></td>
+  </tr>
+    <!-- end forums -->
+</table>
+<img src="images/pixel.gif" height="5" alt="" ><br >
+<!-- end forum categories -->
+
+<form name="search" action="search.php" method="post">
+  <table width="100%" class="tabla">
+    <tr>
+      <td valign="middle"><img src="http://www.guadalinex.org/modules/newbb/images/folder_new_big.gif" alt="Con nuevos mensajes" title="Con nuevos mensajes"> = Con nuevos mensajes<br><img src="http://www.guadalinex.org/modules/newbb/images/folder_big.gif" alt="Sin nuevos mensajes"  title="Sin nuevos mensajes"> = Sin nuevos mensajes<br>  <img src="http://www.guadalinex.org/modules/newbb/images/folder_locked_big.gif" alt="Foro Privado"  title="Foro Privado"> = Foro Privado</td>
+      <td align="right" valign="bottom"><strong>Buscar</strong>&nbsp;<input name="term" type="text" size="20" ><input type="hidden" name="forum" value="all" ><input type="hidden" name="sortby" value="p.post_time desc" ><input type="hidden" name="searchboth" value="both" /><input type="hidden" name="submit" value="Buscar" /><br >[ <a href="http://www.guadalinex.org/modules/newbb/search.php">Busqueda Avanzada</a> ]</td>
+    </tr>
+  </table>
+</form>
+<!-- end module contents -->
+
+        
+        <!--cuando no existe la barra derecha deberás eliminar las dos siguientes capa-->
+         
+    
+
+    </div>
+
+<div class="footerbar"><span class="itemPie">Este sitio funciona con </span>
+<a class="white" href="http://www.debian.org/" target="_blank" ><img src="http://www.guadalinex.org/images/debian-logo.png" alt="Debian (nueva ventana)" title="Debian (nueva ventana)" ></a>
+  <a class="white" href="http://www.apache.org/" target="_blank" ><img src="http://www.guadalinex.org/images/apache-logo.png" alt="Apache (nueva ventana)" title="Apache (nueva ventana)" ></a>
+  <a class="white" href="http://www.php.net/" target="_blank" ><img src="http://www.guadalinex.org/images/php-logo.png" alt="PHP (nueva ventana)" title="PHP (nueva ventana)" ></a>
+  <a class="white" href="http://www.mysql.com/" target="_blank" ><img src="http://www.guadalinex.org/images/mysql-logo.png" alt="Mysql (nueva ventana)" title="Mysql (nueva ventana)" /></a>
+ <a class="white" href="http://www.xoops.org/" target="_blank" ><img src="http://www.guadalinex.org/images/xoops-logo.png" alt="XOOPS (nueva ventana)" title="XOOPS (nueva ventana)" /></a></div>
+
+</body>
+</html>

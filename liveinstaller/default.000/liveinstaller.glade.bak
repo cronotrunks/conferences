@@ -1,0 +1,232 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-interface SYSTEM "http://glade.gnome.org/glade-2.0.dtd">
+
+<glade-interface>
+<requires lib="gnome"/>
+
+<widget class="GtkWindow" id="live_installer">
+  <property name="width_request">640</property>
+  <property name="height_request">480</property>
+  <property name="visible">True</property>
+  <property name="title" translatable="yes">Instalador Guadalinex 2005</property>
+  <property name="type">GTK_WINDOW_TOPLEVEL</property>
+  <property name="window_position">GTK_WIN_POS_CENTER</property>
+  <property name="modal">False</property>
+  <property name="resizable">True</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="decorated">True</property>
+  <property name="skip_taskbar_hint">False</property>
+  <property name="skip_pager_hint">False</property>
+  <property name="type_hint">GDK_WINDOW_TYPE_HINT_NORMAL</property>
+  <property name="gravity">GDK_GRAVITY_NORTH_WEST</property>
+  <property name="focus_on_map">True</property>
+
+  <child>
+    <widget class="GnomeDruid" id="druid1">
+      <property name="border_width">4</property>
+      <property name="visible">True</property>
+      <property name="show_help">False</property>
+
+      <child>
+	<widget class="GnomeDruidPageEdge" id="bienvenida">
+	  <property name="visible">True</property>
+	  <property name="position">GNOME_EDGE_START</property>
+	  <property name="title" translatable="yes">Bienvenido a Guadalinex</property>
+	  <property name="text" translatable="yes">Guadalinex es Software Libre. Cada uno de los programas y aplicaciones que integran la distribución Guadalinex tiene su propia licencia. En muchos casos es una licencia GPL, pero si desea modificar cualquier aplicación debería consultar antes los términos específicos de cada una. En cualquier caso, la distribución Guadalinex en sí, incluidas las mejoras o modificaciones sobre aplicaciones y scripts de instalación, la documentación y el material gráfico se licencia bajo GPL y por tanto está permitida su reproducción y difusión siempre que se mantenga esta licencia.</property>
+	  <property name="background_color">#080870702121</property>
+	  <property name="logo_background_color">#080870702121</property>
+	  <property name="logo">LogoJuntaCons-Guada.gif</property>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageEdge" id="bienvenida">
+	  <property name="visible">True</property>
+	  <property name="position">GNOME_EDGE_START</property>
+	  <property name="title" translatable="yes">Requisitos mínimos</property>
+	  <property name="text" translatable="yes">Para instalar y utilizar esta versión de Guadalinex en su ordenador necesitará al menos:
+
+   - 2.5 Gigabytes de espacio libre en el disco duro
+   - 128 Megabytes de memoria RAM
+   - Tarjeta gráfica SVGA
+   - Procesador Intel o compatible a 200 Megaherzios
+
+(en la documentación adicional puede consultar el hardware recomendado)</property>
+	  <property name="background_color">#080870702121</property>
+	  <property name="logo_background_color">#080870702121</property>
+	  <property name="logo">LogoJuntaCons-Guada.gif</property>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="druidpagestandard1">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Idioma</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox1">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="druidpagestandard2">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Franja horaria</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox2">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="druidpagestandard3">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Usuario y contraseña</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox3">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="druidpagestandard4">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Nombre del equipo</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox4">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="druidpagestandard5">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Configuración de red</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox5">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="druidpagestandard6">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Particionado</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox6">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="druidpagestandard7">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Instalando...</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox7">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageEdge" id="final">
+	  <property name="visible">True</property>
+	  <property name="position">GNOME_EDGE_FINISH</property>
+	  <property name="title" translatable="yes">Disfrútelo</property>
+	  <property name="text" translatable="yes">La instalación de Guadalinex 2005 ha finalizado.
+
+Le animamos a probar toda la potencia del escritorio Guadalinex, eche un vistazo a la completa selección de aplicaciones incluidas en nuestro sistema operativo. Disfrute con toda la potencia y funcionalidad que el software libre pone a su disposición.</property>
+	  <property name="background_color">#080870702121</property>
+	  <property name="logo_background_color">#080870702121</property>
+	  <property name="logo">LogoJuntaCons-Guada.gif</property>
+	</widget>
+      </child>
+    </widget>
+  </child>
+</widget>
+
+</glade-interface>

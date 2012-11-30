@@ -1,0 +1,310 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" >
+<meta http-equiv="content-language" content="es" >
+<meta name="robots" content="index,follow" >
+<meta name="keywords" content="guadalinex, linux, andalucia, junta, software libre, open source, linex" >
+<meta name="description" content="Guadalinex es la distribución de linux desarrollada por la Junta de Andalucía para facilitar el acceso a todos los ciudadanos al software libre." >
+<meta name="rating" content="general" >
+<meta name="author" content="SADESI" >
+<meta name="copyright" content="Copyleft © 2003" >
+<meta name="generator" content="XOOPS" >
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="Sat, 01 Jan 2005 00:00:01 GMT">
+<title>Guadalinex - ¡ Libre !</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.guadalinex.org/themes/Guadalinex/style.css" >
+<!-- RMV: added module header -->
+
+<script type="text/javascript">
+<!--
+//--></script><script type="text/javascript" src="http://www.guadalinex.org/include/xoops.js"></script><script type="text/javascript"><!--
+//-->
+</script>
+</head>
+<body>
+
+
+
+<h1 class="oculto">GUADALINEX</h1>
+<form action="http://www.guadalinex.org/search.php" method="post">
+<!--CABECERA-->
+<div class="header">
+ <div class="headerlogo">
+
+        <a href="http://www.andaluciajunta.es" title="Portal de la Junta de Andalucía (Nueva ventana)" target="blank" class="headerJunta"><span class="logo">Junta de Andalucía</span></a>
+        <a href="http://www.guadalinex.org" title="Página de inicio de Guadalinex" class="headerGuadalinex"><span class="logo">Guadalinex</span></a>
+
+ </div>
+ <div class="headerbanner"><a href="http://www.guadalinex.org/banners.php?op=click&amp;bid=12" target="_blank"><img src="http://www.guadalinex.org/uploads/img4296f9108029c.png" alt=" (Nueva ventana)" title=" (Nueva ventana)"/></a></div>
+</div>
+<div class="headerbar"><label for="consulta">Buscador de guadalinex.org</label>
+    <input type="text" name="query" size="14" id="consulta"><input type="hidden" name="action" value="results" >&nbsp;<input type="submit" value="Buscar" >&nbsp;
+ </div>
+</form>
+
+<a class="ocultar" href="#informacion" title="Ir a contenidos">Ir a contenidos</a>
+
+
+
+    <!--COLUMNA 1-->
+    <div class="columna1">
+        <!-- Start left blocks loop -->
+                     <div class="blockTitle"><strong>Entrada</strong></div>
+<div class="blockContent"><div class="formLogin">
+<form  action="http://www.guadalinex.org/user.php" method="post" ><label for="Nombre: ">Nombre: </label><br><input type="text" name="uname" size="12" value="" id="Nombre: "><br><label for="Contrase&ntilde;a: ">Contrase&ntilde;a: </label><br><input type="password" name="pass" size="12" id="Contrase&ntilde;a: " ><br><br><input type="hidden" name="xoops_redirect" value="/userinfo.php?uid=18" ><input type="hidden" name="op" value="login" ><input type="submit" class="submit" value="Ingresar" ><br ></form>
+</div>
+<br>
+<a href="http://www.guadalinex.org/user.php#lost" >¿Perdió su Contrase&ntilde;a?</a><br><br><a href="http://www.guadalinex.org/register.php" title="Nuevo registro (Nueva ventana)" ><strong>Regístrese</strong> Ahora!</a></div>                     <div class="blockTitle"><strong>Menú</strong></div>
+<div class="blockContent"><!--div-->
+  
+<!--div id="mainmenu"--><ul>
+<li>
+<a class="menuTop" href="http://www.guadalinex.org/">Inicio</a>
+</li>
+ <!-- start module menu loop -->
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/guadapedia">Ayuda y Documentacion (Guadapedia)</a>
+</li>
+<li>
+<a class="menuMain" href="http://www.guadalinex.org/cursos">Cursos  de Guadalinex</a>
+</li>
+       <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/news/" >Artículos</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/newbb/" >Foros</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mydownloads/" >Descargas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsgallery/" >Galería de Imágenes</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopsfaq/" >Preguntas y Respuestas (FAQ)</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/mylinks/" >Enlaces</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/quien/" >¿Donde está Guadalinex?</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/xoopspoll/" >Encuestas</a>        
+                    
+      </li>
+            <li>
+<a class="menuMain" href="http://www.guadalinex.org/modules/contact/" >Contacta con nosotros</a>        
+                    
+      </li>
+            
+      <!-- end module menu loop -->
+</ul>
+    <!--/div-->
+  
+<!--/div--></div>                <!-- End left blocks loop -->
+
+    </div>
+
+
+    <div class="columna2-dcha">
+        <!--No existe la columna derecha-->
+                    <a name="informacion"></a>
+            <h2 class="oculto">Contenido</h2>
+            
+<table width="100%" border="0" cellspacing="5">
+  <tr valign="top">
+    <td width="50%">
+      <table class="outerForm" cellpadding="4" cellspacing="1" width="100%">
+        <tr>
+          <th colspan="2" align="center">Todo acerca de perry</th>
+        </tr>
+        <tr valign="top">
+          <td class="head">Avatar</td>
+          <td align="center" class="even"><img src="uploads/cavt42c3e5a958b76.jpg" alt="Avatar" /></td>
+        </tr>
+        <tr>
+          <td class="head">Nombre Real</td>
+          <td align="center" class="odd">MGA</td>
+        </tr>
+        <tr>
+          <td class="head">Sitio Web</td>
+          <td class="even"><a href="" target="_blank"></a></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">E-mail</td>
+          <td class="odd"></td>
+        </tr>
+	<tr valign="top">
+          <td class="head">PM</td>
+          <td class="even"></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">ICQ</td>
+          <td class="odd"></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">AIM</td>
+          <td class="even"></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">YIM</td>
+          <td class="odd"></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">MSNM</td>
+          <td class="even"></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">Ubicación/Pais</td>
+          <td class="odd">Sevilla</td>
+        </tr>
+        <tr valign="top">
+          <td class="head">Ocupación</td>
+          <td class="even"></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">Intereses</td>
+          <td class="odd"></td>
+        </tr>
+        <tr valign="top">
+          <td class="head">Información Adicional</td>
+          <td class="even">...</td>
+        </tr>
+      </table>
+    </td>
+    <td width="50%">
+      <table class="outer" cellpadding="4" cellspacing="1" width="100%">
+        <tr valign="top">
+          <th colspan="2" align="center">Estadísticas</th>
+        </tr>
+        <tr valign="top">
+          <td class="head">Miembro desde</td>
+          <td align="center" class="even">13/8/2003</td>
+        </tr>
+        <tr valign="top">
+          <td class="head">Rango</td>
+          <td align="center" class="odd"><img src="http://www.guadalinex.org/uploads/rank3dbf8ee8681cd.gif" alt="" ><br />Administrador</td>
+        </tr>
+        <tr valign="top">
+          <td class="head">Comentarios/Envios</td>
+          <td align="center" class="even">43</td>
+        </tr>
+	<tr valign="top">
+          <td class="head">Ultimo ingreso</td>
+          <td align="center" class="odd">8/8/2005 11:03</td>
+        </tr>
+      </table>
+      <br />
+      <table class="outer" cellpadding="4" cellspacing="1" width="100%">
+        <tr valign="top">
+          <th colspan="2" align="center">Firma</th>
+        </tr>
+        <tr valign="top">
+          <td class="even">...</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- start module search results loop -->
+
+<p>
+<h4>Artículos</h4>
+
+  <!-- start results item loop -->
+  
+  <img src="modules/news/images/forum.gif" alt="Artículos" /><b><a href="modules/news/article.php?storyid=140">Nuevas descargas en Guadalinex</a></b><br /><small>(4/8/2005 12:25:23)</small><br />
+
+  
+  <img src="modules/news/images/forum.gif" alt="Artículos" /><b><a href="modules/news/article.php?storyid=139">Desarrollo de Guadalinex 2005 en abierto</a></b><br /><small>(29/7/2005 13:12:34)</small><br />
+
+  
+  <img src="modules/news/images/forum.gif" alt="Artículos" /><b><a href="modules/news/article.php?storyid=27">Inauguración del servicio de Control de Errores</a></b><br /><small>(23/10/2003 18:25:52)</small><br />
+
+  
+  <img src="modules/news/images/forum.gif" alt="Artículos" /><b><a href="modules/news/article.php?storyid=11">Más de 590.000 alumnos tendrán acceso a ordenadores en sus centros escolares</a></b><br /><small>(8/9/2003 10:29:27)</small><br />
+
+    <!-- end results item loop -->
+
+
+</p>
+
+
+<p>
+<h4>Foros</h4>
+
+  <!-- start results item loop -->
+  
+  <img src="images/icons/posticon2.gif" alt="Foros" /><b><a href="modules/newbb/viewtopic.php?topic_id=8144&amp;forum=13#forumpost40323">Re: CONEXIÓN A INTERNET</a></b><br /><small>(8/8/2005 11:41:21)</small><br />
+
+  
+  <img src="images/icons/posticon2.gif" alt="Foros" /><b><a href="modules/newbb/viewtopic.php?topic_id=8139&amp;forum=13#forumpost40320">Re: Versión final de Guadalinex2005</a></b><br /><small>(8/8/2005 11:22:45)</small><br />
+
+  
+  <img src="images/icons/posticon2.gif" alt="Foros" /><b><a href="modules/newbb/viewtopic.php?topic_id=8035&amp;forum=13#forumpost40067">Re: Soporte MP3 (además de OGG, por supuesto)</a></b><br /><small>(1/8/2005 9:39:12)</small><br />
+
+  
+  <img src="images/icons/posticon2.gif" alt="Foros" /><b><a href="modules/newbb/viewtopic.php?topic_id=8099&amp;forum=13#forumpost40066">Re: modems mas comunes</a></b><br /><small>(1/8/2005 9:37:12)</small><br />
+
+  
+  <img src="images/icons/posticon2.gif" alt="Foros" /><b><a href="modules/newbb/viewtopic.php?topic_id=8075&amp;forum=8#forumpost39955">Re: Respuesta a &quot;a&quot;</a></b><br /><small>(29/7/2005 11:04:08)</small><br />
+
+    <!-- end results item loop -->
+
+<a href="search.php?action=showallbyuser&amp;mid=5&amp;uid=18">Mostrar Todos</a>
+</p>
+
+
+<p>
+<h4>Descargas</h4>
+
+  <!-- start results item loop -->
+  
+  <img src="modules/mydownloads/images/size2.gif" alt="Descargas" /><b><a href="modules/mydownloads/singlefile.php?cid=6&amp;lid=89">Guadalinex 2004 actualizacion 1 Candidata 1</a></b><br /><small>(4/8/2005 12:30:04)</small><br />
+
+  
+  <img src="modules/mydownloads/images/size2.gif" alt="Descargas" /><b><a href="modules/mydownloads/singlefile.php?cid=1&amp;lid=93">Guadalinex 2004 actualizacion 1</a></b><br /><small>(4/8/2005 12:29:22)</small><br />
+
+  
+  <img src="modules/mydownloads/images/size2.gif" alt="Descargas" /><b><a href="modules/mydownloads/singlefile.php?cid=1&amp;lid=92">Guadalinex Mini 2004</a></b><br /><small>(4/8/2005 11:52:16)</small><br />
+
+  
+  <img src="modules/mydownloads/images/size2.gif" alt="Descargas" /><b><a href="modules/mydownloads/singlefile.php?cid=6&amp;lid=90">Disco de actualización de Guadalinex 1.0 a Guadalinex 2004 (Candidata 1)</a></b><br /><small>(4/8/2005 11:40:14)</small><br />
+
+  
+  <img src="modules/mydownloads/images/size2.gif" alt="Descargas" /><b><a href="modules/mydownloads/singlefile.php?cid=1&amp;lid=91">Disco de actualización de Guadalinex 1.0 a Guadalinex 2004</a></b><br /><small>(4/8/2005 11:37:17)</small><br />
+
+    <!-- end results item loop -->
+
+<a href="search.php?action=showallbyuser&amp;mid=6&amp;uid=18">Mostrar Todos</a>
+</p>
+
+<!-- end module search results loop -->
+
+        
+        <!--cuando no existe la barra derecha deberás eliminar las dos siguientes capa-->
+         
+    
+
+    </div>
+
+<div class="footerbar"><span class="itemPie">Este sitio funciona con </span>
+<a class="white" href="http://www.debian.org/" target="_blank" ><img src="http://www.guadalinex.org/images/debian-logo.png" alt="Debian (nueva ventana)" title="Debian (nueva ventana)" ></a>
+  <a class="white" href="http://www.apache.org/" target="_blank" ><img src="http://www.guadalinex.org/images/apache-logo.png" alt="Apache (nueva ventana)" title="Apache (nueva ventana)" ></a>
+  <a class="white" href="http://www.php.net/" target="_blank" ><img src="http://www.guadalinex.org/images/php-logo.png" alt="PHP (nueva ventana)" title="PHP (nueva ventana)" ></a>
+  <a class="white" href="http://www.mysql.com/" target="_blank" ><img src="http://www.guadalinex.org/images/mysql-logo.png" alt="Mysql (nueva ventana)" title="Mysql (nueva ventana)" /></a>
+ <a class="white" href="http://www.xoops.org/" target="_blank" ><img src="http://www.guadalinex.org/images/xoops-logo.png" alt="XOOPS (nueva ventana)" title="XOOPS (nueva ventana)" /></a></div>
+
+</body>
+</html>

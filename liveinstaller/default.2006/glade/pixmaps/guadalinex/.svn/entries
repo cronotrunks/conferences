@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1674"
+   name=""
+   committed-date="2006-01-24T17:30:18.136978Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/trunk/live_installer/default/glade/pixmaps/guadalinex"
+   last-author="rmartin"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   repos="http://ws314.juntadeandalucia.es/guadalinex2005"
+   revision="1928"/>
+<entry
+   committed-rev="1358"
+   name="photo_1280.jpg"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-11-28T18:42:05.724720Z"
+   checksum="5555e6f5eadc8d818746df5d9d6c9290"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="125"
+   name="lockscreen_icon.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-08-04T16:48:57.855438Z"
+   checksum="75daebe4720b40eeaedfe8f4874bc8c0"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="125"
+   name="users.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-08-04T16:48:57.855438Z"
+   checksum="3da18ccb0800458bbbd7f186e88c436b"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:25.000000Z"/>
+<entry
+   committed-rev="1313"
+   name="messages.txt"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-11-23T19:42:47.876455Z"
+   checksum="bb7986c6fa5961466e2b4382e30eec13"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1357"
+   name="logo_1024.jpg"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-11-28T18:39:30.708418Z"
+   checksum="3b3bc8f58eaffbf52334c6d514cfd488"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1357"
+   name="logo_1280.jpg"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-11-28T18:39:30.708418Z"
+   checksum="b94b98cf1c5666f2c0454e0ed73c1afa"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot1.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="7abc2a731185e42d0df9eb9cdbb5a5e7"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="125"
+   name="nameresolution_id.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-08-04T16:48:57.855438Z"
+   checksum="e28e41bb674615a805c6e010f1032190"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot2.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="36d230f83e909203c8a63ef14a669ba6"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot3.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="27331d1e7fbfd66451dd3f67ae4f59e5"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot4.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="a35da39149531406f819c98ec7757147"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot5.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="e4d28fb33f55693893058bb03ea54a6c"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot6.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="65c06d66c9e7e0e39d86fbc9d89a07ed"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:26.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot7.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="f38427efdcc29e9e0359d88dd4e3e839"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:27.000000Z"/>
+<entry
+   committed-rev="1674"
+   name="snapshot8.png"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2006-01-24T17:30:18.136978Z"
+   checksum="b106540b5e28c7545674bf31621bfb26"
+   last-author="rmartin"
+   kind="file"
+   prop-time="2006-04-20T15:04:27.000000Z"/>
+<entry
+   committed-rev="1358"
+   name="photo_1024.jpg"
+   text-time="2006-04-20T15:04:27.000000Z"
+   committed-date="2005-11-28T18:42:05.724720Z"
+   checksum="e5b80dc6303712e30812c7ceec301445"
+   last-author="carranza"
+   kind="file"
+   prop-time="2006-04-20T15:04:27.000000Z"/>
+</wc-entries>

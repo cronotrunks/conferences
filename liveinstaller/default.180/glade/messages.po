@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-05 14:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: liveinstaller.glade:10
+msgid "Live installer"
+msgstr ""
+
+#: liveinstaller.glade:34
+msgid "Welcome"
+msgstr ""
+
+#: liveinstaller.glade:55
+msgid "System Configuration"
+msgstr ""
+
+#: liveinstaller.glade:99
+msgid ""
+"The system needs user and password for its installation.\n"
+"The first user created  in the system will obtain administration privileges, "
+"so after this installation it will be the only one who will be enabled to "
+"make tasks of installation or configurations of this system.\n"
+"Type your password twice to verify its correct writing.\n"
+"The system needs a hostname with which to be able to manage tasks of network "
+"and maintenance of system.\n"
+"Assign a name to your computer so it can be easily identifiable in yours "
+"domestic network."
+msgstr ""
+
+#: liveinstaller.glade:233
+msgid "Password:"
+msgstr ""
+
+#: liveinstaller.glade:262
+msgid "Verify password:"
+msgstr ""
+
+#: liveinstaller.glade:291
+msgid "Hostname:"
+msgstr ""
+
+#: liveinstaller.glade:320
+msgid "Username:"
+msgstr ""
+
+#: liveinstaller.glade:349
+msgid "Full Name:"
+msgstr ""
+
+#: liveinstaller.glade:483
+msgid "Partitioning"
+msgstr ""
+
+#: liveinstaller.glade:505
+msgid "Installing..."
+msgstr ""
+
+#: liveinstaller.glade:540
+msgid "Your definitive desktop"
+msgstr ""
+
+#: liveinstaller.glade:607
+msgid ""
+"Enjoy the most powerful desktop from the free software Spanish community.\n"
+"\n"
+"You will have at your scope the bigger set of office, management, design, "
+"education applications and games than you have ever gotten to imagine."
+msgstr ""
+
+#: liveinstaller.glade:631
+msgid "Progress installation"
+msgstr ""
+
+#: liveinstaller.glade:650
+msgid "Just enjoy it !!"
+msgstr ""
+
+#: liveinstaller.glade:651
+msgid ""
+"The installation has ended. \n"
+"\n"
+"We animated to you to test all the power of this desktop, throws a first "
+"sight to the complete selection of applications including in our operating "
+"system.\n"
+"\n"
+"Enjoy with all the power and functionality that free software makes you "
+"available."
+msgstr ""

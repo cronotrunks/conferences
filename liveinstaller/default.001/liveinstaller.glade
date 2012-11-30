@@ -1,0 +1,597 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-interface SYSTEM "http://glade.gnome.org/glade-2.0.dtd">
+
+<glade-interface>
+<requires lib="gnome"/>
+
+<widget class="GtkWindow" id="live_installer">
+  <property name="width_request">800</property>
+  <property name="height_request">600</property>
+  <property name="title" translatable="yes">Guadalinex 2005 live installer</property>
+  <property name="type">GTK_WINDOW_TOPLEVEL</property>
+  <property name="window_position">GTK_WIN_POS_CENTER</property>
+  <property name="modal">False</property>
+  <property name="resizable">True</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="decorated">True</property>
+  <property name="skip_taskbar_hint">False</property>
+  <property name="skip_pager_hint">False</property>
+  <property name="type_hint">GDK_WINDOW_TYPE_HINT_NORMAL</property>
+  <property name="gravity">GDK_GRAVITY_NORTH_WEST</property>
+  <property name="focus_on_map">True</property>
+  <signal name="delete_event" handler="on_live_installer_delete_event" last_modification_time="Wed, 20 Jul 2005 12:06:52 GMT"/>
+
+  <child>
+    <widget class="GnomeDruid" id="frontend_installer">
+      <property name="border_width">4</property>
+      <property name="visible">True</property>
+      <property name="show_help">False</property>
+      <signal name="cancel" handler="on_frontend_installer_cancel" last_modification_time="Wed, 20 Jul 2005 09:56:01 GMT"/>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="welcome">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Welcome to Guadalinex</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+	  <signal name="next" handler="on_welcome_next" last_modification_time="Wed, 27 Jul 2005 16:33:52 GMT"/>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="vbox1">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">0</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="step1">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">System Configuration</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+	  <signal name="next" handler="on_step1_next" last_modification_time="Wed, 27 Jul 2005 16:33:12 GMT"/>
+	  <signal name="back" handler="on_step1_back" last_modification_time="Wed, 27 Jul 2005 16:33:19 GMT"/>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox3">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<widget class="GtkHBox" id="hbox2">
+		  <property name="visible">True</property>
+		  <property name="homogeneous">False</property>
+		  <property name="spacing">0</property>
+
+		  <child>
+		    <widget class="GtkScrolledWindow" id="scrolledwindow2">
+		      <property name="width_request">220</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="hscrollbar_policy">GTK_POLICY_ALWAYS</property>
+		      <property name="vscrollbar_policy">GTK_POLICY_ALWAYS</property>
+		      <property name="shadow_type">GTK_SHADOW_IN</property>
+		      <property name="window_placement">GTK_CORNER_TOP_LEFT</property>
+
+		      <child>
+			<widget class="GtkTextView" id="help_step1">
+			  <property name="width_request">200</property>
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="editable">False</property>
+			  <property name="overwrite">False</property>
+			  <property name="accepts_tab">True</property>
+			  <property name="justification">GTK_JUSTIFY_LEFT</property>
+			  <property name="wrap_mode">GTK_WRAP_WORD</property>
+			  <property name="cursor_visible">True</property>
+			  <property name="pixels_above_lines">10</property>
+			  <property name="pixels_below_lines">0</property>
+			  <property name="pixels_inside_wrap">0</property>
+			  <property name="left_margin">5</property>
+			  <property name="right_margin">0</property>
+			  <property name="indent">0</property>
+			  <property name="text" translatable="yes">The Guadalinex system needs user and password for its installation.
+The first user created  in the system will obtain administration privileges, so after this installation it will be the only one who will be enabled to make tasks of installation or configurations of this system.
+Type your password twice to verify its correct writing.
+The system needs a hostname with which to be able to manage tasks of network and maintenance of system.
+Assign a name to your computer so it can be easily identifiable in yours domestic network.</property>
+			</widget>
+		      </child>
+		    </widget>
+		    <packing>
+		      <property name="padding">0</property>
+		      <property name="expand">True</property>
+		      <property name="fill">True</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkTable" id="table2">
+		      <property name="width_request">380</property>
+		      <property name="visible">True</property>
+		      <property name="n_rows">4</property>
+		      <property name="n_columns">3</property>
+		      <property name="homogeneous">False</property>
+		      <property name="row_spacing">0</property>
+		      <property name="column_spacing">0</property>
+
+		      <child>
+			<widget class="GtkEntry" id="username">
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="editable">True</property>
+			  <property name="visibility">True</property>
+			  <property name="max_length">0</property>
+			  <property name="text" translatable="yes"></property>
+			  <property name="has_frame">True</property>
+			  <property name="invisible_char">*</property>
+			  <property name="activates_default">False</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">2</property>
+			  <property name="right_attach">3</property>
+			  <property name="top_attach">0</property>
+			  <property name="bottom_attach">1</property>
+			  <property name="y_options"></property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkEntry" id="password">
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="editable">True</property>
+			  <property name="visibility">False</property>
+			  <property name="max_length">0</property>
+			  <property name="text" translatable="yes"></property>
+			  <property name="has_frame">True</property>
+			  <property name="invisible_char">*</property>
+			  <property name="activates_default">False</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">2</property>
+			  <property name="right_attach">3</property>
+			  <property name="top_attach">1</property>
+			  <property name="bottom_attach">2</property>
+			  <property name="y_options"></property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkEntry" id="verified_pass">
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="editable">True</property>
+			  <property name="visibility">False</property>
+			  <property name="max_length">0</property>
+			  <property name="text" translatable="yes"></property>
+			  <property name="has_frame">True</property>
+			  <property name="invisible_char">*</property>
+			  <property name="activates_default">False</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">2</property>
+			  <property name="right_attach">3</property>
+			  <property name="top_attach">2</property>
+			  <property name="bottom_attach">3</property>
+			  <property name="y_options"></property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkImage" id="image4">
+			  <property name="visible">True</property>
+			  <property name="pixbuf">pixmaps/users.png</property>
+			  <property name="xalign">0.5</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">0</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">0</property>
+			  <property name="right_attach">1</property>
+			  <property name="top_attach">0</property>
+			  <property name="bottom_attach">1</property>
+			  <property name="x_options">fill</property>
+			  <property name="y_options">fill</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkImage" id="image5">
+			  <property name="visible">True</property>
+			  <property name="pixbuf">pixmaps/lockscreen_icon.png</property>
+			  <property name="xalign">0.5</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">0</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">0</property>
+			  <property name="right_attach">1</property>
+			  <property name="top_attach">1</property>
+			  <property name="bottom_attach">3</property>
+			  <property name="x_options">fill</property>
+			  <property name="y_options">fill</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkImage" id="image3">
+			  <property name="visible">True</property>
+			  <property name="pixbuf">pixmaps/nameresolution_id.png</property>
+			  <property name="xalign">0.5</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">0</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">0</property>
+			  <property name="right_attach">1</property>
+			  <property name="top_attach">3</property>
+			  <property name="bottom_attach">4</property>
+			  <property name="y_options"></property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkEntry" id="hostname">
+			  <property name="visible">True</property>
+			  <property name="can_focus">True</property>
+			  <property name="editable">True</property>
+			  <property name="visibility">True</property>
+			  <property name="max_length">0</property>
+			  <property name="text" translatable="yes"></property>
+			  <property name="has_frame">True</property>
+			  <property name="invisible_char">*</property>
+			  <property name="activates_default">False</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">2</property>
+			  <property name="right_attach">3</property>
+			  <property name="top_attach">3</property>
+			  <property name="bottom_attach">4</property>
+			  <property name="y_options"></property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkLabel" id="label8">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Hostname:</property>
+			  <property name="use_underline">False</property>
+			  <property name="use_markup">False</property>
+			  <property name="justify">GTK_JUSTIFY_LEFT</property>
+			  <property name="wrap">False</property>
+			  <property name="selectable">False</property>
+			  <property name="xalign">0</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">80</property>
+			  <property name="mnemonic_widget">hostname</property>
+			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+			  <property name="width_chars">-1</property>
+			  <property name="single_line_mode">False</property>
+			  <property name="angle">0</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">1</property>
+			  <property name="right_attach">2</property>
+			  <property name="top_attach">3</property>
+			  <property name="bottom_attach">4</property>
+			  <property name="x_padding">10</property>
+			  <property name="x_options">fill</property>
+			  <property name="y_options">expand</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkLabel" id="label3">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Username:</property>
+			  <property name="use_underline">False</property>
+			  <property name="use_markup">False</property>
+			  <property name="justify">GTK_JUSTIFY_LEFT</property>
+			  <property name="wrap">False</property>
+			  <property name="selectable">False</property>
+			  <property name="xalign">0</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">15</property>
+			  <property name="mnemonic_widget">username</property>
+			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+			  <property name="width_chars">-1</property>
+			  <property name="single_line_mode">False</property>
+			  <property name="angle">0</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">1</property>
+			  <property name="right_attach">2</property>
+			  <property name="top_attach">0</property>
+			  <property name="bottom_attach">1</property>
+			  <property name="x_padding">10</property>
+			  <property name="x_options">fill</property>
+			  <property name="y_options">expand</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkLabel" id="label5">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Verify password:</property>
+			  <property name="use_underline">False</property>
+			  <property name="use_markup">False</property>
+			  <property name="justify">GTK_JUSTIFY_LEFT</property>
+			  <property name="wrap">False</property>
+			  <property name="selectable">False</property>
+			  <property name="xalign">0</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">0</property>
+			  <property name="mnemonic_widget">verified_pass</property>
+			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+			  <property name="width_chars">-1</property>
+			  <property name="single_line_mode">False</property>
+			  <property name="angle">0</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">1</property>
+			  <property name="right_attach">2</property>
+			  <property name="top_attach">2</property>
+			  <property name="bottom_attach">3</property>
+			  <property name="x_padding">10</property>
+			  <property name="x_options">fill</property>
+			  <property name="y_options"></property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkLabel" id="label4">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Password:</property>
+			  <property name="use_underline">False</property>
+			  <property name="use_markup">False</property>
+			  <property name="justify">GTK_JUSTIFY_LEFT</property>
+			  <property name="wrap">False</property>
+			  <property name="selectable">False</property>
+			  <property name="xalign">0</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">0</property>
+			  <property name="mnemonic_widget">password</property>
+			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+			  <property name="width_chars">-1</property>
+			  <property name="single_line_mode">False</property>
+			  <property name="angle">0</property>
+			</widget>
+			<packing>
+			  <property name="left_attach">1</property>
+			  <property name="right_attach">2</property>
+			  <property name="top_attach">1</property>
+			  <property name="bottom_attach">2</property>
+			  <property name="x_padding">10</property>
+			  <property name="x_options">fill</property>
+			  <property name="y_options"></property>
+			</packing>
+		      </child>
+		    </widget>
+		    <packing>
+		      <property name="padding">0</property>
+		      <property name="expand">True</property>
+		      <property name="fill">True</property>
+		    </packing>
+		  </child>
+		</widget>
+		<packing>
+		  <property name="padding">0</property>
+		  <property name="expand">True</property>
+		  <property name="fill">True</property>
+		</packing>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="step2">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Partitioning</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+	  <signal name="next" handler="on_step2_next" last_modification_time="Wed, 27 Jul 2005 16:32:30 GMT"/>
+	  <signal name="back" handler="on_step2_back" last_modification_time="Wed, 27 Jul 2005 16:32:37 GMT"/>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="embedded">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">6</property>
+
+	      <child>
+		<placeholder/>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageStandard" id="step3">
+	  <property name="visible">True</property>
+	  <property name="title" translatable="yes">Installing...</property>
+	  <property name="background">#080870702121</property>
+	  <property name="logo_background">#080870702121</property>
+	  <signal name="back" handler="on_step3_next" last_modification_time="Wed, 27 Jul 2005 16:32:01 GMT"/>
+	  <signal name="next" handler="on_step3_next" last_modification_time="Wed, 27 Jul 2005 16:32:10 GMT"/>
+
+	  <child internal-child="vbox">
+	    <widget class="GtkVBox" id="druid-vbox7">
+	      <property name="border_width">16</property>
+	      <property name="visible">True</property>
+	      <property name="homogeneous">False</property>
+	      <property name="spacing">0</property>
+
+	      <child>
+		<widget class="GtkHBox" id="hbox5">
+		  <property name="visible">True</property>
+		  <property name="homogeneous">False</property>
+		  <property name="spacing">0</property>
+
+		  <child>
+		    <widget class="GtkImage" id="image6">
+		      <property name="visible">True</property>
+		      <property name="pixbuf">pixmaps/logo.png</property>
+		      <property name="xalign">0.5</property>
+		      <property name="yalign">0.5</property>
+		      <property name="xpad">20</property>
+		      <property name="ypad">0</property>
+		    </widget>
+		    <packing>
+		      <property name="padding">0</property>
+		      <property name="expand">False</property>
+		      <property name="fill">False</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkLabel" id="installing_title">
+		      <property name="visible">True</property>
+		      <property name="label" translatable="yes">Guadalinex 2005: Your desktop</property>
+		      <property name="use_underline">False</property>
+		      <property name="use_markup">False</property>
+		      <property name="justify">GTK_JUSTIFY_RIGHT</property>
+		      <property name="wrap">False</property>
+		      <property name="selectable">False</property>
+		      <property name="xalign">0.5</property>
+		      <property name="yalign">0.5</property>
+		      <property name="xpad">0</property>
+		      <property name="ypad">10</property>
+		      <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+		      <property name="width_chars">-1</property>
+		      <property name="single_line_mode">False</property>
+		      <property name="angle">0</property>
+		    </widget>
+		    <packing>
+		      <property name="padding">0</property>
+		      <property name="expand">True</property>
+		      <property name="fill">False</property>
+		    </packing>
+		  </child>
+		</widget>
+		<packing>
+		  <property name="padding">0</property>
+		  <property name="expand">False</property>
+		  <property name="fill">False</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkHBox" id="hbox6">
+		  <property name="visible">True</property>
+		  <property name="homogeneous">False</property>
+		  <property name="spacing">0</property>
+
+		  <child>
+		    <widget class="GtkImage" id="installing_image">
+		      <property name="visible">True</property>
+		      <property name="xalign">0.5</property>
+		      <property name="yalign">0.5</property>
+		      <property name="xpad">0</property>
+		      <property name="ypad">0</property>
+		    </widget>
+		    <packing>
+		      <property name="padding">0</property>
+		      <property name="expand">False</property>
+		      <property name="fill">True</property>
+		    </packing>
+		  </child>
+
+		  <child>
+		    <widget class="GtkTextView" id="installing_text">
+		      <property name="border_width">20</property>
+		      <property name="visible">True</property>
+		      <property name="can_focus">True</property>
+		      <property name="editable">False</property>
+		      <property name="overwrite">False</property>
+		      <property name="accepts_tab">False</property>
+		      <property name="justification">GTK_JUSTIFY_LEFT</property>
+		      <property name="wrap_mode">GTK_WRAP_WORD</property>
+		      <property name="cursor_visible">False</property>
+		      <property name="pixels_above_lines">15</property>
+		      <property name="pixels_below_lines">0</property>
+		      <property name="pixels_inside_wrap">1</property>
+		      <property name="left_margin">10</property>
+		      <property name="right_margin">10</property>
+		      <property name="indent">15</property>
+		      <property name="text" translatable="yes">Enjoy the most powerful desktop from the free software Spanish community.
+
+You will have at your scope the bigger set of office, management, design, education applications and games than you have ever gotten to imagine.</property>
+		    </widget>
+		    <packing>
+		      <property name="padding">5</property>
+		      <property name="expand">True</property>
+		      <property name="fill">True</property>
+		    </packing>
+		  </child>
+		</widget>
+		<packing>
+		  <property name="padding">0</property>
+		  <property name="expand">True</property>
+		  <property name="fill">True</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkProgressBar" id="progressbar">
+		  <property name="visible">True</property>
+		  <property name="orientation">GTK_PROGRESS_LEFT_TO_RIGHT</property>
+		  <property name="fraction">0</property>
+		  <property name="pulse_step">0.10000000149</property>
+		  <property name="text" translatable="yes">Guadalinex 2005 progress installation</property>
+		  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+		</widget>
+		<packing>
+		  <property name="padding">0</property>
+		  <property name="expand">True</property>
+		  <property name="fill">False</property>
+		  <property name="pack_type">GTK_PACK_END</property>
+		</packing>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+
+      <child>
+	<widget class="GnomeDruidPageEdge" id="final">
+	  <property name="visible">True</property>
+	  <property name="position">GNOME_EDGE_FINISH</property>
+	  <property name="title" translatable="yes">Just enjoy it !!</property>
+	  <property name="text" translatable="yes">The Guadalinex 2005 installation has ended. 
+
+We animated to you to test all the power of the Guadalinex desktop, throws a first sight to the complete selection of applications including in our operating system.
+
+Enjoy with all the power and functionality that free software makes you available.</property>
+	  <property name="background_color">#080870702121</property>
+	  <property name="logo_background_color">#080870702121</property>
+	  <property name="logo">logo.png</property>
+	  <signal name="finish" handler="on_final_finish" last_modification_time="Wed, 27 Jul 2005 16:32:18 GMT"/>
+	</widget>
+      </child>
+    </widget>
+  </child>
+</widget>
+
+</glade-interface>

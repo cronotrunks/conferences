@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="173"
+   name=""
+   committed-date="2005-08-09T13:25:05.449149Z"
+   url="http://ws314.juntadeandalucia.es/guadalinex2005/live_installer/default/htmldocs"
+   last-author="antonio"
+   kind="dir"
+   uuid="083a9b74-26fa-0310-9f4a-f08d686dee1e"
+   revision="242"/>
+<entry
+   name="guadalinex"
+   kind="dir"/>
+<entry
+   name="ubuntu"
+   kind="dir"/>
+</wc-entries>
